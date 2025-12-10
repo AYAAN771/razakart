@@ -34,8 +34,6 @@ export default function ProductTabs({ product }: ProductTabsProps) {
         {[
           { id: "description", label: "Description" },
           { id: "specification", label: "Specification" },
-          { id: "qa", label: "Q&A" },
-          { id: "reviews", label: "Reviews" },
           { id: "tags", label: "Tags" },
         ].map((tab) => (
           <button
@@ -70,21 +68,32 @@ export default function ProductTabs({ product }: ProductTabsProps) {
                 <h2 className='text-2xl font-bold text-gray-900 mb-4'>
                   Product Description
                 </h2>
-                <p className='text-gray-600 leading-relaxed'>{product.description}</p>
+                <p className='text-gray-600 leading-relaxed'>
+                  {product.description}
+                </p>
               </div>
             )}
 
             {activeTab === "specification" && (
               <div>
-                <h2 className='text-2xl font-bold text-gray-900 mb-4'>Specifications</h2>
+                <h2 className='text-2xl font-bold text-gray-900 mb-4'>
+                  Specifications
+                </h2>
                 <table className='w-full'>
                   <tbody>
-                    {Object.entries(product.specifications).map(([key, value], idx) => (
-                      <tr key={key} className={idx % 2 === 0 ? "bg-gray-50" : ""}>
-                        <td className='py-3 px-4 font-semibold text-gray-700 w-1/3'>{key}</td>
-                        <td className='py-3 px-4 text-gray-600'>{value}</td>
-                      </tr>
-                    ))}
+                    {Object.entries(product.specifications).map(
+                      ([key, value], idx) => (
+                        <tr
+                          key={key}
+                          className={idx % 2 === 0 ? "bg-gray-50" : ""}
+                        >
+                          <td className='py-3 px-4 font-semibold text-gray-700 w-1/3'>
+                            {key}
+                          </td>
+                          <td className='py-3 px-4 text-gray-600'>{value}</td>
+                        </tr>
+                      )
+                    )}
                   </tbody>
                 </table>
               </div>
@@ -92,21 +101,31 @@ export default function ProductTabs({ product }: ProductTabsProps) {
 
             {activeTab === "qa" && (
               <div>
-                <h2 className='text-2xl font-bold text-gray-900 mb-4'>Questions & Answers</h2>
-                <p className='text-gray-500'>No questions yet. Be the first to ask!</p>
+                <h2 className='text-2xl font-bold text-gray-900 mb-4'>
+                  Questions & Answers
+                </h2>
+                <p className='text-gray-500'>
+                  No questions yet. Be the first to ask!
+                </p>
               </div>
             )}
 
             {activeTab === "reviews" && (
               <div>
-                <h2 className='text-2xl font-bold text-gray-900 mb-4'>Customer Reviews</h2>
-                <p className='text-gray-500'>No reviews yet. Be the first to review!</p>
+                <h2 className='text-2xl font-bold text-gray-900 mb-4'>
+                  Customer Reviews
+                </h2>
+                <p className='text-gray-500'>
+                  No reviews yet. Be the first to review!
+                </p>
               </div>
             )}
 
             {activeTab === "tags" && (
               <div>
-                <h2 className='text-2xl font-bold text-gray-900 mb-4'>Product Tags</h2>
+                <h2 className='text-2xl font-bold text-gray-900 mb-4'>
+                  Product Tags
+                </h2>
                 <div className='flex flex-wrap gap-2'>
                   <span className='bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm'>
                     Laptop
