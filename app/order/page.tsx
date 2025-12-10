@@ -4,6 +4,6 @@ import { connection } from "next/server";
 
 export default async function Page() {
   await connection();
-  const OrderPageClient = (await import("@/components/OrderPage")).default;
+  const OrderPageClient = (await import("./components/OrderPage")).default;
   return <OrderPageClient />;
 }
