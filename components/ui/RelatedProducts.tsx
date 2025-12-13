@@ -18,17 +18,20 @@ interface RelatedProductsProps {
   products: Product[];
 }
 
-export default function RelatedProducts({ title, products }: RelatedProductsProps) {
+export default function RelatedProducts({
+  title,
+  products,
+}: RelatedProductsProps) {
   if (products.length === 0) return null;
 
   return (
     <PSlider
       title={title}
-      slidesPerView={2}
+      slidesPerView={1.5}
       spaceBetween={16}
-      containerClassName="bg-white py-8 px-6 rounded-lg mb-8 shadow-sm"
+      containerClassName='bg-white py-8 px-6 rounded-lg mb-8 shadow-sm'
       breakpoints={{
-        640: { slidesPerView: 2 },
+        640: { slidesPerView: 1.5 },
         768: { slidesPerView: 3 },
         1024: { slidesPerView: 4 },
       }}

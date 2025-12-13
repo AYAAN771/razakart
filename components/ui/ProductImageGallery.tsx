@@ -177,6 +177,19 @@
 //     </div>
 //   );
 // }
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 "use client";
 
 import { useState, useRef, useEffect } from "react";
@@ -189,6 +202,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/thumbs";
 import "swiper/css/free-mode";
+import { Lens } from "./lens";
 
 // ===============================================
 // 1. ICONS (All icons needed for both layouts)
@@ -290,6 +304,7 @@ const useIsDesktop = () => {
 // 3. DESKTOP GALLERY (Your Original Code - UNCHANGED)
 // ===============================================
 function ProductImageGalleryDesktop({ images }: ProductImageGalleryProps) {
+  const [hovering, setHovering] = useState(false);
   const [thumbsSwiper, setThumbsSwiper] = useState<SwiperType | null>(null);
   const thumbSwiperRef = useRef<SwiperType | null>(null);
 
@@ -297,7 +312,7 @@ function ProductImageGalleryDesktop({ images }: ProductImageGalleryProps) {
   const [isEnd, setIsEnd] = useState(false);
 
   return (
-    <div className='flex flex-row gap-4 h-[500px] w-full'>
+    <div className='flex flex-row gap-4 h-[450px] w-full'>
       {/* 1. Vertical Thumbnail Slider & Custom Navigation */}
       <div className='relative w-[100px]'>
         {/* Custom Nav Up Button */}
@@ -369,15 +384,22 @@ function ProductImageGalleryDesktop({ images }: ProductImageGalleryProps) {
       >
         {images.map((img, idx) => (
           <SwiperSlide key={idx}>
-            <div className='flex items-center justify-center min-h-full w-full p-2'>
-              <Image
-                src={img.url}
-                alt={img.alt}
-                fill={true}
-                className='object-cover rounded-lg min-h-full! w-full!'
-                priority={idx === 0}
-                loading={idx === 0 ? undefined : "lazy"}
-              />
+            <div className='flex items-stretch justify-center w-full h-full min-h-0 p-0'>
+              {/**/}
+              <Lens
+                zoomFactor={2.5}
+                lensSize={300}
+                hovering={hovering}
+                setHovering={setHovering}
+              >
+                <img
+                  src={img.url}
+                  alt={img.alt}
+                  className='object-cover rounded-lg min-w-full min-h-full!'
+                  priority={idx === 0}
+                  loading={idx === 0 ? undefined : "lazy"}
+                />
+              </Lens>
             </div>
           </SwiperSlide>
         ))}
@@ -425,7 +447,7 @@ function ProductImageGalleryMobile({ images }: ProductImageGalleryProps) {
       </Swiper>
 
       {/* 2. Horizontal Thumbnail Slider & Custom Navigation (Bottom on Mobile) */}
-      <div className='relative h-[100px] w-full'>
+      <div className='relative xl:h-[50px] w-full'>
         {/* Custom Nav Left Button */}
         <button
           onClick={() => thumbSwiperRef.current?.slidePrev()}

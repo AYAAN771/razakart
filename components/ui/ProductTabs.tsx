@@ -29,7 +29,7 @@ export default function ProductTabs({ product }: ProductTabsProps) {
     <div className='bg-white rounded-lg shadow-sm mb-8 overflow-hidden'>
       <div
         role='tablist'
-        className='flex border-b border-gray-200 overflow-x-auto scrollbar-thin'
+        className='flex border-b border-gray-200 overflow-x-auto h-16 scrollbar-thin'
       >
         {[
           { id: "description", label: "Description" },
@@ -41,9 +41,9 @@ export default function ProductTabs({ product }: ProductTabsProps) {
             role='tab'
             aria-selected={activeTab === tab.id}
             onClick={() => handleTabChange(tab.id as typeof activeTab)}
-            className={`px-6 py-3 font-semibold whitespace-nowrap transition-all duration-200 cursor-pointer ${
+            className={`xl:px-6 xl:w-auto w-full py-3 font-semibold whitespace-nowrap transition-all duration-200 cursor-pointer ${
               activeTab === tab.id
-                ? "text-red-600 border-b-2 border-red-600"
+                ? "text-[#155DFC] bg-gray-200 border-b-2 border-[#155DFC]"
                 : "text-gray-600 hover:text-gray-900"
             }`}
           >
@@ -57,10 +57,10 @@ export default function ProductTabs({ product }: ProductTabsProps) {
           <motion.div
             key={activeTab}
             custom={direction}
-            initial={{ x: direction > 0 ? 300 : -300, opacity: 0 }}
-            animate={{ x: 0, opacity: 1 }}
-            exit={{ x: direction > 0 ? -300 : 300, opacity: 0 }}
-            transition={{ duration: 0.3, ease: "easeInOut" }}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.3, ease: [0.7, 0, 0.4, 1] }}
             className='p-6'
           >
             {activeTab === "description" && (
@@ -87,10 +87,12 @@ export default function ProductTabs({ product }: ProductTabsProps) {
                           key={key}
                           className={idx % 2 === 0 ? "bg-gray-50" : ""}
                         >
-                          <td className='py-3 px-4 font-semibold text-gray-700 w-1/3'>
+                          <td className='py-3 px-0 whitespace-nowrap xl:px-4 font-semibold text-gray-700 w-1/3'>
                             {key}
                           </td>
-                          <td className='py-3 px-4 text-gray-600'>{value}</td>
+                          <td className='py-3 px-4 whitespace-nowrap text-gray-600'>
+                            {value}
+                          </td>
                         </tr>
                       )
                     )}

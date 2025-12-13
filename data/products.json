@@ -11,16 +11,36 @@
     "price": 18000,
     "discount": 28,
     "images": [
-      { "url": "/laptop/asus.avif", "alt": "ASUS E410KA front view", "duplicate": false },
-      { "url": "/laptop/asus.avif", "alt": "ASUS E410KA side view", "duplicate": true },
-      { "url": "/laptop/asus.avif", "alt": "ASUS E410KA keyboard", "duplicate": true },
-      { "url": "/laptop/asus.avif", "alt": "ASUS E410KA ports", "duplicate": true },
-      { "url": "/laptop/asus.avif", "alt": "ASUS E410KA display", "duplicate": true },
-      { "url": "/laptop/asus.avif", "alt": "ASUS E410KA back view", "duplicate": true },
-      { "url": "/laptop/asus.avif", "alt": "ASUS E410KA angle view", "duplicate": true },
-      { "url": "/laptop/asus.avif", "alt": "ASUS E410KA open", "duplicate": true },
-      { "url": "/laptop/asus.avif", "alt": "ASUS E410KA closed", "duplicate": true },
-      { "url": "/laptop/asus.avif", "alt": "ASUS E410KA detail", "duplicate": true }
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "DELL Inspiron 3521 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/hp-200.avif",
+        "alt": "HP 2000-2106TU front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "ASUS E410KA front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "DELL Inspiron 3521 side view",
+        "duplicate": true
+      },
+      {
+        "url": "/laptop/hp-200.avif",
+        "alt": "HP 2000-2106TU side view",
+        "duplicate": true
+      },
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "ASUS E410KA side view",
+        "duplicate": true
+      }
     ],
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "specifications": {
@@ -48,16 +68,36 @@
     "price": 10000,
     "discount": 61,
     "images": [
-      { "url": "/laptop/dellinspiron.avif", "alt": "DELL Inspiron 3521 front view", "duplicate": false },
-      { "url": "/laptop/dellinspiron.avif", "alt": "DELL Inspiron 3521 side view", "duplicate": true },
-      { "url": "/laptop/dellinspiron.avif", "alt": "DELL Inspiron 3521 keyboard", "duplicate": true },
-      { "url": "/laptop/dellinspiron.avif", "alt": "DELL Inspiron 3521 ports", "duplicate": true },
-      { "url": "/laptop/dellinspiron.avif", "alt": "DELL Inspiron 3521 display", "duplicate": true },
-      { "url": "/laptop/dellinspiron.avif", "alt": "DELL Inspiron 3521 back view", "duplicate": true },
-      { "url": "/laptop/dellinspiron.avif", "alt": "DELL Inspiron 3521 angle view", "duplicate": true },
-      { "url": "/laptop/dellinspiron.avif", "alt": "DELL Inspiron 3521 open", "duplicate": true },
-      { "url": "/laptop/dellinspiron.avif", "alt": "DELL Inspiron 3521 closed", "duplicate": true },
-      { "url": "/laptop/dellinspiron.avif", "alt": "DELL Inspiron 3521 detail", "duplicate": true }
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "DELL Inspiron 3521 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/hp-200.avif",
+        "alt": "HP 2000-2106TU front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "ASUS E410KA front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "DELL Inspiron 3521 side view",
+        "duplicate": true
+      },
+      {
+        "url": "/laptop/hp-200.avif",
+        "alt": "HP 2000-2106TU side view",
+        "duplicate": true
+      },
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "ASUS E410KA side view",
+        "duplicate": true
+      }
     ],
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "specifications": {
@@ -85,14 +125,36 @@
     "price": 10000,
     "discount": 20,
     "images": [
-      { "url": "/laptop/hp-200.avif", "alt": "HP 2000-2106TU front view", "duplicate": false },
-      { "url": "/laptop/hp-200.avif", "alt": "HP 2000-2106TU side view", "duplicate": true },
-      { "url": "/laptop/hp-200.avif", "alt": "HP 2000-2106TU keyboard", "duplicate": true },
-      { "url": "/laptop/hp-200.avif", "alt": "HP 2000-2106TU ports", "duplicate": true },
-      { "url": "/laptop/hp-200.avif", "alt": "HP 2000-2106TU display", "duplicate": true },
-      { "url": "/laptop/hp-200.avif", "alt": "HP 2000-2106TU back view", "duplicate": true },
-      { "url": "/laptop/hp-200.avif", "alt": "HP 2000-2106TU angle view", "duplicate": true },
-      { "url": "/laptop/hp-200.avif", "alt": "HP 2000-2106TU open", "duplicate": true }
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "DELL Inspiron 3521 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/hp-200.avif",
+        "alt": "HP 2000-2106TU front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "ASUS E410KA front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "DELL Inspiron 3521 side view",
+        "duplicate": true
+      },
+      {
+        "url": "/laptop/hp-200.avif",
+        "alt": "HP 2000-2106TU side view",
+        "duplicate": true
+      },
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "ASUS E410KA side view",
+        "duplicate": true
+      }
     ],
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "specifications": {
@@ -120,16 +182,36 @@
     "price": 13000,
     "discount": 60,
     "images": [
-      { "url": "/laptop/hp-420.avif", "alt": "HP 430 G2 front view", "duplicate": false },
-      { "url": "/laptop/hp-420.avif", "alt": "HP 430 G2 side view", "duplicate": true },
-      { "url": "/laptop/hp-420.avif", "alt": "HP 430 G2 keyboard", "duplicate": true },
-      { "url": "/laptop/hp-420.avif", "alt": "HP 430 G2 ports", "duplicate": true },
-      { "url": "/laptop/hp-420.avif", "alt": "HP 430 G2 display", "duplicate": true },
-      { "url": "/laptop/hp-420.avif", "alt": "HP 430 G2 back view", "duplicate": true },
-      { "url": "/laptop/hp-420.avif", "alt": "HP 430 G2 angle view", "duplicate": true },
-      { "url": "/laptop/hp-420.avif", "alt": "HP 430 G2 open", "duplicate": true },
-      { "url": "/laptop/hp-420.avif", "alt": "HP 430 G2 closed", "duplicate": true },
-      { "url": "/laptop/hp-420.avif", "alt": "HP 430 G2 detail", "duplicate": true }
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "DELL Inspiron 3521 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/hp-200.avif",
+        "alt": "HP 2000-2106TU front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "ASUS E410KA front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "DELL Inspiron 3521 side view",
+        "duplicate": true
+      },
+      {
+        "url": "/laptop/hp-200.avif",
+        "alt": "HP 2000-2106TU side view",
+        "duplicate": true
+      },
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "ASUS E410KA side view",
+        "duplicate": true
+      }
     ],
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "specifications": {
@@ -157,15 +239,36 @@
     "price": 10000,
     "discount": 44,
     "images": [
-      { "url": "/laptop/hp-pavillon.avif", "alt": "HP Pavilion M4-1003TX front view", "duplicate": false },
-      { "url": "/laptop/hp-pavillon.avif", "alt": "HP Pavilion M4-1003TX side view", "duplicate": true },
-      { "url": "/laptop/hp-pavillon.avif", "alt": "HP Pavilion M4-1003TX keyboard", "duplicate": true },
-      { "url": "/laptop/hp-pavillon.avif", "alt": "HP Pavilion M4-1003TX ports", "duplicate": true },
-      { "url": "/laptop/hp-pavillon.avif", "alt": "HP Pavilion M4-1003TX display", "duplicate": true },
-      { "url": "/laptop/hp-pavillon.avif", "alt": "HP Pavilion M4-1003TX back view", "duplicate": true },
-      { "url": "/laptop/hp-pavillon.avif", "alt": "HP Pavilion M4-1003TX angle view", "duplicate": true },
-      { "url": "/laptop/hp-pavillon.avif", "alt": "HP Pavilion M4-1003TX open", "duplicate": true },
-      { "url": "/laptop/hp-pavillon.avif", "alt": "HP Pavilion M4-1003TX closed", "duplicate": true }
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "DELL Inspiron 3521 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/hp-200.avif",
+        "alt": "HP 2000-2106TU front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "ASUS E410KA front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "DELL Inspiron 3521 side view",
+        "duplicate": true
+      },
+      {
+        "url": "/laptop/hp-200.avif",
+        "alt": "HP 2000-2106TU side view",
+        "duplicate": true
+      },
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "ASUS E410KA side view",
+        "duplicate": true
+      }
     ],
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "specifications": {
@@ -193,16 +296,36 @@
     "price": 18000,
     "discount": 28,
     "images": [
-      { "url": "/laptop/asus.avif", "alt": "ASUS E410KA front view", "duplicate": false },
-      { "url": "/laptop/asus.avif", "alt": "ASUS E410KA side view", "duplicate": true },
-      { "url": "/laptop/asus.avif", "alt": "ASUS E410KA keyboard", "duplicate": true },
-      { "url": "/laptop/asus.avif", "alt": "ASUS E410KA ports", "duplicate": true },
-      { "url": "/laptop/asus.avif", "alt": "ASUS E410KA display", "duplicate": true },
-      { "url": "/laptop/asus.avif", "alt": "ASUS E410KA back view", "duplicate": true },
-      { "url": "/laptop/asus.avif", "alt": "ASUS E410KA angle view", "duplicate": true },
-      { "url": "/laptop/asus.avif", "alt": "ASUS E410KA open", "duplicate": true },
-      { "url": "/laptop/asus.avif", "alt": "ASUS E410KA closed", "duplicate": true },
-      { "url": "/laptop/asus.avif", "alt": "ASUS E410KA detail", "duplicate": true }
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "DELL Inspiron 3521 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/hp-200.avif",
+        "alt": "HP 2000-2106TU front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "ASUS E410KA front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "DELL Inspiron 3521 side view",
+        "duplicate": true
+      },
+      {
+        "url": "/laptop/hp-200.avif",
+        "alt": "HP 2000-2106TU side view",
+        "duplicate": true
+      },
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "ASUS E410KA side view",
+        "duplicate": true
+      }
     ],
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "specifications": {

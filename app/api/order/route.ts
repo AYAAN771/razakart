@@ -72,7 +72,9 @@ export async function POST(req: Request) {
     // 1️⃣ Send to Telegram
     await fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`, {
       method: "POST",
-      headers: { "Content-Type": "application/json" },
+      headers: {
+        "Content-Type": "application/json",
+      },
       body: JSON.stringify({
         chat_id: CHAT_ID,
         text: message,
@@ -83,7 +85,9 @@ export async function POST(req: Request) {
     // 2️⃣ Send to Google Sheets Webhook
     await fetch(process.env.GOOGLE_SHEETS_WEBHOOK_URL!, {
       method: "POST",
-      headers: { "Content-Type": "application/json" },
+      headers: {
+        "Content-Type": "application/json",
+      },
       body: JSON.stringify({
         name,
         email,
