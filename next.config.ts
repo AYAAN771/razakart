@@ -11,7 +11,7 @@ const nextConfig = {
   },
   typescript: {
     // Dangerously allow production builds even if there are TS errors
-    ignoreBuildErrors: true,
+    ignoreBuildErrors: false,
   },
 };
 

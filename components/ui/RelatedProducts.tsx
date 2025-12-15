@@ -4,7 +4,7 @@ import PSlider from "./PSlider";
 import ProductCard from "./ProductCard";
 
 interface Product {
-  id: string;
+  id: number;
   name: string;
   slug: string;
   price: number;

@@ -209,7 +209,8 @@ export default function PSlider({
               setIsBeginning(swiper.isBeginning);
               setIsEnd(swiper.isEnd);
             }}
-            breakpoints={breakpoints}
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
+            breakpoints={breakpoints as any}
             className={className}
           >
             {children.map((child, index) => (

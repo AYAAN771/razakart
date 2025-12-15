@@ -1141,6 +1141,7 @@ export default function OrderPage() {
 
   const product = useMemo(() => {
     return products.find(
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       (p: any) =>
         p.slug === productSlug ||
         p.name.toLowerCase() === productTitle.toLowerCase()
@@ -1148,6 +1149,7 @@ export default function OrderPage() {
   }, [productSlug, productTitle]);
 
   const mainImage =
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     product?.images?.find((img: any) => !img.duplicate) || product?.images?.[0];
 
   const [formData, setFormData] = useState({
@@ -1338,7 +1340,7 @@ export default function OrderPage() {
                     const raw = e.target.value;
 
                     // remove everything except numbers and +
-                    let cleaned = raw.replace(/[^0-9+]/g, "");
+                    const cleaned = raw.replace(/[^0-9+]/g, "");
 
                     // block + anywhere except first char
                     if (cleaned.includes("+") && !cleaned.startsWith("+")) {

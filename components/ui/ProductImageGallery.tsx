@@ -288,6 +288,7 @@ const useIsDesktop = () => {
     if (typeof window === "undefined") return;
 
     const media = window.matchMedia(XL_BREAKPOINT);
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setIsDesktop(media.matches);
 
     const listener = (event: MediaQueryListEvent) =>
@@ -392,11 +393,11 @@ function ProductImageGalleryDesktop({ images }: ProductImageGalleryProps) {
                 hovering={hovering}
                 setHovering={setHovering}
               >
+                {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src={img.url}
                   alt={img.alt}
                   className='object-cover rounded-lg min-w-full min-h-full!'
-                  priority={idx === 0}
                   loading={idx === 0 ? undefined : "lazy"}
                 />
               </Lens>
@@ -520,6 +521,7 @@ export default function ProductImageGallery(props: ProductImageGalleryProps) {
   const [hasMounted, setHasMounted] = useState(false);
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setHasMounted(true);
   }, []);
 
