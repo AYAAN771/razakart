@@ -54,9 +54,10 @@ import products from "@/data/products.json";
 export default async function ProductDetail({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }) {
-  const product = products.find((p) => p.slug === params.slug) || products[0];
+  const { slug } = await params;
+  const product = products.find((p) => p.slug === slug) || products[0];
 
   const sameBrandProducts = products
     .filter((p) => p.brand === product.brand && p.id !== product.id)

@@ -247,7 +247,6 @@
 
 import Image from "next/image";
 import {
-  Truck,
   Package,
   Tag,
   Cpu,
@@ -382,7 +381,7 @@ export default function ProductInfo({ product }: ProductInfoProps) {
           </div>
         </div>
       </div>
-      <img src='/bank-crap.webp' alt='' />
+      <Image src='/bank-crap.webp' width={400} height={400} alt='Bank offers' className="w-full h-auto object-contain" />
       {/* Order Button */}
       <a
         href={`/order?url=${encodeURIComponent(

@@ -148,7 +148,6 @@ export default function PSlider({
   children,
   slidesPerView = 2,
   spaceBetween = 16,
-  cardHeight = "aspect-square",
   breakpoints = {
     640: { slidesPerView: 2 },
     768: { slidesPerView: 3 },
@@ -156,7 +155,6 @@ export default function PSlider({
   },
   title,
   showSeeAll = false,
-  onSeeAllClick,
   className = "",
   containerClassName = "w-full bg-gray-200 py-12 px-4 sm:px-6 lg:px-8",
 }: PSliderProps) {

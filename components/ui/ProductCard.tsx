@@ -355,7 +355,7 @@
 // }
 "use client";
 
-import { ArrowUpRight, Eye, Truck } from "lucide-react";
+import { ArrowUpRight, Truck } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -372,7 +372,6 @@ interface ProductCardProps {
 }
 
 export default function ProductCard({
-  id,
   name,
   slug,
   price,

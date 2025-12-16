@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import FloatingContacts from "@/components/FloatingContacts";
-import SimpleFAQComponent from "@/components/FAQComponent";
+
 import NavbarF from "@/components/NavbarF";
+import Footer from "@/components/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -34,7 +35,8 @@ export default function RootLayout({
         <NavbarF />
         {children}
         <FloatingContacts />
-        <SimpleFAQComponent />
+        {/* <SimpleFAQComponent /> */}
+        <Footer />
       </body>
     </html>
   );

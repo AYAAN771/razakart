@@ -63,7 +63,7 @@
 //       setLoading(true);
 //       // const response = await fetch(`/api/products?type=${params.type}&value=${params.value}`);
 //       // const data = await response.json();
-      
+
 //       // Mock data for demonstration
 //       const mockProducts: Product[] = Array.from({ length: 12 }, (_, i) => ({
 //         id: `product-${i + 1}`,
@@ -77,7 +77,7 @@
 //           { url: "/placeholder-laptop-2.jpg", alt: "Laptop side view" },
 //         ],
 //       }));
-      
+
 //       setProducts(mockProducts);
 //       setLoading(false);
 //     };
@@ -211,23 +211,23 @@ export default function CategoryPage({
 }) {
   // Unwrap the promise using React.use()
   const resolvedParams = use(params);
-  
+
   const [products, setProducts] = useState<Product[]>([]);
   const [loading, setLoading] = useState(true);
 
   const categoryTitle = categoryTitles[resolvedParams.type]?.[resolvedParams.value] || "Products";
-  const categoryType = resolvedParams.type === "price" ? "Shop By Price" : 
-                       resolvedParams.type === "brand" ? "Shop By Brands" : 
-                       "Shop By Processor";
+  const categoryType = resolvedParams.type === "price" ? "Shop By Price" :
+    resolvedParams.type === "brand" ? "Shop By Brands" :
+      "Shop By Processor";
 
   useEffect(() => {
     const filterProducts = () => {
       setLoading(true);
-      
+
       try {
         const allProducts = ProductsData as Product[];
         let filtered: Product[] = [];
-        
+
         if (resolvedParams.type === 'price') {
           filtered = allProducts.filter(product => {
             switch (resolvedParams.value) {
@@ -243,7 +243,7 @@ export default function CategoryPage({
             }
           });
         } else if (resolvedParams.type === 'brand') {
-          filtered = allProducts.filter(product => 
+          filtered = allProducts.filter(product =>
             product.brand.toLowerCase() === resolvedParams.value.toLowerCase()
           );
         } else if (resolvedParams.type === 'processor') {
@@ -259,7 +259,7 @@ export default function CategoryPage({
             }
           });
         }
-        
+
         setProducts(filtered);
       } catch (error) {
         console.error('Error loading products:', error);
@@ -313,7 +313,7 @@ export default function CategoryPage({
       </div>
 
       {/* Products Flexbox Grid */}
-      <div className="w-full bg-white py-12">
+      <div className="w-full bg-white pt-6 pb-12">
         <div className="xl:max-w-7xl max-w-[90vw] mx-auto px-0">
           {products.length === 0 ? (
             <div className="text-center py-16">

@@ -90,8 +90,7 @@
 "use client";
 
 import { useState } from "react";
-import Image from "next/image";
-import { Eye, Truck } from "lucide-react";
+
 import products from "@/data/products.json";
 import PSlider from "./ui/PSlider";
 import ProductCard from "./ui/ProductCard";
@@ -121,22 +120,20 @@ const BestSellerHeroSection: React.FC = () => {
             <div className='space-y-3'>
               <button
                 onClick={() => setActiveTab("bestsellers")}
-                className={`block text-lg transition-colors duration-200 ${
-                  activeTab === "bestsellers"
+                className={`block text-lg transition-colors duration-200 ${activeTab === "bestsellers"
                     ? "text-white font-bold"
                     : "text-gray-400 hover:text-white"
-                }`}
+                  }`}
               >
                 ● Best Sellers
               </button>
 
               <button
                 onClick={() => setActiveTab("newarrivals")}
-                className={`block text-lg transition-colors duration-200 ${
-                  activeTab === "newarrivals"
+                className={`block text-lg transition-colors duration-200 ${activeTab === "newarrivals"
                     ? "text-white font-bold"
                     : "text-gray-400 hover:text-white"
-                }`}
+                  }`}
               >
                 ● New Arrivals
               </button>

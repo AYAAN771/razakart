@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 // import CategoryMenu from './CategoryMenu';
 import CategoryMenuF from "./CategoryMenuF";
+import Link from "next/link";
 
 export default function NavbarF() {
   //   const [selectedCategories, setSelectedCategories] = useState([]);
@@ -55,16 +56,18 @@ export default function NavbarF() {
       <div className='w-full  mx-auto px-4 sm:px-6 lg:px-8'>
         <div className='flex items-center justify-between h-16 gap-4'>
           {/* Logo */}
-          <div className='flex-shrink-0 flex items-center gap-2'>
-            <div className='relative'>
-              <ShoppingCart className='h-8 w-8 text-blue-600' />
-              <div className='absolute -top-1 -right-1 w-4 h-4 bg-blue-600 rounded-full'></div>
+          <Link href="/">
+            <div className='flex-shrink-0 flex items-center gap-2'>
+              <div className='relative'>
+                <ShoppingCart className='h-8 w-8 text-blue-600' />
+                <div className='absolute -top-1 -right-1 w-4 h-4 bg-blue-600 rounded-full'></div>
+              </div>
+              <div className='hidden sm:block'>
+                <h1 className='text-xl font-bold text-gray-900'>Raza Cash</h1>
+                <p className='text-xs text-blue-600'>Kart</p>
+              </div>
             </div>
-            <div className='hidden sm:block'>
-              <h1 className='text-xl font-bold text-gray-900'>Raza Cash</h1>
-              <p className='text-xs text-blue-600'>Kart</p>
-            </div>
-          </div>
+          </Link>
 
           {/* Desktop Search Bar - Centered and Expanded */}
           <div className='hidden md:flex flex-1 justify-center px-2 xl:px-8'>

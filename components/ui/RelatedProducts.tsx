@@ -29,7 +29,7 @@ export default function RelatedProducts({
       title={title}
       slidesPerView={1.5}
       spaceBetween={16}
-      containerClassName='bg-white py-8 px-6 rounded-lg mb-8 shadow-sm'
+      containerClassName='bg-white py-8 px-6 rounded-lg my-8 shadow-sm'
       breakpoints={{
         640: { slidesPerView: 1.5 },
         768: { slidesPerView: 3 },

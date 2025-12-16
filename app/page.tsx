@@ -1,11 +1,12 @@
 import HeroSlider from "@/components/Banner";
 import BestSeller from "@/components/BestSeller";
 import BrandSlider from "@/components/BrandSlider";
-import FAQComponent from "@/components/FAQComponent";
-import GoogleReviewsSection from "@/components/GoogleReview";
+import SimpleFAQComponent from "@/components/FAQComponent";
+
+
 import HappyCustomersGallery from "@/components/HappyCustomerGallery";
 // import Navbar from "@/components/Navbar";
-import NavbarF from "@/components/NavbarF";
+
 import ProductSwiper from "@/components/ProductSwiper";
 
 export default function Home() {
@@ -19,6 +20,8 @@ export default function Home() {
       <ProductSwiper />
       <HappyCustomersGallery />
       {/* <FAQComponent /> */}
+      <SimpleFAQComponent />
+      {/* <Footer /> */}
     </div>
   );
 }
