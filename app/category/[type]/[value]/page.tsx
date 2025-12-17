@@ -285,7 +285,7 @@ export default function CategoryPage({
       {/* Breadcrumb */}
       <div className="border-b border-gray-200 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-          <div className="flex items-center gap-2 text-sm text-gray-600">
+          <div className="flex items-center gap-2 text-xs sm:text-sm text-gray-600">
             <Link href="/" className="hover:text-blue-600 transition-colors">
               Home
             </Link>

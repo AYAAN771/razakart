@@ -1,16 +1,13 @@
 "use client";
 import { useState } from "react";
-import { Search, ShoppingCart, Menu, Phone } from "lucide-react";
+import { ShoppingCart, Menu, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
-
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-// import CategoryMenu from './CategoryMenu';
 import CategoryMenuF from "./CategoryMenuF";
+import SearchWithSuggestions from "./SearchWithSuggestions";
 import Link from "next/link";
 
 export default function NavbarF() {
-  //   const [selectedCategories, setSelectedCategories] = useState([]);
-  const [searchQuery, setSearchQuery] = useState("");
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   //   const handleCategoryToggle = (categoryId:any) => {
@@ -71,21 +68,7 @@ export default function NavbarF() {
 
           {/* Desktop Search Bar - Centered and Expanded */}
           <div className='hidden md:flex flex-1 justify-center px-2 xl:px-8'>
-            <div className='relative w-full max-w-full'>
-              <input
-                type='text'
-                placeholder='Search for Laptop'
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                className='w-full px-6 py-3 pr-14 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-base'
-              />
-              <Button
-                size='icon'
-                className='absolute right-0 top-0 h-full px-6 bg-black hover:bg-gray-800 rounded-l-none'
-              >
-                <Search className='h-5 w-5' />
-              </Button>
-            </div>
+            <SearchWithSuggestions className="w-full max-w-full" />
           </div>
 
           {/* Desktop Category Dropdown */}
@@ -108,21 +91,11 @@ export default function NavbarF() {
               <SheetContent side='right' className='w-80'>
                 <div className='flex flex-col gap-6 px-4 mt-16'>
                   {/* Mobile Search */}
-                  <div className='relative '>
-                    <input
-                      type='text'
-                      placeholder='Search for Laptop'
-                      value={searchQuery}
-                      onChange={(e) => setSearchQuery(e.target.value)}
-                      className='w-full px-4 py-2 pr-12 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500'
-                    />
-                    <Button
-                      size='icon'
-                      className='absolute right-0 top-0 h-full px-4 bg-black hover:bg-gray-800 rounded-l-none'
-                    >
-                      <Search className='h-8 w-8' />
-                    </Button>
-                  </div>
+                  <SearchWithSuggestions 
+                    isMobile 
+                    className="w-full" 
+                    onSearch={() => setMobileMenuOpen(false)}
+                  />
 
                   {/* Mobile Category Dropdown */}
                   <CategoryMenuF />

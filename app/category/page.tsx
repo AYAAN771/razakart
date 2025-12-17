@@ -6,7 +6,7 @@ import ProductCard from "@/components/ui/ProductCard";
 import CategoryFilter, { FilterState } from "@/components/CategoryFilter";
 import { Sheet, SheetContent, SheetTrigger, SheetHeader, SheetTitle } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
-import { Filter, ArrowUpDown } from "lucide-react";
+import { Filter, ArrowUpDown, ShoppingCart } from "lucide-react";
 import {
     DropdownMenu,
     DropdownMenuContent,
@@ -101,8 +101,8 @@ export default function CategoryPage() {
             <div className="max-w-7xl mx-auto px-4 md:px-8 py-6">
                 {/* Breadcrumb / Title Area */}
                 <div className="mb-6">
-                    <h1 className="text-2xl md:text-3xl font-bold text-gray-900">Laptops & Computers</h1>
-                    <p className="text-gray-500 mt-1">{filteredProducts.length} items found</p>
+                    {/* <h1 className="text-2xl md:text-3xl font-bold text-gray-900">Laptops & Computers</h1> */}
+                    <p className="text-gray-500 mt-1">{filteredProducts.length} Laptops found</p>
                 </div>
 
                 <div className="flex flex-col lg:flex-row gap-6">
@@ -129,7 +129,8 @@ export default function CategoryPage() {
                             </SheetTrigger>
                             <SheetContent side="left" className="w-[300px] sm:w-[350px] overflow-y-auto">
                                 <SheetHeader>
-                                    <SheetTitle>Filters</SheetTitle>
+                                    <SheetTitle>                <ShoppingCart className='h-8 w-8 text-blue-600' />
+</SheetTitle>
                                 </SheetHeader>
                                 <div className="mt-4 pb-10">
                                     <CategoryFilter
@@ -149,7 +150,7 @@ export default function CategoryPage() {
                                     <ArrowUpDown className="w-4 h-4" /> Sort By
                                 </Button>
                             </DropdownMenuTrigger>
-                            <DropdownMenuContent align="end">
+                            <DropdownMenuContent align="end" className="w-[var(--radix-dropdown-menu-trigger-width)]">
                                 <DropdownMenuItem onClick={() => setSortBy("featured")}>Feature</DropdownMenuItem>
                                 <DropdownMenuItem onClick={() => setSortBy("newest")}>Newest First</DropdownMenuItem>
                                 <DropdownMenuItem onClick={() => setSortBy("price-asc")}>Price: Low to High</DropdownMenuItem>

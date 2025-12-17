@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { Suspense } from "react";
 import "./globals.css";
 import FloatingContacts from "@/components/FloatingContacts";
 
@@ -32,7 +33,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <NavbarF />
+        <Suspense fallback={<div className="h-16 bg-white border-b" />}>
+          <NavbarF />
+        </Suspense>
         {children}
         <FloatingContacts />
         {/* <SimpleFAQComponent /> */}

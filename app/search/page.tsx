@@ -1,20 +1,25 @@
 "use client";
 
-import { useEffect, useState, useMemo } from "react";
+import { useEffect, useState, useMemo, Suspense } from "react";
+import { useSearchParams } from "next/navigation";
 import productsData from "@/data/products.json";
 import ProductCard from "@/components/ui/ProductCard";
 import CategoryFilter, { FilterState } from "@/components/CategoryFilter";
 import { Sheet, SheetContent, SheetTrigger, SheetHeader, SheetTitle } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
-import { Filter, ArrowUpDown, ChevronUp } from "lucide-react";
+import { Filter, ArrowUpDown, ChevronUp, ShoppingCart } from "lucide-react";
 import {
     DropdownMenu,
     DropdownMenuContent,
     DropdownMenuItem,
     DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import { searchProducts } from "@/lib/searchUtils";
 
-export default function CategoryPage() {
+function SearchPageContent() {
+    const searchParams = useSearchParams();
+    const searchQuery = searchParams.get('q') || '';
+    
     // Calculate price limits dynamically
     const allPrices = productsData.map((p) => p.price);
     const minPriceLimit = Math.min(...allPrices);
@@ -38,6 +43,8 @@ export default function CategoryPage() {
     }, [filters]);
 
 
+
+
     const [isMobileFilterOpen, setIsMobileFilterOpen] = useState(false);
     const [sortBy, setSortBy] = useState<"featured" | "price-asc" | "price-desc" | "newest">("featured");
     const [showScrollTop, setShowScrollTop] = useState(false);
@@ -56,9 +63,17 @@ export default function CategoryPage() {
         window.scrollTo({ top: 0, behavior: "smooth" });
     };
 
-    // Filtering Logic
+    // Search and Filtering Logic
     const filteredProducts = useMemo(() => {
-        return productsData.filter((product) => {
+        let products = [...productsData];
+        
+        // First apply search if query exists
+        if (searchQuery && searchQuery.trim()) {
+            products = searchProducts(products, searchQuery);
+        }
+        
+        // Then apply filters
+        return products.filter((product) => {
             // Price Check
             if (product.price < filters.minPrice || product.price > filters.maxPrice) return false;
 
@@ -95,7 +110,14 @@ export default function CategoryPage() {
 
             return true;
         });
-    }, [filters]);
+    }, [filters, searchQuery]);
+
+    // Get available filter options based on current search results
+    const availableProducts = useMemo(() => {
+        return searchQuery && searchQuery.trim() 
+            ? searchProducts(productsData, searchQuery) 
+            : productsData;
+    }, [searchQuery]);
 
     // Sorting Logic
     const sortedProducts = useMemo(() => {
@@ -114,10 +136,26 @@ export default function CategoryPage() {
     return (
         <div className="bg-gray-50 min-h-screen pb-10">
             <div className="max-w-7xl mx-auto px-4 md:px-8 py-6">
-                {/* Breadcrumb / Title Area */}
+                {/* Search Results Header */}
                 <div className="mb-6">
-                    <h1 className="text-2xl md:text-3xl font-bold text-gray-900">Laptops</h1>
-                    <p className="text-gray-500 mt-1">{filteredProducts.length} items found</p>
+                    {searchQuery ? (
+                        <>
+                            <h1 className="text-2xl md:text-3xl font-bold text-gray-900">
+                                Search results for &quot;{searchQuery}&quot;
+                            </h1>
+                            <p className="text-gray-500 mt-1">
+                                {filteredProducts.length} {filteredProducts.length === 1 ? 'result' : 'results'} found
+                                {availableProducts.length !== filteredProducts.length && (
+                                    <span className="text-gray-400"> (filtered from {availableProducts.length} search results)</span>
+                                )}
+                            </p>
+                        </>
+                    ) : (
+                        <>
+                            <h1 className="text-2xl md:text-3xl font-bold text-gray-900">All Laptops</h1>
+                            <p className="text-gray-500 mt-1">{filteredProducts.length} Laptops found</p>
+                        </>
+                    )}
                 </div>
 
                 <div className="flex flex-col lg:flex-row gap-6">
@@ -125,7 +163,7 @@ export default function CategoryPage() {
                     <aside className="hidden lg:block w-72 flex-shrink-0">
                         <div className="sticky top-24">
                             <CategoryFilter
-                                products={productsData}
+                                products={availableProducts}
                                 filters={filters}
                                 setFilters={setFilters}
                                 minPriceLimit={minPriceLimit}
@@ -144,11 +182,11 @@ export default function CategoryPage() {
                             </SheetTrigger>
                             <SheetContent side="left" className="w-[300px] sm:w-[350px] overflow-y-auto">
                                 <SheetHeader>
-                                    <SheetTitle>Filters</SheetTitle>
+                                    <SheetTitle> <ShoppingCart className='h-8 w-8 text-blue-600' /></SheetTitle>
                                 </SheetHeader>
                                 <div className="mt-4 pb-10">
                                     <CategoryFilter
-                                        products={productsData}
+                                        products={availableProducts}
                                         filters={filters}
                                         setFilters={setFilters}
                                         minPriceLimit={minPriceLimit}
@@ -164,7 +202,7 @@ export default function CategoryPage() {
                                     <ArrowUpDown className="w-4 h-4" /> Sort By
                                 </Button>
                             </DropdownMenuTrigger>
-                            <DropdownMenuContent align="end">
+                            <DropdownMenuContent align="end" className="w-[var(--radix-dropdown-menu-trigger-width)]">
                                 <DropdownMenuItem onClick={() => setSortBy("featured")}>Feature</DropdownMenuItem>
                                 <DropdownMenuItem onClick={() => setSortBy("newest")}>Newest First</DropdownMenuItem>
                                 <DropdownMenuItem onClick={() => setSortBy("price-asc")}>Price: Low to High</DropdownMenuItem>
@@ -198,7 +236,7 @@ export default function CategoryPage() {
                         </div>
 
                         {sortedProducts.length > 0 ? (
-                            <div className="grid grid-cols-1 relative sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6">
+                            <div className="grid grid-cols-2 relative sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6">
                                 {sortedProducts.map((product) => (
                                     <ProductCard
                                         key={product.id}
@@ -253,6 +291,14 @@ export default function CategoryPage() {
                 </button>
             )}
         </div>
+    );
+}
+
+export default function SearchPage() {
+    return (
+        <Suspense fallback={<div className="min-h-screen bg-gray-50 flex items-center justify-center"><div className="text-lg text-gray-600">Loading...</div></div>}>
+            <SearchPageContent />
+        </Suspense>
     );
 }
 
