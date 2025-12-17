@@ -317,7 +317,7 @@ export default function CategoryPage({
         <div className="xl:max-w-7xl max-w-[90vw] mx-auto px-0">
           {products.length === 0 ? (
             <div className="text-center py-16">
-              <div className="text-6xl mb-4">😔</div>
+              {/* <div className="text-6xl mb-4">😔</div> */}
               <p className="text-gray-600 text-xl font-medium mb-2">
                 No products found in this category
               </p>
