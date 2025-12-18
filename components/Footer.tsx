@@ -479,8 +479,8 @@ export default function Footer() {
     return (
         <footer className="bg-gray-900 text-gray-300">
             {/* Main Footer Content */}
-            <div className="xl:max-w-7xl max-w-[90vw] mx-auto px-4 sm:px-6 lg:px-8 py-12">
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
+            <div className="xl:max-w-7xl max-w-[90vw] mx-auto px-3 sm:px-6 lg:px-8 py-12">
+                <div className="grid grid-cols-1 lg:grid-cols-5 gap-8">
 
                     {/* Company Info - Takes 1 column */}
                     <div className="space-y-4">
@@ -509,76 +509,81 @@ export default function Footer() {
                         </div>
                     </div>
 
-                    {/* Shop by Price - Takes 1 column */}
-                    <div>
-                        <h3 className="text-white font-semibold text-lg mb-4">Shop by Price</h3>
-                        <ul className="space-y-2.5">
-                            {priceLinks.length > 0 ? (
-                                priceLinks.map((item) => (
-                                    <li key={item.slug}>
-                                        <Link
-                                            href={`/category/price/${item.slug}`}
-                                            className="hover:text-blue-400 transition-colors text-sm block"
-                                        >
-                                            {item.label}
-                                        </Link>
-                                    </li>
-                                ))
-                            ) : (
-                                <li className="text-xs text-gray-500">
-                                    Prices unavailable
-                                </li>
-                            )}
-                        </ul>
+                    {/* Mobile: Shop sections in one row, Desktop: separate columns */}
+                    <div className="lg:contents">
+                        <div className="grid grid-cols-3 gap-4 lg:contents">
+                            {/* Shop by Price */}
+                            <div>
+                                <h3 className="text-white font-semibold text-[13px] lg:text-lg mb-3 lg:mb-4">Shop by Price</h3>
+                                <ul className="space-y-1.5 lg:space-y-2.5">
+                                    {priceLinks.length > 0 ? (
+                                        priceLinks.slice(0, 4).map((item) => (
+                                            <li key={item.slug}>
+                                                <Link
+                                                    href={`/category/price/${item.slug}`}
+                                                    className="hover:text-blue-400 transition-colors text-xs lg:text-sm block"
+                                                >
+                                                    {item.label}
+                                                </Link>
+                                            </li>
+                                        ))
+                                    ) : (
+                                        <li className="text-xs text-gray-500">
+                                            Prices unavailable
+                                        </li>
+                                    )}
+                                </ul>
+                            </div>
+
+                            {/* Shop by Brand */}
+                            <div>
+                                <h3 className="text-white font-semibold text-[13px] lg:text-lg mb-3 lg:mb-4">Shop by Brand</h3>
+                                <ul className="space-y-1.5 lg:space-y-2.5">
+                                    {brandLinks.length > 0 ? (
+                                        brandLinks.slice(0, 4).map((item) => (
+                                            <li key={item.slug}>
+                                                <Link
+                                                    href={`/category/brand/${item.slug}`}
+                                                    className="hover:text-blue-400 transition-colors text-xs lg:text-sm block"
+                                                >
+                                                    {item.label}
+                                                </Link>
+                                            </li>
+                                        ))
+                                    ) : (
+                                        <li className="text-xs text-gray-500">
+                                            Brands loading…
+                                        </li>
+                                    )}
+                                </ul>
+                            </div>
+
+                            {/* Shop by Processor */}
+                            <div>
+                                <h3 className="text-white font-semibold text-[13px] whitespace-nowrap lg:text-lg mb-3 lg:mb-4">Shop by Processor</h3>
+                                <ul className="space-y-1.5 lg:space-y-2.5">
+                                    {processorLinks.length > 0 ? (
+                                        processorLinks.slice(0, 4).map((item) => (
+                                            <li key={item.slug}>
+                                                <Link
+                                                    href={`/category/processor/${item.slug}`}
+                                                    className="hover:text-blue-400 transition-colors text-xs lg:text-sm block"
+                                                >
+                                                    {item.label}
+                                                </Link>
+                                            </li>
+                                        ))
+                                    ) : (
+                                        <li className="text-xs text-gray-500">
+                                            Processors loading…
+                                        </li>
+                                    )}
+                                </ul>
+                            </div>
+                        </div>
                     </div>
 
-                    {/* Shop by Brand - Takes 1 column */}
-                    <div>
-                        <h3 className="text-white font-semibold text-lg mb-4">Shop by Brand</h3>
-                        <ul className="space-y-2.5">
-                            {brandLinks.length > 0 ? (
-                                brandLinks.map((item) => (
-                                    <li key={item.slug}>
-                                        <Link
-                                            href={`/category/brand/${item.slug}`}
-                                            className="hover:text-blue-400 transition-colors text-sm block"
-                                        >
-                                            {item.label} Laptops
-                                        </Link>
-                                    </li>
-                                ))
-                            ) : (
-                                <li className="text-xs text-gray-500">
-                                    Brands loading…
-                                </li>
-                            )}
-                        </ul>
-                    </div>
-
-                    {/* Shop by Processor - Takes 1 column */}
-                    <div>
-                        <h3 className="text-white font-semibold text-lg mb-4">Shop by Processor</h3>
-                        <ul className="space-y-2.5">
-                            {processorLinks.length > 0 ? (
-                                processorLinks.map((item) => (
-                                    <li key={item.slug}>
-                                        <Link
-                                            href={`/category/processor/${item.slug}`}
-                                            className="hover:text-blue-400 transition-colors text-sm block"
-                                        >
-                                            {item.label}
-                                        </Link>
-                                    </li>
-                                ))
-                            ) : (
-                                <li className="text-xs text-gray-500">
-                                    Processors loading…
-                                </li>
-                            )}
-                        </ul>
-                    </div>
-
-                    {/* Contact Info - Takes 1 column */}
+                    {/* Contact Info */}
                     <div>
                         <h3 className="text-white font-semibold text-lg mb-4">Quick Help</h3>
                         <p className="text-sm text-gray-400 mb-4 leading-relaxed">

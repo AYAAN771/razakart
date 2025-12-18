@@ -122,15 +122,17 @@ function ProductImageGalleryDesktop({ images }: ProductImageGalleryProps) {
     <div className='flex flex-row gap-4 h-[450px] w-full'>
       {/* 1. Vertical Thumbnail Slider & Custom Navigation */}
       <div className='relative w-[100px]'>
-        {/* Custom Nav Up Button */}
-        <button
-          onClick={() => thumbSwiperRef.current?.slidePrev()}
-          className='absolute top-0 left-1/2 -translate-x-1/2 z-30 rounded-t-lg p-2 w-full bg-linear-to-b cursor-pointer from-[#3d3d3d90] hover:from-black/70 flex items-center justify-center to-transparent transition-colors disabled:opacity-50'
-          aria-label='Previous image'
-          disabled={isBeginning}
-        >
-          <ChevronUp className='w-6 text-white h-6' />
-        </button>
+        {/* Custom Nav Up Button - Only show if more than 4 images */}
+        {images.length > 4 && (
+          <button
+            onClick={() => thumbSwiperRef.current?.slidePrev()}
+            className='absolute top-0 left-1/2 -translate-x-1/2 z-30 rounded-t-lg p-2 w-full bg-linear-to-b cursor-pointer from-[#3d3d3d90] hover:from-black/70 flex items-center justify-center to-transparent transition-colors disabled:opacity-50'
+            aria-label='Previous image'
+            disabled={isBeginning}
+          >
+            <ChevronUp className='w-6 text-white h-6' />
+          </button>
+        )}
 
         <Swiper
           onSwiper={(swiper) => {
@@ -168,15 +170,17 @@ function ProductImageGalleryDesktop({ images }: ProductImageGalleryProps) {
           ))}
         </Swiper>
 
-        {/* Custom Nav Down Button */}
-        <button
-          onClick={() => thumbSwiperRef.current?.slideNext()}
-          className='absolute bottom-0 left-1/2 -translate-x-1/2 z-30 rounded-b-lg p-2 w-full bg-linear-to-t cursor-pointer from-[#3d3d3d90] hover:from-black/70 flex items-center justify-center to-transparent transition-colors disabled:opacity-50'
-          aria-label='Next image'
-          disabled={isEnd}
-        >
-          <ChevronDown className='w-6 text-white h-6' />
-        </button>
+        {/* Custom Nav Down Button - Only show if more than 4 images */}
+        {images.length > 4 && (
+          <button
+            onClick={() => thumbSwiperRef.current?.slideNext()}
+            className='absolute bottom-0 left-1/2 -translate-x-1/2 z-30 rounded-b-lg p-2 w-full bg-linear-to-t cursor-pointer from-[#3d3d3d90] hover:from-black/70 flex items-center justify-center to-transparent transition-colors disabled:opacity-50'
+            aria-label='Next image'
+            disabled={isEnd}
+          >
+            <ChevronDown className='w-6 text-white h-6' />
+          </button>
+        )}
       </div>
 
       {/* 2. Main Product Image Slider */}
@@ -247,15 +251,17 @@ function ProductImageGalleryMobile({ images }: ProductImageGalleryProps) {
 
       {/* 2. Horizontal Thumbnail Slider & Custom Navigation (Bottom on Mobile) */}
       <div className='relative xl:h-[50px] w-full'>
-        {/* Custom Nav Left Button */}
-        <button
-          onClick={() => thumbSwiperRef.current?.slidePrev()}
-          className='absolute top-1/2 -translate-y-1/2 left-0 z-30 rounded-l-lg p-2 h-full bg-gradient-to-r cursor-pointer from-[#3d3d3d90] hover:from-black/70 flex items-center justify-center to-transparent transition-colors disabled:opacity-50'
-          aria-label='Previous image'
-          disabled={isBeginning}
-        >
-          <ChevronLeft className='w-6 text-white h-6' />
-        </button>
+        {/* Custom Nav Left Button - Only show if more than 4 images */}
+        {images.length > 4 && (
+          <button
+            onClick={() => thumbSwiperRef.current?.slidePrev()}
+            className='absolute top-1/2 -translate-y-1/2 left-0 z-30 rounded-l-lg p-2 h-full bg-gradient-to-r cursor-pointer from-[#3d3d3d90] hover:from-black/70 flex items-center justify-center to-transparent transition-colors disabled:opacity-50'
+            aria-label='Previous image'
+            disabled={isBeginning}
+          >
+            <ChevronLeft className='w-6 text-white h-6' />
+          </button>
+        )}
 
         <Swiper
           onSwiper={(swiper) => {
@@ -293,15 +299,17 @@ function ProductImageGalleryMobile({ images }: ProductImageGalleryProps) {
           ))}
         </Swiper>
 
-        {/* Custom Nav Right Button */}
-        <button
-          onClick={() => thumbSwiperRef.current?.slideNext()}
-          className='absolute top-1/2 -translate-y-1/2 right-0 z-30 rounded-r-lg p-2 h-full bg-gradient-to-l cursor-pointer from-[#3d3d3d90] hover:from-black/70 flex items-center justify-center to-transparent transition-colors disabled:opacity-50'
-          aria-label='Next image'
-          disabled={isEnd}
-        >
-          <ChevronRight className='w-6 text-white h-6' />
-        </button>
+        {/* Custom Nav Right Button - Only show if more than 4 images */}
+        {images.length > 4 && (
+          <button
+            onClick={() => thumbSwiperRef.current?.slideNext()}
+            className='absolute top-1/2 -translate-y-1/2 right-0 z-30 rounded-r-lg p-2 h-full bg-gradient-to-l cursor-pointer from-[#3d3d3d90] hover:from-black/70 flex items-center justify-center to-transparent transition-colors disabled:opacity-50'
+            aria-label='Next image'
+            disabled={isEnd}
+          >
+            <ChevronRight className='w-6 text-white h-6' />
+          </button>
+        )}
       </div>
     </div>
   );

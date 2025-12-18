@@ -6,6 +6,7 @@ import FloatingContacts from "@/components/FloatingContacts";
 
 import NavbarF from "@/components/NavbarF";
 import Footer from "@/components/Footer";
+// import MobileBottomNav from "@/components/MobileBottomNav";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -36,10 +37,13 @@ export default function RootLayout({
         <Suspense fallback={<div className="h-16 bg-white border-b" />}>
           <NavbarF />
         </Suspense>
-        {children}
+        <main className="pb-16 md:pb-0">
+          {children}
+        </main>
         <FloatingContacts />
         {/* <SimpleFAQComponent /> */}
         <Footer />
+        {/* <MobileBottomNav /> */}
       </body>
     </html>
   );

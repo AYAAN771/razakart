@@ -173,7 +173,7 @@ function SearchPageContent() {
                     </aside>
 
                     {/* Mobile Filter & Sort Bar */}
-                    <div className="lg:hidden flex gap-2 mb-4 sticky top-20 z-30 bg-gray-50/95 backdrop-blur py-2">
+                    <div className="lg:hidden flex gap-2 mb-4 sticky top-[70px] z-30 bg-gray-50/95 backdrop-blur py-2">
                         <Sheet open={isMobileFilterOpen} onOpenChange={setIsMobileFilterOpen}>
                             <SheetTrigger asChild>
                                 <Button variant="outline" className="flex-1 gap-2 border-gray-300">

@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { ShoppingCart, Menu, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
@@ -9,6 +9,24 @@ import Link from "next/link";
 
 export default function NavbarF() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+  const [lastScrollY, setLastScrollY] = useState(0);
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+      
+      if (currentScrollY > 100) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+      
+      setLastScrollY(currentScrollY);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [lastScrollY]);
 
   //   const handleCategoryToggle = (categoryId:any) => {
   //     setSelectedCategories(prev =>
@@ -49,9 +67,14 @@ export default function NavbarF() {
   //   );
 
   return (
-    <nav className='border-b border-gray-300 bg-white w-full sticky top-0 z-50 py-2'>
-      <div className='w-full  mx-auto px-4 sm:px-6 lg:px-8'>
-        <div className='flex items-center justify-between h-16 gap-4'>
+    <nav className={`border-b border-gray-300 bg-white w-full sticky top-0 z-50 transition-all duration-300 ease-in-out ${
+      isScrolled ? 'pt-2' : 'pt-2'
+    } md:py-2`}>
+      <div className='w-full mx-auto px-4 sm:px-6 lg:px-8'>
+        {/* Logo Row - Hide on mobile when scrolled */}
+        <div className={`flex items-center justify-between gap-4 transition-all duration-300 ease-in-out ${
+          isScrolled ? 'md:h-16 h-0 overflow-hidden opacity-0' : 'h-16 opacity-100'
+        } md:opacity-100 md:h-16 md:overflow-visible`}>
           {/* Logo */}
           <Link href="/">
             <div className='flex-shrink-0 flex items-center gap-2'>
@@ -103,6 +126,14 @@ export default function NavbarF() {
               </SheetContent>
             </Sheet>
           </div>
+        </div>
+        
+        {/* Mobile Search Bar - Always visible on mobile */}
+        <div className='md:hidden px-2 pb-3'>
+          <SearchWithSuggestions 
+            className="w-full" 
+            placeholder="Search for laptops..."
+          />
         </div>
       </div>
     </nav>
