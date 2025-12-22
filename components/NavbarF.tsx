@@ -9,7 +9,6 @@ import Link from "next/link";
 
 export default function NavbarF() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [isScrolled, setIsScrolled] = useState(false);
   const [lastScrollY, setLastScrollY] = useState(0);
   const [showNavbar, setShowNavbar] = useState(true);
   
@@ -18,14 +17,12 @@ export default function NavbarF() {
       const currentScrollY = window.scrollY;
       
       if (currentScrollY > 100) {
-        setIsScrolled(true);
         if (currentScrollY > lastScrollY) {
           setShowNavbar(false); // Hide on scroll down
         } else {
           setShowNavbar(true); // Show on scroll up
         }
       } else {
-        setIsScrolled(false);
         setShowNavbar(true);
       }
       
