@@ -132,7 +132,7 @@ const FaqItem: React.FC<FaqItemProps> = ({ item, isOpen, toggle }) => {
           isOpen ? "max-h-screen opacity-100 pb-3 sm:pb-4" : "max-h-0 opacity-0"
         }`}
       >
-        <div className='text-gray-700 text-sm sm:text-base space-y-3 pl-2'>
+        <div className='text-gray-700 text-sm sm:text-base space-y-3 '>
           <p className='mb-2'>{item.a}</p>
           {item.subPoints && item.subPoints.length > 0 && (
             <ul className='list-disc pl-5 space-y-1 text-xs sm:text-sm text-gray-600'>

@@ -314,7 +314,7 @@ export default function CategoryPage({
 
       {/* Products Flexbox Grid */}
       <div className="w-full bg-white pt-6 pb-12">
-        <div className="xl:max-w-7xl max-w-[90vw] mx-auto px-0">
+        <div className="xl:max-w-7xl max-w-[90vw] mx-auto px-4 sm:px-6 lg:px-8">
           {products.length === 0 ? (
             <div className="text-center py-16">
               {/* <div className="text-6xl mb-4">😔</div> */}
@@ -326,7 +326,7 @@ export default function CategoryPage({
               </p>
             </div>
           ) : (
-            <div className="flex justify-center flex-wrap gap-4 md:gap-6">
+            <div className="flex justify-start flex-wrap gap-4 md:gap-6">
               {products.map((product) => (
                 <div
                   key={product.id}

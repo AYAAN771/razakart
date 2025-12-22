@@ -49,9 +49,12 @@ export default function SearchWithSuggestions({
 
   // Generate suggestions based on query
   const suggestions = useMemo(() => {
-    if (query.length < 2) return popularSearches;
+    if (query.length < 2) {
+      // Hide popular searches on mobile when no query
+      return isMobile ? [] : popularSearches;
+    }
     return getSearchSuggestions(productsData, query);
-  }, [query, popularSearches]);
+  }, [query, popularSearches, isMobile]);
 
   const handleSearch = (searchQuery?: string) => {
     const searchTerm = searchQuery || query;
@@ -181,7 +184,7 @@ export default function SearchWithSuggestions({
           ref={suggestionsRef}
           className="absolute top-full left-0 right-0 bg-white border border-gray-200 rounded-lg shadow-lg z-50 mt-1 max-h-80 overflow-y-auto"
         >
-          {!query && (
+          {!query && !isMobile && (
             <div className="px-4 py-2 text-xs text-gray-500 border-b border-gray-100">
               Popular searches
             </div>

@@ -37,7 +37,7 @@ export default function RootLayout({
         <Suspense fallback={<div className="h-16 bg-white border-b" />}>
           <NavbarF />
         </Suspense>
-        <main className="pb-16 md:pb-0">
+        <main className=" md:pb-0">
           {children}
         </main>
         <FloatingContacts />

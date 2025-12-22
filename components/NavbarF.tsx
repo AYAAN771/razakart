@@ -11,14 +11,22 @@ export default function NavbarF() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const [lastScrollY, setLastScrollY] = useState(0);
+  const [showNavbar, setShowNavbar] = useState(true);
+  
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
       
       if (currentScrollY > 100) {
         setIsScrolled(true);
+        if (currentScrollY > lastScrollY) {
+          setShowNavbar(false); // Hide on scroll down
+        } else {
+          setShowNavbar(true); // Show on scroll up
+        }
       } else {
         setIsScrolled(false);
+        setShowNavbar(true);
       }
       
       setLastScrollY(currentScrollY);
@@ -67,14 +75,12 @@ export default function NavbarF() {
   //   );
 
   return (
-    <nav className={`border-b border-gray-300 bg-white w-full sticky top-0 z-50 transition-all duration-300 ease-in-out ${
-      isScrolled ? 'pt-2' : 'pt-2'
-    } md:py-2`}>
+    <nav className={`border-b border-gray-300 bg-white w-full sticky top-0 z-50 py-2 transition-transform duration-300 ease-in-out ${
+      showNavbar ? 'translate-y-0' : '-translate-y-full'
+    } md:translate-y-0`}>
       <div className='w-full mx-auto px-4 sm:px-6 lg:px-8'>
         {/* Logo Row - Hide on mobile when scrolled */}
-        <div className={`flex items-center justify-between gap-4 transition-all duration-300 ease-in-out ${
-          isScrolled ? 'md:h-16 h-0 overflow-hidden opacity-0' : 'h-16 opacity-100'
-        } md:opacity-100 md:h-16 md:overflow-visible`}>
+        <div className="flex items-center justify-between gap-2 h-16">
           {/* Logo */}
           <Link href="/">
             <div className='flex-shrink-0 flex items-center gap-2'>
@@ -88,6 +94,14 @@ export default function NavbarF() {
               </div>
             </div>
           </Link>
+
+          {/* Mobile Search Bar - Between logo and menu */}
+          <div className='md:hidden flex-1 px-2'>
+            <SearchWithSuggestions 
+              className="w-full" 
+              placeholder="Search..."
+            />
+          </div>
 
           {/* Desktop Search Bar - Centered and Expanded */}
           <div className='hidden md:flex flex-1 justify-center px-2 xl:px-8'>
@@ -126,14 +140,6 @@ export default function NavbarF() {
               </SheetContent>
             </Sheet>
           </div>
-        </div>
-        
-        {/* Mobile Search Bar - Always visible on mobile */}
-        <div className='md:hidden px-2 pb-3'>
-          <SearchWithSuggestions 
-            className="w-full" 
-            placeholder="Search for laptops..."
-          />
         </div>
       </div>
     </nav>

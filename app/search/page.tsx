@@ -48,16 +48,29 @@ function SearchPageContent() {
     const [isMobileFilterOpen, setIsMobileFilterOpen] = useState(false);
     const [sortBy, setSortBy] = useState<"featured" | "price-asc" | "price-desc" | "newest">("featured");
     const [showScrollTop, setShowScrollTop] = useState(false);
+    const [showFilterBar, setShowFilterBar] = useState(true);
+    const [lastScrollY, setLastScrollY] = useState(0);
 
-    // Toggle Scroll-to-Top button visibility
+    // Toggle Scroll-to-Top button visibility and Filter Bar
     useEffect(() => {
         const handleScroll = () => {
-            setShowScrollTop(window.scrollY > 200);
+            const currentScrollY = window.scrollY;
+            
+            setShowScrollTop(currentScrollY > 200);
+            
+            // Filter bar hide/show logic
+            if (currentScrollY > lastScrollY && currentScrollY > 100) {
+                setShowFilterBar(false); // Hide when scrolling down
+            } else {
+                setShowFilterBar(true); // Show when scrolling up
+            }
+            
+            setLastScrollY(currentScrollY);
         };
 
         window.addEventListener("scroll", handleScroll);
         return () => window.removeEventListener("scroll", handleScroll);
-    }, []);
+    }, [lastScrollY]);
 
     const scrollToTop = () => {
         window.scrollTo({ top: 0, behavior: "smooth" });
@@ -161,7 +174,7 @@ function SearchPageContent() {
                 <div className="flex flex-col lg:flex-row gap-6">
                     {/* Desktop Sidebar */}
                     <aside className="hidden lg:block w-72 flex-shrink-0">
-                        <div className="sticky top-24">
+                        <div className="sticky top-24 max-h-[calc(100vh-6rem)] overflow-y-auto">
                             <CategoryFilter
                                 products={availableProducts}
                                 filters={filters}
@@ -172,8 +185,10 @@ function SearchPageContent() {
                         </div>
                     </aside>
 
-                    {/* Mobile Filter & Sort Bar */}
-                    <div className="lg:hidden flex gap-2 mb-4 sticky top-[70px] z-30 bg-gray-50/95 backdrop-blur py-2">
+                    {/* Mobile Filter & Sort Bar */}    
+                    <div className={`lg:hidden flex gap-2 mb-4 sticky top-[50px] z-30 bg-gray-50/95 backdrop-blur py-2 transition-transform duration-300 ${
+                        showFilterBar ? 'translate-y-[30px]' : '-translate-y-full'
+                    }`}>
                         <Sheet open={isMobileFilterOpen} onOpenChange={setIsMobileFilterOpen}>
                             <SheetTrigger asChild>
                                 <Button variant="outline" className="flex-1 gap-2 border-gray-300">
