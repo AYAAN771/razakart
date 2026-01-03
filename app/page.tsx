@@ -5,6 +5,7 @@ import SimpleFAQComponent from "@/components/FAQComponent";
 import AboutSection from "@/components/AboutSection";
 import HappyCustomersGallery from "@/components/HappyCustomerGallery";
 import ProductSwiper from "@/components/ProductSwiper";
+import LiveGoogleReviews from "@/components/LiveGoogleReviews";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <BestSeller />
       <BrandSlider />
       <ProductSwiper />
+      <LiveGoogleReviews />
       <HappyCustomersGallery />
       <AboutSection />
       <SimpleFAQComponent />
