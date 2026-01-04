@@ -11,6 +11,17 @@ export default function NavbarF() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [lastScrollY, setLastScrollY] = useState(0);
   const [showNavbar, setShowNavbar] = useState(true);
+  const [showMobileSearch, setShowMobileSearch] = useState(false);
+  
+  useEffect(() => {
+    if (mobileMenuOpen) {
+      // Delay showing search to prevent auto-focus
+      const timer = setTimeout(() => setShowMobileSearch(true), 100);
+      return () => clearTimeout(timer);
+    } else {
+      setShowMobileSearch(false);
+    }
+  }, [mobileMenuOpen]);
   
   useEffect(() => {
     const handleScroll = () => {
@@ -125,7 +136,7 @@ export default function NavbarF() {
 
           {/* Mobile Menu Button */}
           <div className='md:hidden'>
-            <Sheet open={mobileMenuOpen} onOpenChange={setMobileMenuOpen}>
+            <Sheet open={mobileMenuOpen} onOpenChange={setMobileMenuOpen} modal={false}>
               <SheetTrigger asChild>
                 <Button variant='ghost' size='icon'>
                   <Menu className='h-6 w-6' />
@@ -134,12 +145,16 @@ export default function NavbarF() {
               <SheetContent side='right' className='w-80'>
                 <div className='flex flex-col gap-6 px-4 mt-16'>
                   {/* Mobile Search */}
-                  <SearchWithSuggestions 
-                    isMobile 
-                    className="w-full" 
-                    onSearch={() => setMobileMenuOpen(false)}
-                    autoFocus={false}
-                  />
+                  {showMobileSearch && (
+                    <div tabIndex={-1}>
+                      <SearchWithSuggestions 
+                        isMobile 
+                        className="w-full" 
+                        onSearch={() => setMobileMenuOpen(false)}
+                        autoFocus={false}
+                      />
+                    </div>
+                  )}
 
                   {/* Mobile Contact Link */}
                   <Link 

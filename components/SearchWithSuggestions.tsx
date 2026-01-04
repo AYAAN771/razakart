@@ -146,12 +146,14 @@ export default function SearchWithSuggestions({
             setSelectedIndex(-1);
           }}
           onKeyDown={handleKeyDown}
-          onFocus={() => {
+          readOnly
+          onFocus={(e) => {
+            e.target.readOnly = false;
             if (query.length >= 2 || (!query && !isMobile)) {
               setShowSuggestions(true);
             }
           }}
-          autoFocus={autoFocus && !isMobile}
+          autoFocus={false}
           className={`w-full ${
             isMobile 
               ? 'px-4 py-2 pr-12' 
