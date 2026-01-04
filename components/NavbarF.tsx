@@ -97,12 +97,13 @@ export default function NavbarF() {
             <SearchWithSuggestions 
               className="w-full" 
               placeholder="Search..."
+              autoFocus={false}
             />
           </div>
 
           {/* Desktop Search Bar - Centered and Expanded */}
-          <div className='hidden md:flex flex-1 justify-center px-2 xl:px-8'>
-            <SearchWithSuggestions className="w-full max-w-full" />
+          <div className='hidden md:flex flex-1 justify-center px-2 xl:px-8 max-w-2xl mx-auto'>
+            <SearchWithSuggestions className="w-full max-w-full" autoFocus={false} />
           </div>
 
           {/* Desktop Category Dropdown */}

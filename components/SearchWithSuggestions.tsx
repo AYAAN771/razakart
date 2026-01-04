@@ -51,12 +51,13 @@ export default function SearchWithSuggestions({
 
   // Generate suggestions based on query
   const suggestions = useMemo(() => {
+    if (!showSuggestions) return [];
     if (query.length < 2) {
-      // Hide popular searches on mobile when no query
-      return isMobile ? [] : popularSearches;
+      // Show popular searches only on desktop when focused and no query
+      return !isMobile ? popularSearches : [];
     }
     return getSearchSuggestions(productsData, query);
-  }, [query, popularSearches, isMobile]);
+  }, [query, popularSearches, isMobile, showSuggestions]);
 
   const handleSearch = (searchQuery?: string) => {
     const searchTerm = searchQuery || query;
@@ -130,7 +131,6 @@ export default function SearchWithSuggestions({
   const clearSearch = () => {
     setQuery("");
     setShowSuggestions(false);
-    inputRef.current?.focus();
   };
 
   return (
@@ -146,7 +146,11 @@ export default function SearchWithSuggestions({
             setSelectedIndex(-1);
           }}
           onKeyDown={handleKeyDown}
-          onFocus={() => setShowSuggestions(true)}
+          onFocus={() => {
+            if (query.length >= 2 || (!query && !isMobile)) {
+              setShowSuggestions(true);
+            }
+          }}
           autoFocus={autoFocus}
           className={`w-full ${
             isMobile 
