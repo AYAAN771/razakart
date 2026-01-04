@@ -151,7 +151,7 @@ export default function SearchWithSuggestions({
               setShowSuggestions(true);
             }
           }}
-          autoFocus={autoFocus}
+          autoFocus={autoFocus && !isMobile}
           className={`w-full ${
             isMobile 
               ? 'px-4 py-2 pr-12' 
