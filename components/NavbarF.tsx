@@ -97,7 +97,7 @@ export default function NavbarF() {
             <SearchWithSuggestions 
               className="w-full" 
               placeholder="Search..."
-              autoFocus={false}
+                autoFocus={false}
             />
           </div>
 
