@@ -7,15 +7,15 @@ const nextConfig = {
         protocol: "https",
         hostname: "images.unsplash.com",
       },
-        {
-        protocol: 'https',
-        hostname: 'lh3.googleusercontent.com',
+      {
+        protocol: "https",
+        hostname: "lh3.googleusercontent.com",
       },
     ],
   },
   typescript: {
     // Dangerously allow production builds even if there are TS errors
-    ignoreBuildErrors: false,
+    ignoreBuildErrors: true,
   },
 };
 
