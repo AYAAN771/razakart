@@ -215,7 +215,7 @@ export default function SimpleFAQComponent() {
         </div>
 
         {/* FAQ Items */}
-        <div className='border-t border-gray-200'>
+        <div className='border-t-0 border-gray-200'>
           {filteredFaqs.length > 0 ? (
             filteredFaqs.map((category) => (
               <div key={category.category} className='mt-4 sm:mt-6'>

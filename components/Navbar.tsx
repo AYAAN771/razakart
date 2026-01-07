@@ -56,7 +56,7 @@ export default function Navbar() {
         <div className='flex items-center justify-between h-16 gap-4'>
           {/* Logo */}
           <div className='flex-shrink-0 flex items-center gap-2'>
-            <Link href="/">
+            <Link href='/'>
               <div className='relative'>
                 <ShoppingCart className='h-8 w-8 text-blue-600' />
                 <div className='absolute -top-1 -right-1 w-4 h-4 bg-blue-600 rounded-full'></div>

@@ -43,7 +43,6 @@
 //   );
 // }
 
-
 // app/product/[slug]/page.tsx (no "use client")
 import ProductImageGallery from "@/components/ui/ProductImageGallery";
 import ProductInfo from "@/components/ui/ProductInfo";
@@ -61,8 +60,8 @@ export default async function ProductDetail({
 
   const sameBrandProducts = products
     .filter((p) => p.brand === product.brand && p.id !== product.id)
-    .slice(0, 4);
-  const topSellingProducts = products.filter((p) => p.topSelling).slice(0, 4);
+    .slice(0, 12);
+  const topSellingProducts = products.filter((p) => p.topSelling).slice(0, 12);
 
   return (
     <div className='bg-gray-50 min-h-screen py-8 sm:py-12'>

@@ -1,404 +1,524 @@
 [
   {
     "id": 1,
-    "slug": "asus-e410ka",
-    "name": "ASUS E410KA",
-    "brand": "ASUS",
-    "sku": "ASU-E410-001",
-    "rating": 4.5,
-    "reviewCount": 128,
-    "originalPrice": 25000,
-    "price": 18000,
-    "discount": 28,
+    "slug": "hp-hp-model-4531-1",
+    "name": "HP Model 4531",
+    "brand": "HP",
+    "sku": "HP-7027-1",
+    "rating": 4.6,
+    "reviewCount": 148,
+    "originalPrice": 22974,
+    "price": 17539,
+    "discount": 24,
     "images": [
-      { "url": "/laptop/asus.avif", "alt": "ASUS E410KA front view", "duplicate": false },
-      { "url": "/laptop/asus.avif", "alt": "ASUS E410KA side view", "duplicate": false }
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "HP Model 4531 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "HP Model 4531 side view",
+        "duplicate": false
+      }
     ],
-    "description": "Lightweight and portable laptop perfect for students and basic computing tasks.",
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
     "specifications": {
-      "Processor": "Intel Celeron N4020",
+      "Processor": "Intel Core i7 4th Gen",
       "RAM": "4GB DDR4",
       "Storage": "128GB SSD",
       "Display": "14 inch HD",
-      "Graphics": "Intel UHD Graphics",
-      "Operating System": "Windows 11"
+      "Graphics": "Intel HD Graphics 4400",
+      "Operating System": "DOS"
     },
     "inStock": true,
     "topSelling": true
   },
   {
     "id": 2,
-    "slug": "dell-inspiron-3521",
-    "name": "DELL Inspiron 3521",
-    "brand": "DELL",
-    "sku": "DEL-INS-3521",
-    "rating": 4.2,
-    "reviewCount": 95,
-    "originalPrice": 13500,
-    "price": 10000,
-    "discount": 26,
+    "slug": "asus-asus-model-153-2",
+    "name": "ASUS Model 153",
+    "brand": "ASUS",
+    "sku": "ASU-6583-2",
+    "rating": 3.8,
+    "reviewCount": 134,
+    "originalPrice": 13280,
+    "price": 9093,
+    "discount": 32,
     "images": [
-      { "url": "/laptop/dellinspiron.avif", "alt": "DELL Inspiron 3521 front view", "duplicate": false },
-      { "url": "/laptop/dellinspiron.avif", "alt": "DELL Inspiron 3521 side view", "duplicate": false }
+      {
+        "url": "/laptop/hp-200.avif",
+        "alt": "ASUS Model 153 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "ASUS Model 153 side view",
+        "duplicate": false
+      }
     ],
-    "description": "Reliable Dell laptop with Intel i3 processor for everyday computing.",
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
     "specifications": {
-      "Processor": "Intel Core i3 3rd Gen",
+      "Processor": "Intel Celeron N4020",
       "RAM": "4GB DDR3",
-      "Storage": "500GB HDD",
-      "Display": "15.6 inch HD",
-      "Graphics": "Intel HD Graphics",
-      "Operating System": "Windows 10"
+      "Storage": "320GB HDD",
+      "Display": "13.3 inch HD",
+      "Graphics": "AMD Radeon HD 7670M",
+      "Operating System": "Windows 10 Pro"
     },
     "inStock": true,
-    "topSelling": true
+    "topSelling": false
   },
   {
     "id": 3,
-    "slug": "hp-2000-2106tu",
-    "name": "HP 2000-2106TU",
-    "brand": "HP",
-    "sku": "HP-2000-2106",
-    "rating": 4.0,
-    "reviewCount": 67,
-    "originalPrice": 12500,
-    "price": 9500,
-    "discount": 24,
+    "slug": "lenovo-lenovo-model-1908-3",
+    "name": "LENOVO Model 1908",
+    "brand": "LENOVO",
+    "sku": "LEN-4407-3",
+    "rating": 4.4,
+    "reviewCount": 173,
+    "originalPrice": 16849,
+    "price": 13737,
+    "discount": 18,
     "images": [
-      { "url": "/laptop/hp-200.avif", "alt": "HP 2000-2106TU front view", "duplicate": false },
-      { "url": "/laptop/hp-200.avif", "alt": "HP 2000-2106TU side view", "duplicate": false }
+      {
+        "url": "/laptop/hp-200.avif",
+        "alt": "LENOVO Model 1908 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "LENOVO Model 1908 side view",
+        "duplicate": false
+      }
     ],
-    "description": "Budget-friendly HP laptop with Pentium processor for basic tasks.",
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
     "specifications": {
       "Processor": "Intel Pentium Dual Core",
-      "RAM": "2GB DDR3",
+      "RAM": "4GB DDR4",
       "Storage": "320GB HDD",
       "Display": "15.6 inch HD",
       "Graphics": "Intel HD Graphics",
-      "Operating System": "DOS"
+      "Operating System": "Windows 10"
     },
     "inStock": true,
     "topSelling": false
   },
   {
     "id": 4,
-    "slug": "hp-430-g2",
-    "name": "HP 430 G2",
-    "brand": "HP",
-    "sku": "HP-430-G2",
-    "rating": 4.7,
-    "reviewCount": 142,
-    "originalPrice": 17000,
-    "price": 13000,
-    "discount": 24,
+    "slug": "asus-asus-model-3920-4",
+    "name": "ASUS Model 3920",
+    "brand": "ASUS",
+    "sku": "ASU-8543-4",
+    "rating": 3.9,
+    "reviewCount": 189,
+    "originalPrice": 20223,
+    "price": 17674,
+    "discount": 13,
     "images": [
-      { "url": "/laptop/hp-200.avif", "alt": "HP 430 G2 front view", "duplicate": false },
-      { "url": "/laptop/hp-200.avif", "alt": "HP 430 G2 side view", "duplicate": false }
+      {
+        "url": "/laptop/hp-200.avif",
+        "alt": "ASUS Model 3920 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "ASUS Model 3920 side view",
+        "duplicate": false
+      }
     ],
-    "description": "Business-grade HP laptop with Intel i5 processor and excellent build quality.",
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
     "specifications": {
-      "Processor": "Intel Core i5 5th Gen",
+      "Processor": "Intel Pentium Dual Core",
       "RAM": "8GB DDR3",
       "Storage": "500GB HDD",
       "Display": "13.3 inch HD",
-      "Graphics": "Intel HD Graphics 5500",
+      "Graphics": "Intel HD Graphics 520",
       "Operating System": "Windows 10 Pro"
     },
     "inStock": true,
-    "topSelling": true
+    "topSelling": false
   },
   {
     "id": 5,
-    "slug": "hp-pavilion-m4-1003tx",
-    "name": "HP Pavilion M4-1003TX",
-    "brand": "HP",
-    "sku": "HP-PAV-M4",
-    "rating": 4.3,
-    "reviewCount": 89,
-    "originalPrice": 14000,
-    "price": 10500,
+    "slug": "dell-dell-model-5658-5",
+    "name": "DELL Model 5658",
+    "brand": "DELL",
+    "sku": "DEL-5545-5",
+    "rating": 4.7,
+    "reviewCount": 115,
+    "originalPrice": 12962,
+    "price": 9710,
     "discount": 25,
     "images": [
-      { "url": "/laptop/hp-200.avif", "alt": "HP Pavilion front view", "duplicate": false },
-      { "url": "/laptop/hp-200.avif", "alt": "HP Pavilion side view", "duplicate": false }
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "DELL Model 5658 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "DELL Model 5658 side view",
+        "duplicate": false
+      }
     ],
-    "description": "HP Pavilion with dedicated graphics for light gaming and multimedia.",
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
     "specifications": {
-      "Processor": "Intel Core i5 3rd Gen",
-      "RAM": "4GB DDR3",
-      "Storage": "500GB HDD",
-      "Display": "14 inch HD",
-      "Graphics": "AMD Radeon HD 7670M",
-      "Operating System": "Windows 8"
+      "Processor": "Intel Core i5 4th Gen",
+      "RAM": "4GB DDR4",
+      "Storage": "256GB SSD",
+      "Display": "14 inch Full HD",
+      "Graphics": "Intel HD Graphics 4400",
+      "Operating System": "Windows 10"
     },
     "inStock": true,
     "topSelling": false
   },
   {
     "id": 6,
-    "slug": "lenovo-thinkpad-t440",
-    "name": "Lenovo ThinkPad T440",
-    "brand": "LENOVO",
-    "sku": "LEN-T440-001",
+    "slug": "dell-dell-model-1320-6",
+    "name": "DELL Model 1320",
+    "brand": "DELL",
+    "sku": "DEL-6168-6",
     "rating": 4.6,
-    "reviewCount": 156,
-    "originalPrice": 18000,
-    "price": 14500,
-    "discount": 19,
+    "reviewCount": 248,
+    "originalPrice": 18186,
+    "price": 11732,
+    "discount": 35,
     "images": [
-      { "url": "/laptop/dellinspiron.avif", "alt": "Lenovo ThinkPad T440 front view", "duplicate": false },
-      { "url": "/laptop/dellinspiron.avif", "alt": "Lenovo ThinkPad T440 side view", "duplicate": false }
+      {
+        "url": "/laptop/hp-200.avif",
+        "alt": "DELL Model 1320 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "DELL Model 1320 side view",
+        "duplicate": false
+      }
     ],
-    "description": "Professional ThinkPad with excellent keyboard and durability.",
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
     "specifications": {
-      "Processor": "Intel Core i5 4th Gen",
-      "RAM": "8GB DDR3",
-      "Storage": "256GB SSD",
-      "Display": "14 inch HD",
-      "Graphics": "Intel HD Graphics 4400",
-      "Operating System": "Windows 10 Pro"
+      "Processor": "Intel Celeron N4020",
+      "RAM": "4GB DDR3",
+      "Storage": "320GB HDD",
+      "Display": "14 inch Full HD",
+      "Graphics": "Intel HD Graphics",
+      "Operating System": "DOS"
     },
     "inStock": true,
     "topSelling": true
   },
   {
     "id": 7,
-    "slug": "dell-latitude-e7440",
-    "name": "Dell Latitude E7440",
-    "brand": "DELL",
-    "sku": "DEL-LAT-7440",
-    "rating": 4.8,
-    "reviewCount": 203,
-    "originalPrice": 22000,
-    "price": 17000,
-    "discount": 23,
+    "slug": "lenovo-lenovo-model-1140-7",
+    "name": "LENOVO Model 1140",
+    "brand": "LENOVO",
+    "sku": "LEN-1609-7",
+    "rating": 4.3,
+    "reviewCount": 233,
+    "originalPrice": 17204,
+    "price": 11636,
+    "discount": 32,
     "images": [
-      { "url": "/laptop/dellinspiron.avif", "alt": "Dell Latitude front view", "duplicate": false },
-      { "url": "/laptop/dellinspiron.avif", "alt": "Dell Latitude side view", "duplicate": false }
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "LENOVO Model 1140 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/hp-200.avif",
+        "alt": "LENOVO Model 1140 side view",
+        "duplicate": false
+      }
     ],
-    "description": "Premium Dell Latitude with ultrabook design and powerful i7 processor.",
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
     "specifications": {
       "Processor": "Intel Core i7 4th Gen",
-      "RAM": "8GB DDR3",
-      "Storage": "256GB SSD",
+      "RAM": "4GB DDR3",
+      "Storage": "128GB SSD",
       "Display": "14 inch Full HD",
-      "Graphics": "Intel HD Graphics 4400",
-      "Operating System": "Windows 10 Pro"
+      "Graphics": "Intel UHD Graphics",
+      "Operating System": "Windows 10"
     },
-    "inStock": true,
-    "topSelling": true
+    "inStock": false,
+    "topSelling": false
   },
   {
     "id": 8,
-    "slug": "hp-elitebook-840-g1",
-    "name": "HP EliteBook 840 G1",
-    "brand": "HP",
-    "sku": "HP-EB-840",
-    "rating": 4.5,
-    "reviewCount": 178,
-    "originalPrice": 20000,
-    "price": 15500,
-    "discount": 23,
+    "slug": "asus-asus-model-4010-8",
+    "name": "ASUS Model 4010",
+    "brand": "ASUS",
+    "sku": "ASU-4769-8",
+    "rating": 4,
+    "reviewCount": 32,
+    "originalPrice": 17400,
+    "price": 10808,
+    "discount": 38,
     "images": [
-      { "url": "/laptop/hp-200.avif", "alt": "HP EliteBook front view", "duplicate": false },
-      { "url": "/laptop/hp-200.avif", "alt": "HP EliteBook side view", "duplicate": false }
+      {
+        "url": "/laptop/hp-200.avif",
+        "alt": "ASUS Model 4010 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "ASUS Model 4010 side view",
+        "duplicate": false
+      }
     ],
-    "description": "Business-class EliteBook with premium build and security features.",
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
     "specifications": {
-      "Processor": "Intel Core i5 4th Gen",
+      "Processor": "Intel Pentium Dual Core",
       "RAM": "8GB DDR3",
-      "Storage": "256GB SSD",
-      "Display": "14 inch HD",
-      "Graphics": "Intel HD Graphics 4400",
+      "Storage": "128GB SSD",
+      "Display": "13.3 inch HD",
+      "Graphics": "AMD Radeon HD 7670M",
       "Operating System": "Windows 10 Pro"
     },
     "inStock": true,
-    "topSelling": true
+    "topSelling": false
   },
   {
     "id": 9,
-    "slug": "lenovo-ideapad-320",
-    "name": "Lenovo IdeaPad 320",
+    "slug": "lenovo-lenovo-model-2762-9",
+    "name": "LENOVO Model 2762",
     "brand": "LENOVO",
-    "sku": "LEN-IP-320",
-    "rating": 4.1,
-    "reviewCount": 112,
-    "originalPrice": 16000,
-    "price": 12000,
-    "discount": 25,
+    "sku": "LEN-3354-9",
+    "rating": 4,
+    "reviewCount": 201,
+    "originalPrice": 19431,
+    "price": 14428,
+    "discount": 26,
     "images": [
-      { "url": "/laptop/asus.avif", "alt": "Lenovo IdeaPad front view", "duplicate": false },
-      { "url": "/laptop/asus.avif", "alt": "Lenovo IdeaPad side view", "duplicate": false }
+      {
+        "url": "/laptop/hp-200.avif",
+        "alt": "LENOVO Model 2762 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "LENOVO Model 2762 side view",
+        "duplicate": false
+      }
     ],
-    "description": "Stylish IdeaPad for entertainment and productivity on the go.",
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
     "specifications": {
-      "Processor": "Intel Core i3 6th Gen",
-      "RAM": "4GB DDR4",
-      "Storage": "1TB HDD",
-      "Display": "15.6 inch HD",
-      "Graphics": "Intel HD Graphics 520",
-      "Operating System": "Windows 10"
+      "Processor": "Intel Pentium Dual Core",
+      "RAM": "2GB DDR3",
+      "Storage": "500GB HDD",
+      "Display": "14 inch Full HD",
+      "Graphics": "Intel UHD Graphics",
+      "Operating System": "DOS"
     },
     "inStock": true,
     "topSelling": false
   },
   {
     "id": 10,
-    "slug": "acer-aspire-e15",
-    "name": "Acer Aspire E15",
-    "brand": "ACER",
-    "sku": "ACE-ASP-E15",
-    "rating": 4.3,
-    "reviewCount": 145,
-    "originalPrice": 19000,
-    "price": 14000,
-    "discount": 26,
-    "images": [
-      { "url": "/laptop/dellinspiron.avif", "alt": "Acer Aspire front view", "duplicate": false },
-      { "url": "/laptop/dellinspiron.avif", "alt": "Acer Aspire side view", "duplicate": false }
-    ],
-    "description": "Versatile Acer laptop with good battery life and performance.",
-    "specifications": {
-      "Processor": "Intel Core i5 7th Gen",
-      "RAM": "8GB DDR4",
-      "Storage": "1TB HDD",
-      "Display": "15.6 inch Full HD",
-      "Graphics": "NVIDIA GeForce 940MX",
-      "Operating System": "Windows 10"
-    },
-    "inStock": true,
-    "topSelling": true
-  },
-  {
-    "id": 11,
-    "slug": "asus-vivobook-15",
-    "name": "ASUS VivoBook 15",
-    "brand": "ASUS",
-    "sku": "ASU-VB-15",
-    "rating": 4.4,
-    "reviewCount": 167,
-    "originalPrice": 21000,
-    "price": 16500,
-    "discount": 21,
-    "images": [
-      { "url": "/laptop/asus.avif", "alt": "ASUS VivoBook front view", "duplicate": false },
-      { "url": "/laptop/asus.avif", "alt": "ASUS VivoBook side view", "duplicate": false }
-    ],
-    "description": "Modern VivoBook with slim design and vibrant display.",
-    "specifications": {
-      "Processor": "Intel Core i5 8th Gen",
-      "RAM": "8GB DDR4",
-      "Storage": "256GB SSD",
-      "Display": "15.6 inch Full HD",
-      "Graphics": "Intel UHD Graphics 620",
-      "Operating System": "Windows 10"
-    },
-    "inStock": true,
-    "topSelling": true
-  },
-  {
-    "id": 12,
-    "slug": "hp-probook-450-g3",
-    "name": "HP ProBook 450 G3",
+    "slug": "hp-hp-model-6179-10",
+    "name": "HP Model 6179",
     "brand": "HP",
-    "sku": "HP-PB-450",
-    "rating": 4.2,
-    "reviewCount": 98,
-    "originalPrice": 18500,
-    "price": 13500,
-    "discount": 27,
+    "sku": "HP-4768-10",
+    "rating": 4,
+    "reviewCount": 131,
+    "originalPrice": 13970,
+    "price": 11630,
+    "discount": 17,
     "images": [
-      { "url": "/laptop/hp-200.avif", "alt": "HP ProBook front view", "duplicate": false },
-      { "url": "/laptop/hp-200.avif", "alt": "HP ProBook side view", "duplicate": false }
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "HP Model 6179 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "HP Model 6179 side view",
+        "duplicate": false
+      }
     ],
-    "description": "Reliable ProBook designed for business professionals.",
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
     "specifications": {
-      "Processor": "Intel Core i3 6th Gen",
-      "RAM": "4GB DDR4",
+      "Processor": "Intel Celeron N4020",
+      "RAM": "4GB DDR3",
       "Storage": "500GB HDD",
-      "Display": "15.6 inch HD",
-      "Graphics": "Intel HD Graphics 520",
-      "Operating System": "Windows 10 Pro"
+      "Display": "14 inch HD",
+      "Graphics": "Intel HD Graphics",
+      "Operating System": "Windows 11"
     },
     "inStock": true,
     "topSelling": false
   },
   {
-    "id": 13,
-    "slug": "dell-vostro-3568",
-    "name": "Dell Vostro 3568",
-    "brand": "DELL",
-    "sku": "DEL-VOS-3568",
-    "rating": 4.1,
-    "reviewCount": 87,
-    "originalPrice": 17500,
-    "price": 12500,
-    "discount": 29,
+    "id": 11,
+    "slug": "hp-hp-model-3490-11",
+    "name": "HP Model 3490",
+    "brand": "HP",
+    "sku": "HP-2196-11",
+    "rating": 4.6,
+    "reviewCount": 133,
+    "originalPrice": 16708,
+    "price": 11014,
+    "discount": 34,
     "images": [
-      { "url": "/laptop/dellinspiron.avif", "alt": "Dell Vostro front view", "duplicate": false },
-      { "url": "/laptop/dellinspiron.avif", "alt": "Dell Vostro side view", "duplicate": false }
+      {
+        "url": "/laptop/hp-200.avif",
+        "alt": "HP Model 3490 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "HP Model 3490 side view",
+        "duplicate": false
+      }
     ],
-    "description": "Affordable Dell Vostro for small business needs.",
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
     "specifications": {
-      "Processor": "Intel Core i3 7th Gen",
+      "Processor": "Intel Core i5 5th Gen",
       "RAM": "4GB DDR4",
-      "Storage": "1TB HDD",
-      "Display": "15.6 inch HD",
-      "Graphics": "Intel HD Graphics 620",
-      "Operating System": "Ubuntu Linux"
+      "Storage": "500GB HDD",
+      "Display": "13.3 inch HD",
+      "Graphics": "AMD Radeon HD 7670M",
+      "Operating System": "Windows 11"
+    },
+    "inStock": true,
+    "topSelling": false
+  },
+  {
+    "id": 12,
+    "slug": "asus-asus-model-5879-12",
+    "name": "ASUS Model 5879",
+    "brand": "ASUS",
+    "sku": "ASU-7005-12",
+    "rating": 4.6,
+    "reviewCount": 198,
+    "originalPrice": 16819,
+    "price": 13681,
+    "discount": 19,
+    "images": [
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "ASUS Model 5879 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "ASUS Model 5879 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i3 6th Gen",
+      "RAM": "8GB DDR3",
+      "Storage": "128GB SSD",
+      "Display": "14 inch HD",
+      "Graphics": "AMD Radeon HD 7670M",
+      "Operating System": "DOS"
+    },
+    "inStock": true,
+    "topSelling": true
+  },
+  {
+    "id": 13,
+    "slug": "hp-hp-model-4814-13",
+    "name": "HP Model 4814",
+    "brand": "HP",
+    "sku": "HP-8900-13",
+    "rating": 4.5,
+    "reviewCount": 103,
+    "originalPrice": 16844,
+    "price": 9964,
+    "discount": 41,
+    "images": [
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "HP Model 4814 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "HP Model 4814 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i5 4th Gen",
+      "RAM": "4GB DDR4",
+      "Storage": "128GB SSD",
+      "Display": "14 inch HD",
+      "Graphics": "AMD Radeon HD 7670M",
+      "Operating System": "DOS"
     },
     "inStock": true,
     "topSelling": false
   },
   {
     "id": 14,
-    "slug": "lenovo-thinkpad-x250",
-    "name": "Lenovo ThinkPad X250",
-    "brand": "LENOVO",
-    "sku": "LEN-X250-001",
-    "rating": 4.7,
-    "reviewCount": 189,
-    "originalPrice": 24000,
-    "price": 18500,
-    "discount": 23,
+    "slug": "hp-hp-model-4196-14",
+    "name": "HP Model 4196",
+    "brand": "HP",
+    "sku": "HP-2280-14",
+    "rating": 4.6,
+    "reviewCount": 212,
+    "originalPrice": 22409,
+    "price": 16812,
+    "discount": 25,
     "images": [
-      { "url": "/laptop/dellinspiron.avif", "alt": "ThinkPad X250 front view", "duplicate": false },
-      { "url": "/laptop/dellinspiron.avif", "alt": "ThinkPad X250 side view", "duplicate": false }
+      {
+        "url": "/laptop/hp-200.avif",
+        "alt": "HP Model 4196 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "HP Model 4196 side view",
+        "duplicate": false
+      }
     ],
-    "description": "Compact ThinkPad X250 with legendary keyboard and portability.",
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
     "specifications": {
-      "Processor": "Intel Core i5 5th Gen",
-      "RAM": "8GB DDR3",
-      "Storage": "256GB SSD",
-      "Display": "12.5 inch HD",
-      "Graphics": "Intel HD Graphics 5500",
+      "Processor": "Intel Core i3 6th Gen",
+      "RAM": "4GB DDR4",
+      "Storage": "320GB HDD",
+      "Display": "13.3 inch HD",
+      "Graphics": "Intel UHD Graphics",
       "Operating System": "Windows 10 Pro"
     },
     "inStock": true,
-    "topSelling": true
+    "topSelling": false
   },
   {
     "id": 15,
-    "slug": "acer-travelmate-p2",
-    "name": "Acer TravelMate P2",
-    "brand": "ACER",
-    "sku": "ACE-TM-P2",
-    "rating": 4.0,
-    "reviewCount": 76,
-    "originalPrice": 20000,
-    "price": 15000,
-    "discount": 25,
+    "slug": "lenovo-lenovo-model-3706-15",
+    "name": "LENOVO Model 3706",
+    "brand": "LENOVO",
+    "sku": "LEN-1174-15",
+    "rating": 4.4,
+    "reviewCount": 31,
+    "originalPrice": 18049,
+    "price": 13006,
+    "discount": 28,
     "images": [
-      { "url": "/laptop/asus.avif", "alt": "Acer TravelMate front view", "duplicate": false },
-      { "url": "/laptop/asus.avif", "alt": "Acer TravelMate side view", "duplicate": false }
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "LENOVO Model 3706 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "LENOVO Model 3706 side view",
+        "duplicate": false
+      }
     ],
-    "description": "Business laptop with military-grade durability and security.",
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
     "specifications": {
-      "Processor": "Intel Core i5 7th Gen",
-      "RAM": "8GB DDR4",
-      "Storage": "256GB SSD",
+      "Processor": "Intel Core i5 4th Gen",
+      "RAM": "4GB DDR3",
+      "Storage": "1TB HDD",
       "Display": "15.6 inch HD",
-      "Graphics": "Intel HD Graphics 620",
+      "Graphics": "Intel HD Graphics 5500",
       "Operating System": "Windows 10 Pro"
     },
     "inStock": true,
@@ -406,106 +526,978 @@
   },
   {
     "id": 16,
-    "slug": "hp-250-g6",
-    "name": "HP 250 G6",
-    "brand": "HP",
-    "sku": "HP-250-G6",
-    "rating": 3.9,
-    "reviewCount": 54,
-    "originalPrice": 15000,
-    "price": 11000,
-    "discount": 27,
+    "slug": "dell-dell-model-2675-16",
+    "name": "DELL Model 2675",
+    "brand": "DELL",
+    "sku": "DEL-3877-16",
+    "rating": 3.6,
+    "reviewCount": 198,
+    "originalPrice": 20957,
+    "price": 14077,
+    "discount": 33,
     "images": [
-      { "url": "/laptop/hp-200.avif", "alt": "HP 250 G6 front view", "duplicate": false },
-      { "url": "/laptop/hp-200.avif", "alt": "HP 250 G6 side view", "duplicate": false }
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "DELL Model 2675 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "DELL Model 2675 side view",
+        "duplicate": false
+      }
     ],
-    "description": "Budget-friendly HP laptop for basic business tasks.",
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
     "specifications": {
-      "Processor": "Intel Core i3 6th Gen",
-      "RAM": "4GB DDR4",
-      "Storage": "500GB HDD",
-      "Display": "15.6 inch HD",
+      "Processor": "Intel Core i7 4th Gen",
+      "RAM": "8GB DDR3",
+      "Storage": "256GB SSD",
+      "Display": "13.3 inch HD",
+      "Graphics": "AMD Radeon HD 7670M",
+      "Operating System": "Windows 10 Pro"
+    },
+    "inStock": false,
+    "topSelling": false
+  },
+  {
+    "id": 17,
+    "slug": "lenovo-lenovo-model-8504-17",
+    "name": "LENOVO Model 8504",
+    "brand": "LENOVO",
+    "sku": "LEN-9274-17",
+    "rating": 3.8,
+    "reviewCount": 22,
+    "originalPrice": 23166,
+    "price": 16676,
+    "discount": 28,
+    "images": [
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "LENOVO Model 8504 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "LENOVO Model 8504 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i7 4th Gen",
+      "RAM": "8GB DDR3",
+      "Storage": "320GB HDD",
+      "Display": "13.3 inch HD",
       "Graphics": "Intel HD Graphics 520",
-      "Operating System": "FreeDOS"
+      "Operating System": "DOS"
     },
     "inStock": true,
     "topSelling": false
   },
   {
-    "id": 17,
-    "slug": "lenovo-yoga-520",
-    "name": "Lenovo Yoga 520",
-    "brand": "LENOVO",
-    "sku": "LEN-YG-520",
-    "rating": 4.5,
-    "reviewCount": 134,
-    "originalPrice": 28000,
-    "price": 22000,
-    "discount": 21,
-    "images": [
-      { "url": "/laptop/asus.avif", "alt": "Lenovo Yoga front view", "duplicate": false },
-      { "url": "/laptop/asus.avif", "alt": "Lenovo Yoga side view", "duplicate": false }
-    ],
-    "description": "2-in-1 convertible laptop with touchscreen and pen support.",
-    "specifications": {
-      "Processor": "Intel Core i5 7th Gen",
-      "RAM": "8GB DDR4",
-      "Storage": "256GB SSD",
-      "Display": "14 inch Full HD Touchscreen",
-      "Graphics": "Intel HD Graphics 620",
-      "Operating System": "Windows 10"
-    },
-    "inStock": true,
-    "topSelling": true
-  },
-  {
     "id": 18,
-    "slug": "asus-zenbook-ux430",
-    "name": "ASUS ZenBook UX430",
-    "brand": "ASUS",
-    "sku": "ASU-ZB-UX430",
-    "rating": 4.6,
-    "reviewCount": 198,
-    "originalPrice": 35000,
-    "price": 27000,
-    "discount": 23,
+    "slug": "lenovo-lenovo-model-341-18",
+    "name": "LENOVO Model 341",
+    "brand": "LENOVO",
+    "sku": "LEN-5298-18",
+    "rating": 4.1,
+    "reviewCount": 240,
+    "originalPrice": 21494,
+    "price": 17758,
+    "discount": 17,
     "images": [
-      { "url": "/laptop/asus.avif", "alt": "ASUS ZenBook front view", "duplicate": false },
-      { "url": "/laptop/asus.avif", "alt": "ASUS ZenBook side view", "duplicate": false }
+      {
+        "url": "/laptop/hp-200.avif",
+        "alt": "LENOVO Model 341 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "LENOVO Model 341 side view",
+        "duplicate": false
+      }
     ],
-    "description": "Premium ultrabook with stunning design and performance.",
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
     "specifications": {
-      "Processor": "Intel Core i7 8th Gen",
-      "RAM": "16GB DDR4",
-      "Storage": "512GB SSD",
+      "Processor": "Intel Core i3 3rd Gen",
+      "RAM": "4GB DDR4",
+      "Storage": "320GB HDD",
       "Display": "14 inch Full HD",
-      "Graphics": "NVIDIA GeForce MX150",
-      "Operating System": "Windows 10"
+      "Graphics": "Intel HD Graphics 5500",
+      "Operating System": "Windows 11"
     },
     "inStock": true,
-    "topSelling": true
+    "topSelling": false
   },
   {
     "id": 19,
-    "slug": "dell-xps-13-9350",
-    "name": "Dell XPS 13 9350",
+    "slug": "hp-hp-model-5235-19",
+    "name": "HP Model 5235",
+    "brand": "HP",
+    "sku": "HP-2891-19",
+    "rating": 4.5,
+    "reviewCount": 137,
+    "originalPrice": 15352,
+    "price": 11416,
+    "discount": 26,
+    "images": [
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "HP Model 5235 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "HP Model 5235 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Pentium Dual Core",
+      "RAM": "2GB DDR3",
+      "Storage": "1TB HDD",
+      "Display": "14 inch HD",
+      "Graphics": "Intel UHD Graphics",
+      "Operating System": "DOS"
+    },
+    "inStock": true,
+    "topSelling": false
+  },
+  {
+    "id": 20,
+    "slug": "dell-dell-model-7856-20",
+    "name": "DELL Model 7856",
     "brand": "DELL",
-    "sku": "DEL-XPS-9350",
-    "rating": 4.8,
-    "reviewCount": 245,
-    "originalPrice": 45000,
-    "price": 35000,
+    "sku": "DEL-3347-20",
+    "rating": 3.8,
+    "reviewCount": 119,
+    "originalPrice": 19285,
+    "price": 15133,
     "discount": 22,
     "images": [
-      { "url": "/laptop/dellinspiron.avif", "alt": "Dell XPS 13 front view", "duplicate": false },
-      { "url": "/laptop/dellinspiron.avif", "alt": "Dell XPS 13 side view", "duplicate": false }
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "DELL Model 7856 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "DELL Model 7856 side view",
+        "duplicate": false
+      }
     ],
-    "description": "Premium XPS with InfinityEdge display and top-tier performance.",
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
     "specifications": {
-      "Processor": "Intel Core i7 6th Gen",
-      "RAM": "16GB DDR3",
-      "Storage": "512GB SSD",
-      "Display": "13.3 inch QHD+ InfinityEdge",
+      "Processor": "Intel Core i7 4th Gen",
+      "RAM": "4GB DDR4",
+      "Storage": "500GB HDD",
+      "Display": "13.3 inch HD",
+      "Graphics": "Intel UHD Graphics",
+      "Operating System": "Windows 10"
+    },
+    "inStock": true,
+    "topSelling": false
+  },
+  {
+    "id": 21,
+    "slug": "dell-dell-model-8607-21",
+    "name": "DELL Model 8607",
+    "brand": "DELL",
+    "sku": "DEL-6560-21",
+    "rating": 4.8,
+    "reviewCount": 59,
+    "originalPrice": 23194,
+    "price": 16881,
+    "discount": 27,
+    "images": [
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "DELL Model 8607 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/hp-200.avif",
+        "alt": "DELL Model 8607 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i7 4th Gen",
+      "RAM": "2GB DDR3",
+      "Storage": "128GB SSD",
+      "Display": "14 inch Full HD",
+      "Graphics": "Intel HD Graphics",
+      "Operating System": "Windows 11"
+    },
+    "inStock": true,
+    "topSelling": false
+  },
+  {
+    "id": 22,
+    "slug": "hp-hp-model-5719-22",
+    "name": "HP Model 5719",
+    "brand": "HP",
+    "sku": "HP-6357-22",
+    "rating": 4.2,
+    "reviewCount": 157,
+    "originalPrice": 16278,
+    "price": 11449,
+    "discount": 30,
+    "images": [
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "HP Model 5719 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "HP Model 5719 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i3 3rd Gen",
+      "RAM": "4GB DDR3",
+      "Storage": "256GB SSD",
+      "Display": "14 inch HD",
+      "Graphics": "Intel HD Graphics 5500",
+      "Operating System": "DOS"
+    },
+    "inStock": true,
+    "topSelling": true
+  },
+  {
+    "id": 23,
+    "slug": "asus-asus-model-1541-23",
+    "name": "ASUS Model 1541",
+    "brand": "ASUS",
+    "sku": "ASU-9705-23",
+    "rating": 4.5,
+    "reviewCount": 151,
+    "originalPrice": 14938,
+    "price": 10518,
+    "discount": 30,
+    "images": [
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "ASUS Model 1541 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "ASUS Model 1541 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i5 4th Gen",
+      "RAM": "4GB DDR3",
+      "Storage": "1TB HDD",
+      "Display": "15.6 inch HD",
+      "Graphics": "Intel HD Graphics 520",
+      "Operating System": "Windows 10 Pro"
+    },
+    "inStock": true,
+    "topSelling": false
+  },
+  {
+    "id": 24,
+    "slug": "dell-dell-model-1978-24",
+    "name": "DELL Model 1978",
+    "brand": "DELL",
+    "sku": "DEL-5105-24",
+    "rating": 4.3,
+    "reviewCount": 112,
+    "originalPrice": 17360,
+    "price": 11735,
+    "discount": 32,
+    "images": [
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "DELL Model 1978 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "DELL Model 1978 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i3 6th Gen",
+      "RAM": "4GB DDR4",
+      "Storage": "320GB HDD",
+      "Display": "14 inch Full HD",
+      "Graphics": "Intel HD Graphics 5500",
+      "Operating System": "Windows 11"
+    },
+    "inStock": true,
+    "topSelling": false
+  },
+  {
+    "id": 25,
+    "slug": "asus-asus-model-5549-25",
+    "name": "ASUS Model 5549",
+    "brand": "ASUS",
+    "sku": "ASU-4883-25",
+    "rating": 3.6,
+    "reviewCount": 56,
+    "originalPrice": 18815,
+    "price": 15267,
+    "discount": 19,
+    "images": [
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "ASUS Model 5549 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "ASUS Model 5549 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Celeron N4020",
+      "RAM": "8GB DDR3",
+      "Storage": "128GB SSD",
+      "Display": "13.3 inch HD",
+      "Graphics": "AMD Radeon HD 7670M",
+      "Operating System": "Windows 10 Pro"
+    },
+    "inStock": true,
+    "topSelling": true
+  },
+  {
+    "id": 26,
+    "slug": "lenovo-lenovo-model-9399-26",
+    "name": "LENOVO Model 9399",
+    "brand": "LENOVO",
+    "sku": "LEN-4034-26",
+    "rating": 3.6,
+    "reviewCount": 73,
+    "originalPrice": 19329,
+    "price": 14818,
+    "discount": 23,
+    "images": [
+      {
+        "url": "/laptop/hp-200.avif",
+        "alt": "LENOVO Model 9399 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "LENOVO Model 9399 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i3 6th Gen",
+      "RAM": "2GB DDR3",
+      "Storage": "320GB HDD",
+      "Display": "13.3 inch HD",
+      "Graphics": "Intel HD Graphics 5500",
+      "Operating System": "Windows 10"
+    },
+    "inStock": true,
+    "topSelling": true
+  },
+  {
+    "id": 27,
+    "slug": "hp-hp-model-6821-27",
+    "name": "HP Model 6821",
+    "brand": "HP",
+    "sku": "HP-7305-27",
+    "rating": 4.4,
+    "reviewCount": 139,
+    "originalPrice": 16065,
+    "price": 12464,
+    "discount": 22,
+    "images": [
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "HP Model 6821 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "HP Model 6821 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i3 3rd Gen",
+      "RAM": "4GB DDR3",
+      "Storage": "320GB HDD",
+      "Display": "13.3 inch HD",
+      "Graphics": "Intel HD Graphics 4400",
+      "Operating System": "Windows 10"
+    },
+    "inStock": true,
+    "topSelling": true
+  },
+  {
+    "id": 28,
+    "slug": "dell-dell-model-9757-28",
+    "name": "DELL Model 9757",
+    "brand": "DELL",
+    "sku": "DEL-3971-28",
+    "rating": 3.9,
+    "reviewCount": 233,
+    "originalPrice": 22628,
+    "price": 16402,
+    "discount": 28,
+    "images": [
+      {
+        "url": "/laptop/hp-200.avif",
+        "alt": "DELL Model 9757 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "DELL Model 9757 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i3 3rd Gen",
+      "RAM": "4GB DDR4",
+      "Storage": "1TB HDD",
+      "Display": "14 inch Full HD",
+      "Graphics": "Intel HD Graphics 5500",
+      "Operating System": "DOS"
+    },
+    "inStock": true,
+    "topSelling": false
+  },
+  {
+    "id": 29,
+    "slug": "asus-asus-model-9948-29",
+    "name": "ASUS Model 9948",
+    "brand": "ASUS",
+    "sku": "ASU-3015-29",
+    "rating": 4,
+    "reviewCount": 119,
+    "originalPrice": 14643,
+    "price": 11094,
+    "discount": 24,
+    "images": [
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "ASUS Model 9948 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "ASUS Model 9948 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i3 3rd Gen",
+      "RAM": "2GB DDR3",
+      "Storage": "320GB HDD",
+      "Display": "14 inch Full HD",
+      "Graphics": "Intel HD Graphics 4400",
+      "Operating System": "Windows 11"
+    },
+    "inStock": true,
+    "topSelling": false
+  },
+  {
+    "id": 30,
+    "slug": "lenovo-lenovo-model-8821-30",
+    "name": "LENOVO Model 8821",
+    "brand": "LENOVO",
+    "sku": "LEN-9809-30",
+    "rating": 4.1,
+    "reviewCount": 221,
+    "originalPrice": 19016,
+    "price": 13062,
+    "discount": 31,
+    "images": [
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "LENOVO Model 8821 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "LENOVO Model 8821 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Celeron N4020",
+      "RAM": "4GB DDR4",
+      "Storage": "500GB HDD",
+      "Display": "13.3 inch HD",
+      "Graphics": "Intel HD Graphics",
+      "Operating System": "Windows 10"
+    },
+    "inStock": true,
+    "topSelling": false
+  },
+  {
+    "id": 31,
+    "slug": "hp-hp-model-4391-31",
+    "name": "HP Model 4391",
+    "brand": "HP",
+    "sku": "HP-9325-31",
+    "rating": 4.7,
+    "reviewCount": 225,
+    "originalPrice": 18093,
+    "price": 13836,
+    "discount": 24,
+    "images": [
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "HP Model 4391 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "HP Model 4391 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i3 3rd Gen",
+      "RAM": "8GB DDR3",
+      "Storage": "320GB HDD",
+      "Display": "15.6 inch HD",
+      "Graphics": "Intel HD Graphics 520",
+      "Operating System": "DOS"
+    },
+    "inStock": true,
+    "topSelling": true
+  },
+  {
+    "id": 32,
+    "slug": "lenovo-lenovo-model-3619-32",
+    "name": "LENOVO Model 3619",
+    "brand": "LENOVO",
+    "sku": "LEN-5276-32",
+    "rating": 4.6,
+    "reviewCount": 88,
+    "originalPrice": 22500,
+    "price": 16804,
+    "discount": 25,
+    "images": [
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "LENOVO Model 3619 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "LENOVO Model 3619 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Pentium Dual Core",
+      "RAM": "4GB DDR4",
+      "Storage": "256GB SSD",
+      "Display": "14 inch HD",
+      "Graphics": "Intel HD Graphics 5500",
+      "Operating System": "Windows 10"
+    },
+    "inStock": true,
+    "topSelling": false
+  },
+  {
+    "id": 33,
+    "slug": "asus-asus-model-2000-33",
+    "name": "ASUS Model 2000",
+    "brand": "ASUS",
+    "sku": "ASU-4894-33",
+    "rating": 4.7,
+    "reviewCount": 203,
+    "originalPrice": 16407,
+    "price": 11232,
+    "discount": 32,
+    "images": [
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "ASUS Model 2000 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "ASUS Model 2000 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i5 4th Gen",
+      "RAM": "4GB DDR4",
+      "Storage": "1TB HDD",
+      "Display": "14 inch Full HD",
+      "Graphics": "Intel UHD Graphics",
+      "Operating System": "Windows 10"
+    },
+    "inStock": true,
+    "topSelling": false
+  },
+  {
+    "id": 34,
+    "slug": "lenovo-lenovo-model-2494-34",
+    "name": "LENOVO Model 2494",
+    "brand": "LENOVO",
+    "sku": "LEN-2532-34",
+    "rating": 4.1,
+    "reviewCount": 112,
+    "originalPrice": 21182,
+    "price": 15176,
+    "discount": 28,
+    "images": [
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "LENOVO Model 2494 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/hp-200.avif",
+        "alt": "LENOVO Model 2494 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i5 4th Gen",
+      "RAM": "2GB DDR3",
+      "Storage": "1TB HDD",
+      "Display": "15.6 inch HD",
+      "Graphics": "Intel HD Graphics 520",
+      "Operating System": "DOS"
+    },
+    "inStock": false,
+    "topSelling": false
+  },
+  {
+    "id": 35,
+    "slug": "lenovo-lenovo-model-4079-35",
+    "name": "LENOVO Model 4079",
+    "brand": "LENOVO",
+    "sku": "LEN-5132-35",
+    "rating": 4.5,
+    "reviewCount": 56,
+    "originalPrice": 20036,
+    "price": 16217,
+    "discount": 19,
+    "images": [
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "LENOVO Model 4079 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "LENOVO Model 4079 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i7 4th Gen",
+      "RAM": "4GB DDR4",
+      "Storage": "1TB HDD",
+      "Display": "14 inch Full HD",
+      "Graphics": "Intel HD Graphics",
+      "Operating System": "Windows 10"
+    },
+    "inStock": true,
+    "topSelling": false
+  },
+  {
+    "id": 36,
+    "slug": "dell-dell-model-8946-36",
+    "name": "DELL Model 8946",
+    "brand": "DELL",
+    "sku": "DEL-2421-36",
+    "rating": 4,
+    "reviewCount": 227,
+    "originalPrice": 15354,
+    "price": 13341,
+    "discount": 13,
+    "images": [
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "DELL Model 8946 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "DELL Model 8946 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Pentium Dual Core",
+      "RAM": "2GB DDR3",
+      "Storage": "128GB SSD",
+      "Display": "15.6 inch HD",
+      "Graphics": "Intel HD Graphics",
+      "Operating System": "Windows 10 Pro"
+    },
+    "inStock": true,
+    "topSelling": true
+  },
+  {
+    "id": 37,
+    "slug": "dell-dell-model-4715-37",
+    "name": "DELL Model 4715",
+    "brand": "DELL",
+    "sku": "DEL-1782-37",
+    "rating": 3.7,
+    "reviewCount": 25,
+    "originalPrice": 16988,
+    "price": 14531,
+    "discount": 14,
+    "images": [
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "DELL Model 4715 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "DELL Model 4715 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i5 4th Gen",
+      "RAM": "4GB DDR3",
+      "Storage": "320GB HDD",
+      "Display": "14 inch Full HD",
+      "Graphics": "Intel HD Graphics 520",
+      "Operating System": "DOS"
+    },
+    "inStock": true,
+    "topSelling": true
+  },
+  {
+    "id": 38,
+    "slug": "hp-hp-model-578-38",
+    "name": "HP Model 578",
+    "brand": "HP",
+    "sku": "HP-5546-38",
+    "rating": 4.7,
+    "reviewCount": 235,
+    "originalPrice": 19823,
+    "price": 13788,
+    "discount": 30,
+    "images": [
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "HP Model 578 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "HP Model 578 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i3 6th Gen",
+      "RAM": "4GB DDR3",
+      "Storage": "500GB HDD",
+      "Display": "14 inch Full HD",
+      "Graphics": "AMD Radeon HD 7670M",
+      "Operating System": "DOS"
+    },
+    "inStock": true,
+    "topSelling": true
+  },
+  {
+    "id": 39,
+    "slug": "asus-asus-model-1422-39",
+    "name": "ASUS Model 1422",
+    "brand": "ASUS",
+    "sku": "ASU-7741-39",
+    "rating": 3.8,
+    "reviewCount": 233,
+    "originalPrice": 13829,
+    "price": 10472,
+    "discount": 24,
+    "images": [
+      {
+        "url": "/laptop/hp-200.avif",
+        "alt": "ASUS Model 1422 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "ASUS Model 1422 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i5 5th Gen",
+      "RAM": "4GB DDR4",
+      "Storage": "500GB HDD",
+      "Display": "14 inch Full HD",
+      "Graphics": "AMD Radeon HD 7670M",
+      "Operating System": "DOS"
+    },
+    "inStock": false,
+    "topSelling": true
+  },
+  {
+    "id": 40,
+    "slug": "hp-hp-model-5639-40",
+    "name": "HP Model 5639",
+    "brand": "HP",
+    "sku": "HP-6264-40",
+    "rating": 4.8,
+    "reviewCount": 181,
+    "originalPrice": 15761,
+    "price": 11346,
+    "discount": 28,
+    "images": [
+      {
+        "url": "/laptop/hp-200.avif",
+        "alt": "HP Model 5639 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "HP Model 5639 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i7 4th Gen",
+      "RAM": "4GB DDR4",
+      "Storage": "128GB SSD",
+      "Display": "14 inch Full HD",
+      "Graphics": "AMD Radeon HD 7670M",
+      "Operating System": "Windows 10 Pro"
+    },
+    "inStock": true,
+    "topSelling": true
+  },
+  {
+    "id": 41,
+    "slug": "hp-hp-model-9559-41",
+    "name": "HP Model 9559",
+    "brand": "HP",
+    "sku": "HP-5033-41",
+    "rating": 3.8,
+    "reviewCount": 87,
+    "originalPrice": 19234,
+    "price": 16320,
+    "discount": 15,
+    "images": [
+      {
+        "url": "/laptop/hp-200.avif",
+        "alt": "HP Model 9559 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "HP Model 9559 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i5 4th Gen",
+      "RAM": "4GB DDR3",
+      "Storage": "500GB HDD",
+      "Display": "15.6 inch HD",
+      "Graphics": "Intel HD Graphics 4400",
+      "Operating System": "DOS"
+    },
+    "inStock": true,
+    "topSelling": false
+  },
+  {
+    "id": 42,
+    "slug": "dell-dell-model-782-42",
+    "name": "DELL Model 782",
+    "brand": "DELL",
+    "sku": "DEL-4125-42",
+    "rating": 4,
+    "reviewCount": 71,
+    "originalPrice": 11978,
+    "price": 9294,
+    "discount": 22,
+    "images": [
+      {
+        "url": "/laptop/hp-200.avif",
+        "alt": "DELL Model 782 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "DELL Model 782 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i3 6th Gen",
+      "RAM": "4GB DDR4",
+      "Storage": "256GB SSD",
+      "Display": "15.6 inch HD",
+      "Graphics": "Intel HD Graphics",
+      "Operating System": "Windows 10"
+    },
+    "inStock": true,
+    "topSelling": false
+  },
+  {
+    "id": 43,
+    "slug": "dell-dell-model-2795-43",
+    "name": "DELL Model 2795",
+    "brand": "DELL",
+    "sku": "DEL-3986-43",
+    "rating": 3.6,
+    "reviewCount": 125,
+    "originalPrice": 11872,
+    "price": 9479,
+    "discount": 20,
+    "images": [
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "DELL Model 2795 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "DELL Model 2795 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Celeron N4020",
+      "RAM": "4GB DDR4",
+      "Storage": "128GB SSD",
+      "Display": "15.6 inch HD",
       "Graphics": "Intel HD Graphics 520",
       "Operating System": "Windows 10"
     },
@@ -513,28 +1505,1996 @@
     "topSelling": true
   },
   {
-    "id": 20,
-    "slug": "hp-pavilion-x360",
-    "name": "HP Pavilion x360",
+    "id": 44,
+    "slug": "hp-hp-model-778-44",
+    "name": "HP Model 778",
     "brand": "HP",
-    "sku": "HP-PAV-X360",
+    "sku": "HP-9396-44",
+    "rating": 4.2,
+    "reviewCount": 55,
+    "originalPrice": 16342,
+    "price": 11962,
+    "discount": 27,
+    "images": [
+      {
+        "url": "/laptop/hp-200.avif",
+        "alt": "HP Model 778 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "HP Model 778 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i3 6th Gen",
+      "RAM": "4GB DDR4",
+      "Storage": "500GB HDD",
+      "Display": "14 inch HD",
+      "Graphics": "Intel HD Graphics 520",
+      "Operating System": "Windows 11"
+    },
+    "inStock": true,
+    "topSelling": false
+  },
+  {
+    "id": 45,
+    "slug": "hp-hp-model-7472-45",
+    "name": "HP Model 7472",
+    "brand": "HP",
+    "sku": "HP-1139-45",
+    "rating": 4.6,
+    "reviewCount": 164,
+    "originalPrice": 22709,
+    "price": 16075,
+    "discount": 29,
+    "images": [
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "HP Model 7472 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "HP Model 7472 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i5 5th Gen",
+      "RAM": "4GB DDR3",
+      "Storage": "320GB HDD",
+      "Display": "13.3 inch HD",
+      "Graphics": "Intel HD Graphics",
+      "Operating System": "Windows 10 Pro"
+    },
+    "inStock": true,
+    "topSelling": false
+  },
+  {
+    "id": 46,
+    "slug": "asus-asus-model-8733-46",
+    "name": "ASUS Model 8733",
+    "brand": "ASUS",
+    "sku": "ASU-1682-46",
+    "rating": 4.5,
+    "reviewCount": 158,
+    "originalPrice": 21058,
+    "price": 17511,
+    "discount": 17,
+    "images": [
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "ASUS Model 8733 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "ASUS Model 8733 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i7 4th Gen",
+      "RAM": "2GB DDR3",
+      "Storage": "500GB HDD",
+      "Display": "14 inch HD",
+      "Graphics": "AMD Radeon HD 7670M",
+      "Operating System": "Windows 11"
+    },
+    "inStock": true,
+    "topSelling": true
+  },
+  {
+    "id": 47,
+    "slug": "asus-asus-model-5688-47",
+    "name": "ASUS Model 5688",
+    "brand": "ASUS",
+    "sku": "ASU-7341-47",
+    "rating": 4.3,
+    "reviewCount": 64,
+    "originalPrice": 20642,
+    "price": 14659,
+    "discount": 29,
+    "images": [
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "ASUS Model 5688 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "ASUS Model 5688 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i3 3rd Gen",
+      "RAM": "8GB DDR3",
+      "Storage": "128GB SSD",
+      "Display": "14 inch Full HD",
+      "Graphics": "AMD Radeon HD 7670M",
+      "Operating System": "Windows 10 Pro"
+    },
+    "inStock": true,
+    "topSelling": false
+  },
+  {
+    "id": 48,
+    "slug": "hp-hp-model-9578-48",
+    "name": "HP Model 9578",
+    "brand": "HP",
+    "sku": "HP-1866-48",
+    "rating": 3.7,
+    "reviewCount": 141,
+    "originalPrice": 19220,
+    "price": 15404,
+    "discount": 20,
+    "images": [
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "HP Model 9578 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "HP Model 9578 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i5 5th Gen",
+      "RAM": "2GB DDR3",
+      "Storage": "500GB HDD",
+      "Display": "14 inch Full HD",
+      "Graphics": "AMD Radeon HD 7670M",
+      "Operating System": "Windows 10"
+    },
+    "inStock": true,
+    "topSelling": false
+  },
+  {
+    "id": 49,
+    "slug": "dell-dell-model-714-49",
+    "name": "DELL Model 714",
+    "brand": "DELL",
+    "sku": "DEL-9724-49",
+    "rating": 3.8,
+    "reviewCount": 157,
+    "originalPrice": 15399,
+    "price": 11356,
+    "discount": 26,
+    "images": [
+      {
+        "url": "/laptop/hp-200.avif",
+        "alt": "DELL Model 714 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "DELL Model 714 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i5 5th Gen",
+      "RAM": "4GB DDR4",
+      "Storage": "128GB SSD",
+      "Display": "14 inch HD",
+      "Graphics": "Intel HD Graphics 5500",
+      "Operating System": "Windows 10"
+    },
+    "inStock": true,
+    "topSelling": false
+  },
+  {
+    "id": 50,
+    "slug": "lenovo-lenovo-model-9347-50",
+    "name": "LENOVO Model 9347",
+    "brand": "LENOVO",
+    "sku": "LEN-5072-50",
+    "rating": 3.7,
+    "reviewCount": 241,
+    "originalPrice": 23922,
+    "price": 17540,
+    "discount": 27,
+    "images": [
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "LENOVO Model 9347 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "LENOVO Model 9347 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Pentium Dual Core",
+      "RAM": "4GB DDR3",
+      "Storage": "128GB SSD",
+      "Display": "13.3 inch HD",
+      "Graphics": "Intel HD Graphics 5500",
+      "Operating System": "DOS"
+    },
+    "inStock": true,
+    "topSelling": true
+  },
+  {
+    "id": 51,
+    "slug": "lenovo-lenovo-model-6690-51",
+    "name": "LENOVO Model 6690",
+    "brand": "LENOVO",
+    "sku": "LEN-4375-51",
     "rating": 4.4,
-    "reviewCount": 156,
-    "originalPrice": 32000,
-    "price": 24000,
+    "reviewCount": 63,
+    "originalPrice": 22094,
+    "price": 16386,
+    "discount": 26,
+    "images": [
+      {
+        "url": "/laptop/hp-200.avif",
+        "alt": "LENOVO Model 6690 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "LENOVO Model 6690 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Pentium Dual Core",
+      "RAM": "8GB DDR3",
+      "Storage": "256GB SSD",
+      "Display": "14 inch Full HD",
+      "Graphics": "Intel HD Graphics",
+      "Operating System": "Windows 11"
+    },
+    "inStock": true,
+    "topSelling": false
+  },
+  {
+    "id": 52,
+    "slug": "dell-dell-model-4572-52",
+    "name": "DELL Model 4572",
+    "brand": "DELL",
+    "sku": "DEL-5438-52",
+    "rating": 3.7,
+    "reviewCount": 94,
+    "originalPrice": 18109,
+    "price": 12670,
+    "discount": 30,
+    "images": [
+      {
+        "url": "/laptop/hp-200.avif",
+        "alt": "DELL Model 4572 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "DELL Model 4572 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i5 4th Gen",
+      "RAM": "4GB DDR3",
+      "Storage": "320GB HDD",
+      "Display": "13.3 inch HD",
+      "Graphics": "Intel UHD Graphics",
+      "Operating System": "Windows 10"
+    },
+    "inStock": true,
+    "topSelling": true
+  },
+  {
+    "id": 53,
+    "slug": "asus-asus-model-2921-53",
+    "name": "ASUS Model 2921",
+    "brand": "ASUS",
+    "sku": "ASU-6606-53",
+    "rating": 4.7,
+    "reviewCount": 185,
+    "originalPrice": 18253,
+    "price": 12237,
+    "discount": 33,
+    "images": [
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "ASUS Model 2921 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/hp-200.avif",
+        "alt": "ASUS Model 2921 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i5 4th Gen",
+      "RAM": "4GB DDR4",
+      "Storage": "500GB HDD",
+      "Display": "14 inch HD",
+      "Graphics": "Intel HD Graphics 4400",
+      "Operating System": "Windows 11"
+    },
+    "inStock": true,
+    "topSelling": false
+  },
+  {
+    "id": 54,
+    "slug": "hp-hp-model-8985-54",
+    "name": "HP Model 8985",
+    "brand": "HP",
+    "sku": "HP-9467-54",
+    "rating": 4,
+    "reviewCount": 166,
+    "originalPrice": 19716,
+    "price": 15936,
+    "discount": 19,
+    "images": [
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "HP Model 8985 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "HP Model 8985 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i5 4th Gen",
+      "RAM": "4GB DDR4",
+      "Storage": "256GB SSD",
+      "Display": "14 inch Full HD",
+      "Graphics": "Intel HD Graphics",
+      "Operating System": "DOS"
+    },
+    "inStock": true,
+    "topSelling": false
+  },
+  {
+    "id": 55,
+    "slug": "hp-hp-model-9352-55",
+    "name": "HP Model 9352",
+    "brand": "HP",
+    "sku": "HP-4608-55",
+    "rating": 4.6,
+    "reviewCount": 178,
+    "originalPrice": 15557,
+    "price": 10426,
+    "discount": 33,
+    "images": [
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "HP Model 9352 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "HP Model 9352 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Pentium Dual Core",
+      "RAM": "4GB DDR3",
+      "Storage": "256GB SSD",
+      "Display": "14 inch HD",
+      "Graphics": "Intel HD Graphics 520",
+      "Operating System": "Windows 10"
+    },
+    "inStock": true,
+    "topSelling": false
+  },
+  {
+    "id": 56,
+    "slug": "lenovo-lenovo-model-5651-56",
+    "name": "LENOVO Model 5651",
+    "brand": "LENOVO",
+    "sku": "LEN-3698-56",
+    "rating": 4.8,
+    "reviewCount": 66,
+    "originalPrice": 19877,
+    "price": 17692,
+    "discount": 11,
+    "images": [
+      {
+        "url": "/laptop/hp-200.avif",
+        "alt": "LENOVO Model 5651 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "LENOVO Model 5651 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i7 4th Gen",
+      "RAM": "4GB DDR3",
+      "Storage": "256GB SSD",
+      "Display": "14 inch Full HD",
+      "Graphics": "Intel HD Graphics 520",
+      "Operating System": "DOS"
+    },
+    "inStock": true,
+    "topSelling": true
+  },
+  {
+    "id": 57,
+    "slug": "asus-asus-model-2113-57",
+    "name": "ASUS Model 2113",
+    "brand": "ASUS",
+    "sku": "ASU-5684-57",
+    "rating": 4,
+    "reviewCount": 245,
+    "originalPrice": 17981,
+    "price": 15617,
+    "discount": 13,
+    "images": [
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "ASUS Model 2113 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "ASUS Model 2113 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i5 5th Gen",
+      "RAM": "2GB DDR3",
+      "Storage": "256GB SSD",
+      "Display": "14 inch HD",
+      "Graphics": "AMD Radeon HD 7670M",
+      "Operating System": "DOS"
+    },
+    "inStock": true,
+    "topSelling": true
+  },
+  {
+    "id": 58,
+    "slug": "asus-asus-model-3959-58",
+    "name": "ASUS Model 3959",
+    "brand": "ASUS",
+    "sku": "ASU-4237-58",
+    "rating": 4.7,
+    "reviewCount": 33,
+    "originalPrice": 15307,
+    "price": 11030,
+    "discount": 28,
+    "images": [
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "ASUS Model 3959 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "ASUS Model 3959 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Celeron N4020",
+      "RAM": "4GB DDR4",
+      "Storage": "128GB SSD",
+      "Display": "14 inch Full HD",
+      "Graphics": "Intel HD Graphics 4400",
+      "Operating System": "Windows 10 Pro"
+    },
+    "inStock": true,
+    "topSelling": true
+  },
+  {
+    "id": 59,
+    "slug": "dell-dell-model-6867-59",
+    "name": "DELL Model 6867",
+    "brand": "DELL",
+    "sku": "DEL-7909-59",
+    "rating": 4.5,
+    "reviewCount": 241,
+    "originalPrice": 13894,
+    "price": 11519,
+    "discount": 17,
+    "images": [
+      {
+        "url": "/laptop/hp-200.avif",
+        "alt": "DELL Model 6867 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "DELL Model 6867 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Celeron N4020",
+      "RAM": "2GB DDR3",
+      "Storage": "128GB SSD",
+      "Display": "15.6 inch HD",
+      "Graphics": "Intel HD Graphics 5500",
+      "Operating System": "Windows 11"
+    },
+    "inStock": true,
+    "topSelling": false
+  },
+  {
+    "id": 60,
+    "slug": "asus-asus-model-2586-60",
+    "name": "ASUS Model 2586",
+    "brand": "ASUS",
+    "sku": "ASU-7517-60",
+    "rating": 4.4,
+    "reviewCount": 45,
+    "originalPrice": 19014,
+    "price": 13892,
+    "discount": 27,
+    "images": [
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "ASUS Model 2586 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "ASUS Model 2586 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i3 3rd Gen",
+      "RAM": "2GB DDR3",
+      "Storage": "500GB HDD",
+      "Display": "13.3 inch HD",
+      "Graphics": "Intel HD Graphics",
+      "Operating System": "DOS"
+    },
+    "inStock": true,
+    "topSelling": false
+  },
+  {
+    "id": 61,
+    "slug": "lenovo-lenovo-model-2706-61",
+    "name": "LENOVO Model 2706",
+    "brand": "LENOVO",
+    "sku": "LEN-3105-61",
+    "rating": 4.3,
+    "reviewCount": 178,
+    "originalPrice": 19959,
+    "price": 15789,
+    "discount": 21,
+    "images": [
+      {
+        "url": "/laptop/hp-200.avif",
+        "alt": "LENOVO Model 2706 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "LENOVO Model 2706 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i3 6th Gen",
+      "RAM": "2GB DDR3",
+      "Storage": "128GB SSD",
+      "Display": "15.6 inch HD",
+      "Graphics": "Intel HD Graphics 4400",
+      "Operating System": "DOS"
+    },
+    "inStock": true,
+    "topSelling": false
+  },
+  {
+    "id": 62,
+    "slug": "asus-asus-model-2954-62",
+    "name": "ASUS Model 2954",
+    "brand": "ASUS",
+    "sku": "ASU-7650-62",
+    "rating": 3.9,
+    "reviewCount": 69,
+    "originalPrice": 13231,
+    "price": 9918,
     "discount": 25,
     "images": [
-      { "url": "/laptop/hp-200.avif", "alt": "HP Pavilion x360 front view", "duplicate": false },
-      { "url": "/laptop/hp-200.avif", "alt": "HP Pavilion x360 side view", "duplicate": false }
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "ASUS Model 2954 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "ASUS Model 2954 side view",
+        "duplicate": false
+      }
     ],
-    "description": "Versatile 2-in-1 convertible with touchscreen and stylus.",
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
     "specifications": {
-      "Processor": "Intel Core i5 8th Gen",
-      "RAM": "8GB DDR4",
+      "Processor": "Intel Celeron N4020",
+      "RAM": "8GB DDR3",
       "Storage": "256GB SSD",
-      "Display": "14 inch Full HD Touchscreen",
-      "Graphics": "Intel UHD Graphics 620",
+      "Display": "15.6 inch HD",
+      "Graphics": "Intel HD Graphics",
+      "Operating System": "Windows 10 Pro"
+    },
+    "inStock": true,
+    "topSelling": true
+  },
+  {
+    "id": 63,
+    "slug": "dell-dell-model-2958-63",
+    "name": "DELL Model 2958",
+    "brand": "DELL",
+    "sku": "DEL-3878-63",
+    "rating": 4.7,
+    "reviewCount": 148,
+    "originalPrice": 13942,
+    "price": 9671,
+    "discount": 31,
+    "images": [
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "DELL Model 2958 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "DELL Model 2958 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Pentium Dual Core",
+      "RAM": "4GB DDR4",
+      "Storage": "1TB HDD",
+      "Display": "14 inch HD",
+      "Graphics": "Intel HD Graphics 4400",
+      "Operating System": "Windows 10 Pro"
+    },
+    "inStock": true,
+    "topSelling": false
+  },
+  {
+    "id": 64,
+    "slug": "dell-dell-model-836-64",
+    "name": "DELL Model 836",
+    "brand": "DELL",
+    "sku": "DEL-9892-64",
+    "rating": 4.8,
+    "reviewCount": 205,
+    "originalPrice": 21593,
+    "price": 15304,
+    "discount": 29,
+    "images": [
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "DELL Model 836 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "DELL Model 836 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i7 4th Gen",
+      "RAM": "2GB DDR3",
+      "Storage": "1TB HDD",
+      "Display": "15.6 inch HD",
+      "Graphics": "Intel HD Graphics 5500",
+      "Operating System": "Windows 11"
+    },
+    "inStock": true,
+    "topSelling": false
+  },
+  {
+    "id": 65,
+    "slug": "dell-dell-model-2444-65",
+    "name": "DELL Model 2444",
+    "brand": "DELL",
+    "sku": "DEL-8047-65",
+    "rating": 4,
+    "reviewCount": 236,
+    "originalPrice": 20431,
+    "price": 15541,
+    "discount": 24,
+    "images": [
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "DELL Model 2444 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "DELL Model 2444 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i7 4th Gen",
+      "RAM": "4GB DDR4",
+      "Storage": "500GB HDD",
+      "Display": "14 inch HD",
+      "Graphics": "AMD Radeon HD 7670M",
+      "Operating System": "DOS"
+    },
+    "inStock": false,
+    "topSelling": false
+  },
+  {
+    "id": 66,
+    "slug": "asus-asus-model-6762-66",
+    "name": "ASUS Model 6762",
+    "brand": "ASUS",
+    "sku": "ASU-6583-66",
+    "rating": 4.7,
+    "reviewCount": 48,
+    "originalPrice": 12091,
+    "price": 9411,
+    "discount": 22,
+    "images": [
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "ASUS Model 6762 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/hp-200.avif",
+        "alt": "ASUS Model 6762 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i5 5th Gen",
+      "RAM": "2GB DDR3",
+      "Storage": "256GB SSD",
+      "Display": "13.3 inch HD",
+      "Graphics": "Intel HD Graphics 4400",
       "Operating System": "Windows 10"
+    },
+    "inStock": true,
+    "topSelling": false
+  },
+  {
+    "id": 67,
+    "slug": "lenovo-lenovo-model-676-67",
+    "name": "LENOVO Model 676",
+    "brand": "LENOVO",
+    "sku": "LEN-3903-67",
+    "rating": 3.7,
+    "reviewCount": 244,
+    "originalPrice": 14077,
+    "price": 11030,
+    "discount": 22,
+    "images": [
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "LENOVO Model 676 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "LENOVO Model 676 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i5 5th Gen",
+      "RAM": "8GB DDR3",
+      "Storage": "320GB HDD",
+      "Display": "14 inch Full HD",
+      "Graphics": "Intel HD Graphics 4400",
+      "Operating System": "Windows 10 Pro"
+    },
+    "inStock": true,
+    "topSelling": false
+  },
+  {
+    "id": 68,
+    "slug": "dell-dell-model-6796-68",
+    "name": "DELL Model 6796",
+    "brand": "DELL",
+    "sku": "DEL-6511-68",
+    "rating": 3.7,
+    "reviewCount": 230,
+    "originalPrice": 20921,
+    "price": 17627,
+    "discount": 16,
+    "images": [
+      {
+        "url": "/laptop/hp-200.avif",
+        "alt": "DELL Model 6796 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "DELL Model 6796 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i5 4th Gen",
+      "RAM": "4GB DDR3",
+      "Storage": "128GB SSD",
+      "Display": "15.6 inch HD",
+      "Graphics": "Intel HD Graphics",
+      "Operating System": "Windows 11"
+    },
+    "inStock": true,
+    "topSelling": true
+  },
+  {
+    "id": 69,
+    "slug": "asus-asus-model-5894-69",
+    "name": "ASUS Model 5894",
+    "brand": "ASUS",
+    "sku": "ASU-1020-69",
+    "rating": 3.7,
+    "reviewCount": 161,
+    "originalPrice": 18914,
+    "price": 15340,
+    "discount": 19,
+    "images": [
+      {
+        "url": "/laptop/hp-200.avif",
+        "alt": "ASUS Model 5894 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "ASUS Model 5894 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i3 6th Gen",
+      "RAM": "4GB DDR3",
+      "Storage": "128GB SSD",
+      "Display": "14 inch Full HD",
+      "Graphics": "Intel UHD Graphics",
+      "Operating System": "Windows 11"
+    },
+    "inStock": true,
+    "topSelling": false
+  },
+  {
+    "id": 70,
+    "slug": "dell-dell-model-2411-70",
+    "name": "DELL Model 2411",
+    "brand": "DELL",
+    "sku": "DEL-6265-70",
+    "rating": 4.4,
+    "reviewCount": 161,
+    "originalPrice": 14093,
+    "price": 10461,
+    "discount": 26,
+    "images": [
+      {
+        "url": "/laptop/hp-200.avif",
+        "alt": "DELL Model 2411 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "DELL Model 2411 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i7 4th Gen",
+      "RAM": "2GB DDR3",
+      "Storage": "128GB SSD",
+      "Display": "15.6 inch HD",
+      "Graphics": "Intel HD Graphics 4400",
+      "Operating System": "Windows 11"
+    },
+    "inStock": false,
+    "topSelling": true
+  },
+  {
+    "id": 71,
+    "slug": "dell-dell-model-7550-71",
+    "name": "DELL Model 7550",
+    "brand": "DELL",
+    "sku": "DEL-5894-71",
+    "rating": 3.8,
+    "reviewCount": 61,
+    "originalPrice": 18629,
+    "price": 15893,
+    "discount": 15,
+    "images": [
+      {
+        "url": "/laptop/hp-200.avif",
+        "alt": "DELL Model 7550 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "DELL Model 7550 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i5 4th Gen",
+      "RAM": "4GB DDR4",
+      "Storage": "320GB HDD",
+      "Display": "15.6 inch HD",
+      "Graphics": "Intel HD Graphics",
+      "Operating System": "Windows 10"
+    },
+    "inStock": true,
+    "topSelling": false
+  },
+  {
+    "id": 72,
+    "slug": "dell-dell-model-7985-72",
+    "name": "DELL Model 7985",
+    "brand": "DELL",
+    "sku": "DEL-8522-72",
+    "rating": 4.5,
+    "reviewCount": 95,
+    "originalPrice": 15283,
+    "price": 11207,
+    "discount": 27,
+    "images": [
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "DELL Model 7985 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "DELL Model 7985 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Celeron N4020",
+      "RAM": "8GB DDR3",
+      "Storage": "500GB HDD",
+      "Display": "14 inch HD",
+      "Graphics": "Intel HD Graphics",
+      "Operating System": "DOS"
+    },
+    "inStock": true,
+    "topSelling": true
+  },
+  {
+    "id": 73,
+    "slug": "hp-hp-model-8654-73",
+    "name": "HP Model 8654",
+    "brand": "HP",
+    "sku": "HP-7494-73",
+    "rating": 3.9,
+    "reviewCount": 86,
+    "originalPrice": 12671,
+    "price": 9755,
+    "discount": 23,
+    "images": [
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "HP Model 8654 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/hp-200.avif",
+        "alt": "HP Model 8654 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Celeron N4020",
+      "RAM": "2GB DDR3",
+      "Storage": "256GB SSD",
+      "Display": "14 inch Full HD",
+      "Graphics": "Intel HD Graphics",
+      "Operating System": "Windows 10"
+    },
+    "inStock": true,
+    "topSelling": false
+  },
+  {
+    "id": 74,
+    "slug": "hp-hp-model-4264-74",
+    "name": "HP Model 4264",
+    "brand": "HP",
+    "sku": "HP-2580-74",
+    "rating": 3.7,
+    "reviewCount": 245,
+    "originalPrice": 19212,
+    "price": 16600,
+    "discount": 14,
+    "images": [
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "HP Model 4264 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "HP Model 4264 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i5 4th Gen",
+      "RAM": "4GB DDR3",
+      "Storage": "256GB SSD",
+      "Display": "15.6 inch HD",
+      "Graphics": "Intel HD Graphics 5500",
+      "Operating System": "DOS"
+    },
+    "inStock": false,
+    "topSelling": true
+  },
+  {
+    "id": 75,
+    "slug": "asus-asus-model-3980-75",
+    "name": "ASUS Model 3980",
+    "brand": "ASUS",
+    "sku": "ASU-3958-75",
+    "rating": 4.6,
+    "reviewCount": 48,
+    "originalPrice": 19634,
+    "price": 14760,
+    "discount": 25,
+    "images": [
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "ASUS Model 3980 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "ASUS Model 3980 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i3 6th Gen",
+      "RAM": "8GB DDR3",
+      "Storage": "128GB SSD",
+      "Display": "15.6 inch HD",
+      "Graphics": "AMD Radeon HD 7670M",
+      "Operating System": "Windows 11"
+    },
+    "inStock": true,
+    "topSelling": false
+  },
+  {
+    "id": 76,
+    "slug": "asus-asus-model-6551-76",
+    "name": "ASUS Model 6551",
+    "brand": "ASUS",
+    "sku": "ASU-6331-76",
+    "rating": 4.5,
+    "reviewCount": 149,
+    "originalPrice": 18866,
+    "price": 12711,
+    "discount": 33,
+    "images": [
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "ASUS Model 6551 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "ASUS Model 6551 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i5 4th Gen",
+      "RAM": "4GB DDR4",
+      "Storage": "500GB HDD",
+      "Display": "14 inch HD",
+      "Graphics": "Intel HD Graphics",
+      "Operating System": "Windows 10 Pro"
+    },
+    "inStock": true,
+    "topSelling": false
+  },
+  {
+    "id": 77,
+    "slug": "dell-dell-model-263-77",
+    "name": "DELL Model 263",
+    "brand": "DELL",
+    "sku": "DEL-6141-77",
+    "rating": 4,
+    "reviewCount": 45,
+    "originalPrice": 16474,
+    "price": 13652,
+    "discount": 17,
+    "images": [
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "DELL Model 263 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "DELL Model 263 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i7 4th Gen",
+      "RAM": "2GB DDR3",
+      "Storage": "320GB HDD",
+      "Display": "14 inch Full HD",
+      "Graphics": "Intel HD Graphics 5500",
+      "Operating System": "Windows 10 Pro"
+    },
+    "inStock": true,
+    "topSelling": false
+  },
+  {
+    "id": 78,
+    "slug": "hp-hp-model-6856-78",
+    "name": "HP Model 6856",
+    "brand": "HP",
+    "sku": "HP-1308-78",
+    "rating": 3.7,
+    "reviewCount": 107,
+    "originalPrice": 20481,
+    "price": 17339,
+    "discount": 15,
+    "images": [
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "HP Model 6856 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/hp-200.avif",
+        "alt": "HP Model 6856 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Pentium Dual Core",
+      "RAM": "4GB DDR3",
+      "Storage": "500GB HDD",
+      "Display": "14 inch Full HD",
+      "Graphics": "Intel HD Graphics",
+      "Operating System": "Windows 11"
+    },
+    "inStock": true,
+    "topSelling": false
+  },
+  {
+    "id": 79,
+    "slug": "hp-hp-model-6670-79",
+    "name": "HP Model 6670",
+    "brand": "HP",
+    "sku": "HP-4788-79",
+    "rating": 4.7,
+    "reviewCount": 84,
+    "originalPrice": 16877,
+    "price": 14847,
+    "discount": 12,
+    "images": [
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "HP Model 6670 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/hp-200.avif",
+        "alt": "HP Model 6670 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i5 5th Gen",
+      "RAM": "4GB DDR3",
+      "Storage": "128GB SSD",
+      "Display": "14 inch Full HD",
+      "Graphics": "Intel HD Graphics 520",
+      "Operating System": "Windows 10"
+    },
+    "inStock": true,
+    "topSelling": false
+  },
+  {
+    "id": 80,
+    "slug": "lenovo-lenovo-model-6596-80",
+    "name": "LENOVO Model 6596",
+    "brand": "LENOVO",
+    "sku": "LEN-3269-80",
+    "rating": 4.3,
+    "reviewCount": 207,
+    "originalPrice": 21779,
+    "price": 16245,
+    "discount": 25,
+    "images": [
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "LENOVO Model 6596 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "LENOVO Model 6596 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i3 6th Gen",
+      "RAM": "2GB DDR3",
+      "Storage": "500GB HDD",
+      "Display": "14 inch Full HD",
+      "Graphics": "Intel HD Graphics 4400",
+      "Operating System": "Windows 10"
+    },
+    "inStock": true,
+    "topSelling": true
+  },
+  {
+    "id": 81,
+    "slug": "hp-hp-model-3133-81",
+    "name": "HP Model 3133",
+    "brand": "HP",
+    "sku": "HP-2519-81",
+    "rating": 4.6,
+    "reviewCount": 243,
+    "originalPrice": 24023,
+    "price": 17147,
+    "discount": 29,
+    "images": [
+      {
+        "url": "/laptop/hp-200.avif",
+        "alt": "HP Model 3133 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "HP Model 3133 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i7 4th Gen",
+      "RAM": "4GB DDR3",
+      "Storage": "1TB HDD",
+      "Display": "13.3 inch HD",
+      "Graphics": "Intel HD Graphics 4400",
+      "Operating System": "Windows 10 Pro"
+    },
+    "inStock": false,
+    "topSelling": false
+  },
+  {
+    "id": 82,
+    "slug": "dell-dell-model-8838-82",
+    "name": "DELL Model 8838",
+    "brand": "DELL",
+    "sku": "DEL-6995-82",
+    "rating": 3.6,
+    "reviewCount": 119,
+    "originalPrice": 17017,
+    "price": 14714,
+    "discount": 14,
+    "images": [
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "DELL Model 8838 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "DELL Model 8838 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i7 4th Gen",
+      "RAM": "4GB DDR4",
+      "Storage": "320GB HDD",
+      "Display": "14 inch Full HD",
+      "Graphics": "AMD Radeon HD 7670M",
+      "Operating System": "Windows 10 Pro"
+    },
+    "inStock": true,
+    "topSelling": true
+  },
+  {
+    "id": 83,
+    "slug": "lenovo-lenovo-model-2768-83",
+    "name": "LENOVO Model 2768",
+    "brand": "LENOVO",
+    "sku": "LEN-5550-83",
+    "rating": 3.7,
+    "reviewCount": 187,
+    "originalPrice": 18202,
+    "price": 15413,
+    "discount": 15,
+    "images": [
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "LENOVO Model 2768 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "LENOVO Model 2768 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i5 5th Gen",
+      "RAM": "4GB DDR3",
+      "Storage": "320GB HDD",
+      "Display": "13.3 inch HD",
+      "Graphics": "AMD Radeon HD 7670M",
+      "Operating System": "Windows 11"
+    },
+    "inStock": true,
+    "topSelling": false
+  },
+  {
+    "id": 84,
+    "slug": "dell-dell-model-8140-84",
+    "name": "DELL Model 8140",
+    "brand": "DELL",
+    "sku": "DEL-2997-84",
+    "rating": 4,
+    "reviewCount": 72,
+    "originalPrice": 16739,
+    "price": 12533,
+    "discount": 25,
+    "images": [
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "DELL Model 8140 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "DELL Model 8140 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i3 3rd Gen",
+      "RAM": "4GB DDR4",
+      "Storage": "256GB SSD",
+      "Display": "14 inch Full HD",
+      "Graphics": "Intel HD Graphics 4400",
+      "Operating System": "Windows 11"
+    },
+    "inStock": true,
+    "topSelling": false
+  },
+  {
+    "id": 85,
+    "slug": "lenovo-lenovo-model-3159-85",
+    "name": "LENOVO Model 3159",
+    "brand": "LENOVO",
+    "sku": "LEN-1460-85",
+    "rating": 3.8,
+    "reviewCount": 38,
+    "originalPrice": 20023,
+    "price": 17178,
+    "discount": 14,
+    "images": [
+      {
+        "url": "/laptop/hp-200.avif",
+        "alt": "LENOVO Model 3159 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "LENOVO Model 3159 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i7 4th Gen",
+      "RAM": "2GB DDR3",
+      "Storage": "500GB HDD",
+      "Display": "14 inch Full HD",
+      "Graphics": "Intel HD Graphics 4400",
+      "Operating System": "Windows 11"
+    },
+    "inStock": true,
+    "topSelling": true
+  },
+  {
+    "id": 86,
+    "slug": "dell-dell-model-6585-86",
+    "name": "DELL Model 6585",
+    "brand": "DELL",
+    "sku": "DEL-7371-86",
+    "rating": 3.9,
+    "reviewCount": 129,
+    "originalPrice": 20900,
+    "price": 15451,
+    "discount": 26,
+    "images": [
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "DELL Model 6585 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "DELL Model 6585 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i5 5th Gen",
+      "RAM": "2GB DDR3",
+      "Storage": "256GB SSD",
+      "Display": "14 inch Full HD",
+      "Graphics": "Intel UHD Graphics",
+      "Operating System": "Windows 11"
+    },
+    "inStock": true,
+    "topSelling": false
+  },
+  {
+    "id": 87,
+    "slug": "lenovo-lenovo-model-5462-87",
+    "name": "LENOVO Model 5462",
+    "brand": "LENOVO",
+    "sku": "LEN-3376-87",
+    "rating": 4.7,
+    "reviewCount": 103,
+    "originalPrice": 18963,
+    "price": 12947,
+    "discount": 32,
+    "images": [
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "LENOVO Model 5462 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "LENOVO Model 5462 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i7 4th Gen",
+      "RAM": "8GB DDR3",
+      "Storage": "500GB HDD",
+      "Display": "15.6 inch HD",
+      "Graphics": "AMD Radeon HD 7670M",
+      "Operating System": "Windows 10"
+    },
+    "inStock": true,
+    "topSelling": false
+  },
+  {
+    "id": 88,
+    "slug": "hp-hp-model-9154-88",
+    "name": "HP Model 9154",
+    "brand": "HP",
+    "sku": "HP-3341-88",
+    "rating": 4,
+    "reviewCount": 82,
+    "originalPrice": 20156,
+    "price": 13425,
+    "discount": 33,
+    "images": [
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "HP Model 9154 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/hp-200.avif",
+        "alt": "HP Model 9154 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i3 3rd Gen",
+      "RAM": "2GB DDR3",
+      "Storage": "500GB HDD",
+      "Display": "15.6 inch HD",
+      "Graphics": "Intel UHD Graphics",
+      "Operating System": "Windows 11"
+    },
+    "inStock": true,
+    "topSelling": false
+  },
+  {
+    "id": 89,
+    "slug": "hp-hp-model-2617-89",
+    "name": "HP Model 2617",
+    "brand": "HP",
+    "sku": "HP-1884-89",
+    "rating": 3.7,
+    "reviewCount": 28,
+    "originalPrice": 20854,
+    "price": 15497,
+    "discount": 26,
+    "images": [
+      {
+        "url": "/laptop/hp-200.avif",
+        "alt": "HP Model 2617 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "HP Model 2617 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i3 3rd Gen",
+      "RAM": "2GB DDR3",
+      "Storage": "1TB HDD",
+      "Display": "14 inch Full HD",
+      "Graphics": "Intel HD Graphics 5500",
+      "Operating System": "Windows 10"
+    },
+    "inStock": true,
+    "topSelling": true
+  },
+  {
+    "id": 90,
+    "slug": "hp-hp-model-4586-90",
+    "name": "HP Model 4586",
+    "brand": "HP",
+    "sku": "HP-6939-90",
+    "rating": 4.3,
+    "reviewCount": 148,
+    "originalPrice": 16164,
+    "price": 13441,
+    "discount": 17,
+    "images": [
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "HP Model 4586 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "HP Model 4586 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i3 3rd Gen",
+      "RAM": "4GB DDR4",
+      "Storage": "128GB SSD",
+      "Display": "14 inch HD",
+      "Graphics": "Intel HD Graphics 4400",
+      "Operating System": "DOS"
+    },
+    "inStock": true,
+    "topSelling": true
+  },
+  {
+    "id": 91,
+    "slug": "asus-asus-model-3862-91",
+    "name": "ASUS Model 3862",
+    "brand": "ASUS",
+    "sku": "ASU-6395-91",
+    "rating": 4,
+    "reviewCount": 66,
+    "originalPrice": 18658,
+    "price": 14996,
+    "discount": 20,
+    "images": [
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "ASUS Model 3862 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "ASUS Model 3862 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i3 6th Gen",
+      "RAM": "2GB DDR3",
+      "Storage": "320GB HDD",
+      "Display": "14 inch HD",
+      "Graphics": "Intel UHD Graphics",
+      "Operating System": "Windows 10"
+    },
+    "inStock": true,
+    "topSelling": false
+  },
+  {
+    "id": 92,
+    "slug": "hp-hp-model-1841-92",
+    "name": "HP Model 1841",
+    "brand": "HP",
+    "sku": "HP-3645-92",
+    "rating": 4.1,
+    "reviewCount": 150,
+    "originalPrice": 22557,
+    "price": 16313,
+    "discount": 28,
+    "images": [
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "HP Model 1841 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "HP Model 1841 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i5 5th Gen",
+      "RAM": "2GB DDR3",
+      "Storage": "256GB SSD",
+      "Display": "14 inch Full HD",
+      "Graphics": "Intel UHD Graphics",
+      "Operating System": "Windows 10"
+    },
+    "inStock": true,
+    "topSelling": true
+  },
+  {
+    "id": 93,
+    "slug": "hp-hp-model-5194-93",
+    "name": "HP Model 5194",
+    "brand": "HP",
+    "sku": "HP-7384-93",
+    "rating": 4.6,
+    "reviewCount": 63,
+    "originalPrice": 16511,
+    "price": 13318,
+    "discount": 19,
+    "images": [
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "HP Model 5194 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "HP Model 5194 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Pentium Dual Core",
+      "RAM": "8GB DDR3",
+      "Storage": "500GB HDD",
+      "Display": "14 inch HD",
+      "Graphics": "Intel HD Graphics 5500",
+      "Operating System": "Windows 10"
+    },
+    "inStock": true,
+    "topSelling": true
+  },
+  {
+    "id": 94,
+    "slug": "asus-asus-model-4365-94",
+    "name": "ASUS Model 4365",
+    "brand": "ASUS",
+    "sku": "ASU-2453-94",
+    "rating": 4.7,
+    "reviewCount": 151,
+    "originalPrice": 19752,
+    "price": 15946,
+    "discount": 19,
+    "images": [
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "ASUS Model 4365 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "ASUS Model 4365 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Celeron N4020",
+      "RAM": "4GB DDR3",
+      "Storage": "500GB HDD",
+      "Display": "14 inch Full HD",
+      "Graphics": "Intel HD Graphics",
+      "Operating System": "Windows 10"
+    },
+    "inStock": true,
+    "topSelling": false
+  },
+  {
+    "id": 95,
+    "slug": "dell-dell-model-4857-95",
+    "name": "DELL Model 4857",
+    "brand": "DELL",
+    "sku": "DEL-9902-95",
+    "rating": 4,
+    "reviewCount": 230,
+    "originalPrice": 23052,
+    "price": 16337,
+    "discount": 29,
+    "images": [
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "DELL Model 4857 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/hp-200.avif",
+        "alt": "DELL Model 4857 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i7 4th Gen",
+      "RAM": "8GB DDR3",
+      "Storage": "320GB HDD",
+      "Display": "13.3 inch HD",
+      "Graphics": "Intel HD Graphics 4400",
+      "Operating System": "DOS"
+    },
+    "inStock": true,
+    "topSelling": false
+  },
+  {
+    "id": 96,
+    "slug": "asus-asus-model-9319-96",
+    "name": "ASUS Model 9319",
+    "brand": "ASUS",
+    "sku": "ASU-5485-96",
+    "rating": 4.5,
+    "reviewCount": 117,
+    "originalPrice": 20873,
+    "price": 15223,
+    "discount": 27,
+    "images": [
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "ASUS Model 9319 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/hp-200.avif",
+        "alt": "ASUS Model 9319 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i7 4th Gen",
+      "RAM": "8GB DDR3",
+      "Storage": "128GB SSD",
+      "Display": "14 inch HD",
+      "Graphics": "Intel HD Graphics",
+      "Operating System": "DOS"
+    },
+    "inStock": true,
+    "topSelling": false
+  },
+  {
+    "id": 97,
+    "slug": "asus-asus-model-9893-97",
+    "name": "ASUS Model 9893",
+    "brand": "ASUS",
+    "sku": "ASU-9915-97",
+    "rating": 3.9,
+    "reviewCount": 54,
+    "originalPrice": 17445,
+    "price": 14444,
+    "discount": 17,
+    "images": [
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "ASUS Model 9893 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "ASUS Model 9893 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i5 5th Gen",
+      "RAM": "2GB DDR3",
+      "Storage": "320GB HDD",
+      "Display": "14 inch HD",
+      "Graphics": "Intel UHD Graphics",
+      "Operating System": "DOS"
+    },
+    "inStock": true,
+    "topSelling": false
+  },
+  {
+    "id": 98,
+    "slug": "lenovo-lenovo-model-4230-98",
+    "name": "LENOVO Model 4230",
+    "brand": "LENOVO",
+    "sku": "LEN-5992-98",
+    "rating": 4.4,
+    "reviewCount": 148,
+    "originalPrice": 21024,
+    "price": 16208,
+    "discount": 23,
+    "images": [
+      {
+        "url": "/laptop/hp-200.avif",
+        "alt": "LENOVO Model 4230 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "LENOVO Model 4230 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i3 6th Gen",
+      "RAM": "8GB DDR3",
+      "Storage": "500GB HDD",
+      "Display": "15.6 inch HD",
+      "Graphics": "Intel HD Graphics 5500",
+      "Operating System": "DOS"
+    },
+    "inStock": true,
+    "topSelling": false
+  },
+  {
+    "id": 99,
+    "slug": "lenovo-lenovo-model-4191-99",
+    "name": "LENOVO Model 4191",
+    "brand": "LENOVO",
+    "sku": "LEN-1656-99",
+    "rating": 4.2,
+    "reviewCount": 148,
+    "originalPrice": 21448,
+    "price": 17298,
+    "discount": 19,
+    "images": [
+      {
+        "url": "/laptop/asus.avif",
+        "alt": "LENOVO Model 4191 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "LENOVO Model 4191 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i7 4th Gen",
+      "RAM": "4GB DDR4",
+      "Storage": "1TB HDD",
+      "Display": "14 inch HD",
+      "Graphics": "Intel UHD Graphics",
+      "Operating System": "DOS"
+    },
+    "inStock": true,
+    "topSelling": true
+  },
+  {
+    "id": 100,
+    "slug": "asus-asus-model-4944-100",
+    "name": "ASUS Model 4944",
+    "brand": "ASUS",
+    "sku": "ASU-8033-100",
+    "rating": 3.6,
+    "reviewCount": 136,
+    "originalPrice": 19307,
+    "price": 15584,
+    "discount": 19,
+    "images": [
+      {
+        "url": "/laptop/hp-200.avif",
+        "alt": "ASUS Model 4944 front view",
+        "duplicate": false
+      },
+      {
+        "url": "/laptop/dellinspiron.avif",
+        "alt": "ASUS Model 4944 side view",
+        "duplicate": false
+      }
+    ],
+    "description": "Refurbished laptop suitable for students, office work, and daily computing.",
+    "specifications": {
+      "Processor": "Intel Core i5 4th Gen",
+      "RAM": "4GB DDR4",
+      "Storage": "128GB SSD",
+      "Display": "13.3 inch HD",
+      "Graphics": "Intel HD Graphics 4400",
+      "Operating System": "Windows 11"
     },
     "inStock": true,
     "topSelling": true

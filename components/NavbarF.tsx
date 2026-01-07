@@ -12,7 +12,7 @@ export default function NavbarF() {
   const [lastScrollY, setLastScrollY] = useState(0);
   const [showNavbar, setShowNavbar] = useState(true);
   const [showMobileSearch, setShowMobileSearch] = useState(false);
-  
+
   useEffect(() => {
     if (mobileMenuOpen) {
       // Delay showing search to prevent auto-focus
@@ -22,11 +22,11 @@ export default function NavbarF() {
       setShowMobileSearch(false);
     }
   }, [mobileMenuOpen]);
-  
+
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
-      
+
       if (currentScrollY > 100) {
         if (currentScrollY > lastScrollY) {
           setShowNavbar(false); // Hide on scroll down
@@ -36,12 +36,12 @@ export default function NavbarF() {
       } else {
         setShowNavbar(true);
       }
-      
+
       setLastScrollY(currentScrollY);
     };
 
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, [lastScrollY]);
 
   //   const handleCategoryToggle = (categoryId:any) => {
@@ -83,48 +83,46 @@ export default function NavbarF() {
   //   );
 
   return (
-    <nav className={`border-b border-gray-300 bg-white w-full sticky top-0 z-50 py-2 transition-transform duration-300 ease-in-out ${
-      showNavbar ? 'translate-y-0' : '-translate-y-full'
-    } md:translate-y-0`}>
-      <div className='w-full mx-auto px-4 sm:px-6 lg:px-8'>
+    <nav
+      className={`border-b border-gray-300 bg-white w-full sticky top-0 z-50 py-2 transition-transform duration-300 ease-in-out ${
+        showNavbar ? "translate-y-0" : "-translate-y-0"
+      } md:translate-y-0`}
+    >
+      <div className='2xl:w-[1400px] w-full mx-auto px-4 sm:px-6 lg:px-8'>
         {/* Logo Row - Hide on mobile when scrolled */}
-        <div className="flex items-center justify-between gap-2 h-16">
+        <div className='flex items-center justify-between gap-2 h-fit py-2'>
           {/* Logo */}
-          <Link href="/">
-            <div className='flex-shrink-0 flex items-center gap-2'>
-              <div className='relative'>
-                <ShoppingCart className='h-8 w-8 text-blue-600' />
-                <div className='absolute -top-1 -right-1 w-4 h-4 bg-blue-600 rounded-full'></div>
-              </div>
-              <div className='hidden sm:block'>
-                <h1 className='text-xl font-bold text-gray-900'>Raza Cash</h1>
-                <p className='text-xs text-blue-600'>Kart</p>
-              </div>
+          <Link href='/'>
+            <div className='flex max-w-24 xl:max-w-[150px] items-center gap-2'>
+              <img src='/logof.png' alt='' />
             </div>
           </Link>
 
           {/* Mobile Search Bar - Between logo and menu */}
-          <div className='md:hidden flex-1 px-2'>
-            <SearchWithSuggestions 
-              className="w-full" 
-              placeholder="Search..."
-                autoFocus={false}
+          {/* <div className='md:hidden flex-1 px-0'>
+            <SearchWithSuggestions
+              className='w-full'
+              placeholder='Search...'
+              autoFocus={false}
             />
-          </div>
+          </div> */}
 
           {/* Desktop Search Bar - Centered and Expanded */}
-          <div className='hidden md:flex flex-1 justify-center px-2 xl:px-8 max-w-2xl mx-auto'>
-            <SearchWithSuggestions className="w-full max-w-full" autoFocus={false} />
+          <div className='hidden md:flex flex-1 justify-center w-full max-w-2xl'>
+            <SearchWithSuggestions className='min-w-full' autoFocus={false} />
           </div>
 
           {/* Desktop Category Dropdown */}
           <div className='hidden md:flex items-center gap-5 xl:gap-10'>
-            <Link href='/contact' className='text-gray-700 hover:text-blue-600 transition-colors font-medium'>
+            <Link
+              href='/contact'
+              className='text-gray-700 hover:text-blue-600 transition-colors font-medium'
+            >
               Contact Us
             </Link>
-            <a 
-              href='https://wa.me/919321888689' 
-              target='_blank' 
+            <a
+              href='https://wa.me/919321888689'
+              target='_blank'
               rel='noopener noreferrer'
               className='hidden md:flex items-center cursor-pointer hover:text-blue-600 gap-1 xl:gap-2 transition-colors'
             >
@@ -135,30 +133,41 @@ export default function NavbarF() {
           </div>
 
           {/* Mobile Menu Button */}
-          <div className='md:hidden'>
-            <Sheet open={mobileMenuOpen} onOpenChange={setMobileMenuOpen} modal={false}>
-              <SheetTrigger asChild>
-                <Button variant='ghost' size='icon'>
-                  <Menu className='h-6 w-6' />
-                </Button>
+          {/* <div className='md:hidden fixed h-fit aspect-square! top-[74.22px] bg-white right-0 shadow-lg shadow-black/30'> */}
+          <div className='md:hidden '>
+            <Sheet
+              open={mobileMenuOpen}
+              onOpenChange={setMobileMenuOpen}
+              modal={false}
+            >
+              <SheetTrigger className='p-0 w-fit h-fit' asChild>
+                {/* <Menu size={36} /> */}
+                <Menu size={30} />
               </SheetTrigger>
               <SheetContent side='right' className='w-80'>
                 <div className='flex flex-col gap-6 px-4 mt-16'>
                   {/* Mobile Search */}
-                  {showMobileSearch && (
-                    <div tabIndex={-1}>
-                      <SearchWithSuggestions 
-                        isMobile 
-                        className="w-full" 
+                  {/* {showMobileSearch && ( */}
+                  <div tabIndex={-1}>
+                    {/* <SearchWithSuggestions
+                        isMobile
+                        className='w-full'
                         onSearch={() => setMobileMenuOpen(false)}
                         autoFocus={false}
-                      />
-                    </div>
-                  )}
+                      /> */}
+                    <SearchWithSuggestions
+                      isMobile
+                      onSearch={() => setMobileMenuOpen(false)}
+                      className='w-full'
+                      placeholder='Search...'
+                      autoFocus={false}
+                    />
+                  </div>
+                  {/* )} */}
 
                   {/* Mobile Contact Link */}
-                  <Link 
-                    href='/contact' 
+                  <Link
+                    href='/contact'
                     className='text-gray-700 hover:text-blue-600 transition-colors font-medium py-2'
                     onClick={() => setMobileMenuOpen(false)}
                   >
@@ -166,9 +175,9 @@ export default function NavbarF() {
                   </Link>
 
                   {/* Mobile WhatsApp Link */}
-                  <a 
-                    href='https://wa.me/919321888689' 
-                    target='_blank' 
+                  <a
+                    href='https://wa.me/919321888689'
+                    target='_blank'
                     rel='noopener noreferrer'
                     className='flex items-center gap-2 text-gray-700 hover:text-blue-600 transition-colors font-medium py-2'
                     onClick={() => setMobileMenuOpen(false)}

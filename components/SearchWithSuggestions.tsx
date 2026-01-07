@@ -1,16 +1,14 @@
 "use client";
 
-import { useState, useRef, useMemo } from "react";
+import { useState, useRef, useMemo, useEffect } from "react";
 import { Search, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useRouter, useSearchParams } from "next/navigation";
 import productsData from "@/data/products.json";
 import { getSearchSuggestions } from "@/lib/searchUtils";
 
-
-
 interface SearchSuggestion {
-  type: 'product' | 'brand' | 'category' | 'price';
+  type: "product" | "brand" | "category" | "price";
   text: string;
   value: string;
   count?: number;
@@ -24,121 +22,153 @@ interface SearchWithSuggestionsProps {
   autoFocus?: boolean;
 }
 
-export default function SearchWithSuggestions({ 
-  placeholder = "Search for Laptop", 
+export default function SearchWithSuggestions({
+  placeholder = "Search for Laptop",
   className = "",
   isMobile = false,
   onSearch,
-  autoFocus = true
+  autoFocus = true,
 }: SearchWithSuggestionsProps) {
   const searchParams = useSearchParams();
-  const [query, setQuery] = useState(() => searchParams.get('q') || "");
+  const [query, setQuery] = useState(() => searchParams.get("q") || "");
   const [showSuggestions, setShowSuggestions] = useState(false);
   const [selectedIndex, setSelectedIndex] = useState(-1);
+
   const router = useRouter();
   const inputRef = useRef<HTMLInputElement>(null);
   const suggestionsRef = useRef<HTMLDivElement>(null);
+  const wrapperRef = useRef<HTMLDivElement>(null);
 
-  // Popular searches constant
-  const popularSearches: SearchSuggestion[] = useMemo(() => [
-    { type: 'price', text: 'Laptops under ₹20,000', value: 'under 20000' },
-    { type: 'brand', text: 'HP Laptops', value: 'hp' },
-    { type: 'category', text: 'Intel i5 Laptops', value: 'intel i5' },
-    { type: 'price', text: 'Laptops under ₹50,000', value: 'under 50000' },
-    { type: 'brand', text: 'Dell Laptops', value: 'dell' },
-    { type: 'category', text: '8GB RAM Laptops', value: '8gb ram' },
-  ], []);
+  /* --------------------------------------------
+     OUTSIDE CLICK HANDLER (THE REAL FIX)
+  --------------------------------------------- */
+  useEffect(() => {
+    function handleClickOutside(e: MouseEvent) {
+      if (
+        wrapperRef.current &&
+        !wrapperRef.current.contains(e.target as Node)
+      ) {
+        setShowSuggestions(false);
+        setSelectedIndex(-1);
+      }
+    }
 
-  // Generate suggestions based on query
+    if (showSuggestions) {
+      document.addEventListener("mousedown", handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [showSuggestions]);
+
+  /* --------------------------------------------
+     POPULAR SEARCHES
+  --------------------------------------------- */
+  const popularSearches: SearchSuggestion[] = useMemo(
+    () => [
+      { type: "price", text: "Laptops under ₹20,000", value: "under 20000" },
+      { type: "brand", text: "HP Laptops", value: "hp" },
+      { type: "category", text: "Intel i5 Laptops", value: "intel i5" },
+      { type: "price", text: "Laptops under ₹50,000", value: "under 50000" },
+      { type: "brand", text: "Dell Laptops", value: "dell" },
+      { type: "category", text: "8GB RAM Laptops", value: "8gb ram" },
+    ],
+    []
+  );
+
+  /* --------------------------------------------
+     SUGGESTIONS
+  --------------------------------------------- */
   const suggestions = useMemo(() => {
     if (!showSuggestions) return [];
     if (query.length < 2) {
-      // Show popular searches only on desktop when focused and no query
       return !isMobile ? popularSearches : [];
     }
     return getSearchSuggestions(productsData, query);
   }, [query, popularSearches, isMobile, showSuggestions]);
 
+  /* --------------------------------------------
+     ACTIONS
+  --------------------------------------------- */
   const handleSearch = (searchQuery?: string) => {
     const searchTerm = searchQuery || query;
     if (!searchTerm.trim()) return;
 
-    // Encode the search query for URL
-    const encodedQuery = encodeURIComponent(searchTerm.trim());
-    router.push(`/search?q=${encodedQuery}`);
+    router.push(`/search?q=${encodeURIComponent(searchTerm.trim())}`);
     setShowSuggestions(false);
-    // Keep the search term in the input
     setQuery(searchTerm.trim());
-    // Close mobile sheet if callback provided
     onSearch?.();
   };
 
   const handleSuggestionClick = (suggestion: SearchSuggestion) => {
     setShowSuggestions(false);
-    
-    if (suggestion.type === 'product') {
+    setSelectedIndex(-1);
+
+    if (suggestion.type === "product") {
       router.push(`/product/${suggestion.value}`);
-      setQuery("");
-      onSearch?.();
-    } else if (suggestion.type === 'brand') {
+    } else if (suggestion.type === "brand") {
       router.push(`/category/brand/${suggestion.value}`);
-      setQuery("");
-      onSearch?.();
-    } else if (suggestion.type === 'price' && suggestion.value.startsWith('under-')) {
+    } else if (
+      suggestion.type === "price" &&
+      suggestion.value.startsWith("under-")
+    ) {
       router.push(`/category/price/${suggestion.value}`);
-      setQuery("");
-      onSearch?.();
     } else {
-      // For search suggestions, keep the term in search bar and close mobile sheet
-      setQuery(suggestion.value);
       handleSearch(suggestion.value);
+      return;
     }
+
+    setQuery("");
+    onSearch?.();
   };
 
   const handleKeyDown = (e: React.KeyboardEvent) => {
     switch (e.key) {
-      case 'ArrowDown':
+      case "ArrowDown":
         if (showSuggestions && suggestions.length > 0) {
           e.preventDefault();
-          setSelectedIndex(prev => 
+          setSelectedIndex((prev) =>
             prev < suggestions.length - 1 ? prev + 1 : prev
           );
         }
         break;
-      case 'ArrowUp':
+      case "ArrowUp":
         if (showSuggestions && suggestions.length > 0) {
           e.preventDefault();
-          setSelectedIndex(prev => prev > 0 ? prev - 1 : -1);
+          setSelectedIndex((prev) => (prev > 0 ? prev - 1 : -1));
         }
         break;
-      case 'Enter':
+      case "Enter":
         e.preventDefault();
-        if (showSuggestions && selectedIndex >= 0 && suggestions[selectedIndex]) {
+        if (showSuggestions && selectedIndex >= 0) {
           handleSuggestionClick(suggestions[selectedIndex]);
         } else {
           handleSearch();
         }
         break;
-      case 'Escape':
+      case "Escape":
         setShowSuggestions(false);
         setSelectedIndex(-1);
         break;
     }
   };
 
-
-
   const clearSearch = () => {
     setQuery("");
     setShowSuggestions(false);
+    setSelectedIndex(-1);
   };
 
+  /* --------------------------------------------
+     JSX
+  --------------------------------------------- */
   return (
-    <div className={`relative ${className}`}>
-      <div className="relative">
+    <div ref={wrapperRef} className={`relative ${className}`}>
+      <div className='relative'>
         <input
           ref={inputRef}
-          type="text"
+          type='text'
           placeholder={placeholder}
           value={query}
           onChange={(e) => {
@@ -153,68 +183,68 @@ export default function SearchWithSuggestions({
               setShowSuggestions(true);
             }
           }}
-          autoFocus={false}
+          autoFocus={autoFocus}
           className={`w-full ${
-            isMobile 
-              ? 'px-4 py-2 pr-12' 
-              : 'px-6 py-3 pr-14'
+            isMobile ? "px-3 py-2 pr-12" : "xl:px-6 px-3 py-3 pr-14"
           } border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-base`}
         />
-        
+
         {query && (
           <Button
-            type="button"
-            size="icon"
-            variant="ghost"
+            type='button'
+            size='icon'
+            variant='ghost'
             onClick={clearSearch}
             className={`absolute ${
-              isMobile ? 'right-10 top-0 h-full px-2' : 'right-12 top-0 h-full px-3'
+              isMobile
+                ? "right-10 top-0 cursor-pointer aspect-square h-full px-2"
+                : "right-12 top-0 cursor-pointer aspect-square h-full px-3"
             }`}
           >
-            <X className="h-4 w-4 text-gray-400" />
+            <X className='h-4 w-4 xl:flex hidden text-gray-400' />
           </Button>
         )}
-        
+
         <Button
-          type="button"
-          size="icon"
+          type='button'
+          size='icon'
           onClick={() => handleSearch()}
           className={`absolute right-0 top-0 h-full ${
-            isMobile ? 'px-4' : 'px-6'
+            isMobile ? "px-2" : "px-6"
           } bg-black hover:bg-gray-800 rounded-l-none`}
         >
-          <Search className="h-5 w-5" />
+          <Search className='h-5 w-5' />
         </Button>
       </div>
 
-      {/* Suggestions Dropdown */}
       {showSuggestions && suggestions.length > 0 && (
         <div
           ref={suggestionsRef}
-          className="absolute top-full left-0 right-0 bg-white border border-gray-200 rounded-lg shadow-lg z-50 mt-1 max-h-80 overflow-y-auto"
+          className='absolute top-full left-0 right-0 bg-white border border-gray-200 rounded-lg shadow-lg z-50 mt-1 max-h-80 overflow-y-auto'
         >
           {!query && !isMobile && (
-            <div className="px-4 py-2 text-xs text-gray-500 border-b border-gray-100">
+            <div className='px-4 py-2 text-xs text-gray-500 border-b border-gray-100'>
               Popular searches
             </div>
           )}
+
           {suggestions.map((suggestion, index) => (
             <div
               key={`${suggestion.type}-${suggestion.value}-${index}`}
               onClick={() => handleSuggestionClick(suggestion)}
               className={`px-4 py-3 cursor-pointer border-b border-gray-100 last:border-b-0 hover:bg-gray-50 ${
-                selectedIndex === index ? 'bg-blue-50' : ''
+                selectedIndex === index ? "bg-blue-50" : ""
               }`}
             >
-              <div className="flex items-center justify-between">
-                <div className="flex items-center gap-3">
-                  <Search className="h-4 w-4 text-gray-400" />
-                  <span className="text-sm text-gray-700 truncate">
+              <div className='flex items-center justify-between'>
+                <div className='flex items-center gap-3'>
+                  <Search className='h-5 w-5 text-gray-400' />
+                  <span className='text-sm text-gray-700 truncate'>
                     {suggestion.text}
                   </span>
                 </div>
                 {suggestion.count && (
-                  <span className="text-xs text-gray-500">
+                  <span className='text-xs text-gray-500'>
                     {suggestion.count} items
                   </span>
                 )}
@@ -222,14 +252,6 @@ export default function SearchWithSuggestions({
             </div>
           ))}
         </div>
-      )}
-
-      {/* Backdrop to close suggestions */}
-      {showSuggestions && (
-        <div
-          className="fixed inset-0 z-40"
-          onClick={() => setShowSuggestions(false)}
-        />
       )}
     </div>
   );

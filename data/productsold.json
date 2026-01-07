@@ -1,0 +1,542 @@
+[
+  {
+    "id": 1,
+    "slug": "asus-e410ka",
+    "name": "ASUS E410KA",
+    "brand": "ASUS",
+    "sku": "ASU-E410-001",
+    "rating": 4.5,
+    "reviewCount": 128,
+    "originalPrice": 25000,
+    "price": 18000,
+    "discount": 28,
+    "images": [
+      { "url": "/laptop/asus.avif", "alt": "ASUS E410KA front view", "duplicate": false },
+      { "url": "/laptop/asus.avif", "alt": "ASUS E410KA side view", "duplicate": false }
+    ],
+    "description": "Lightweight and portable laptop perfect for students and basic computing tasks.",
+    "specifications": {
+      "Processor": "Intel Celeron N4020",
+      "RAM": "4GB DDR4",
+      "Storage": "128GB SSD",
+      "Display": "14 inch HD",
+      "Graphics": "Intel UHD Graphics",
+      "Operating System": "Windows 11"
+    },
+    "inStock": true,
+    "topSelling": true
+  },
+  {
+    "id": 2,
+    "slug": "dell-inspiron-3521",
+    "name": "DELL Inspiron 3521",
+    "brand": "DELL",
+    "sku": "DEL-INS-3521",
+    "rating": 4.2,
+    "reviewCount": 95,
+    "originalPrice": 13500,
+    "price": 10000,
+    "discount": 26,
+    "images": [
+      { "url": "/laptop/dellinspiron.avif", "alt": "DELL Inspiron 3521 front view", "duplicate": false },
+      { "url": "/laptop/dellinspiron.avif", "alt": "DELL Inspiron 3521 side view", "duplicate": false }
+    ],
+    "description": "Reliable Dell laptop with Intel i3 processor for everyday computing.",
+    "specifications": {
+      "Processor": "Intel Core i3 3rd Gen",
+      "RAM": "4GB DDR3",
+      "Storage": "500GB HDD",
+      "Display": "15.6 inch HD",
+      "Graphics": "Intel HD Graphics",
+      "Operating System": "Windows 10"
+    },
+    "inStock": true,
+    "topSelling": true
+  },
+  {
+    "id": 3,
+    "slug": "hp-2000-2106tu",
+    "name": "HP 2000-2106TU",
+    "brand": "HP",
+    "sku": "HP-2000-2106",
+    "rating": 4.0,
+    "reviewCount": 67,
+    "originalPrice": 12500,
+    "price": 9500,
+    "discount": 24,
+    "images": [
+      { "url": "/laptop/hp-200.avif", "alt": "HP 2000-2106TU front view", "duplicate": false },
+      { "url": "/laptop/hp-200.avif", "alt": "HP 2000-2106TU side view", "duplicate": false }
+    ],
+    "description": "Budget-friendly HP laptop with Pentium processor for basic tasks.",
+    "specifications": {
+      "Processor": "Intel Pentium Dual Core",
+      "RAM": "2GB DDR3",
+      "Storage": "320GB HDD",
+      "Display": "15.6 inch HD",
+      "Graphics": "Intel HD Graphics",
+      "Operating System": "DOS"
+    },
+    "inStock": true,
+    "topSelling": false
+  },
+  {
+    "id": 4,
+    "slug": "hp-430-g2",
+    "name": "HP 430 G2",
+    "brand": "HP",
+    "sku": "HP-430-G2",
+    "rating": 4.7,
+    "reviewCount": 142,
+    "originalPrice": 17000,
+    "price": 13000,
+    "discount": 24,
+    "images": [
+      { "url": "/laptop/hp-200.avif", "alt": "HP 430 G2 front view", "duplicate": false },
+      { "url": "/laptop/hp-200.avif", "alt": "HP 430 G2 side view", "duplicate": false }
+    ],
+    "description": "Business-grade HP laptop with Intel i5 processor and excellent build quality.",
+    "specifications": {
+      "Processor": "Intel Core i5 5th Gen",
+      "RAM": "8GB DDR3",
+      "Storage": "500GB HDD",
+      "Display": "13.3 inch HD",
+      "Graphics": "Intel HD Graphics 5500",
+      "Operating System": "Windows 10 Pro"
+    },
+    "inStock": true,
+    "topSelling": true
+  },
+  {
+    "id": 5,
+    "slug": "hp-pavilion-m4-1003tx",
+    "name": "HP Pavilion M4-1003TX",
+    "brand": "HP",
+    "sku": "HP-PAV-M4",
+    "rating": 4.3,
+    "reviewCount": 89,
+    "originalPrice": 14000,
+    "price": 10500,
+    "discount": 25,
+    "images": [
+      { "url": "/laptop/hp-200.avif", "alt": "HP Pavilion front view", "duplicate": false },
+      { "url": "/laptop/hp-200.avif", "alt": "HP Pavilion side view", "duplicate": false }
+    ],
+    "description": "HP Pavilion with dedicated graphics for light gaming and multimedia.",
+    "specifications": {
+      "Processor": "Intel Core i5 3rd Gen",
+      "RAM": "4GB DDR3",
+      "Storage": "500GB HDD",
+      "Display": "14 inch HD",
+      "Graphics": "AMD Radeon HD 7670M",
+      "Operating System": "Windows 8"
+    },
+    "inStock": true,
+    "topSelling": false
+  },
+  {
+    "id": 6,
+    "slug": "lenovo-thinkpad-t440",
+    "name": "Lenovo ThinkPad T440",
+    "brand": "LENOVO",
+    "sku": "LEN-T440-001",
+    "rating": 4.6,
+    "reviewCount": 156,
+    "originalPrice": 18000,
+    "price": 14500,
+    "discount": 19,
+    "images": [
+      { "url": "/laptop/dellinspiron.avif", "alt": "Lenovo ThinkPad T440 front view", "duplicate": false },
+      { "url": "/laptop/dellinspiron.avif", "alt": "Lenovo ThinkPad T440 side view", "duplicate": false }
+    ],
+    "description": "Professional ThinkPad with excellent keyboard and durability.",
+    "specifications": {
+      "Processor": "Intel Core i5 4th Gen",
+      "RAM": "8GB DDR3",
+      "Storage": "256GB SSD",
+      "Display": "14 inch HD",
+      "Graphics": "Intel HD Graphics 4400",
+      "Operating System": "Windows 10 Pro"
+    },
+    "inStock": true,
+    "topSelling": true
+  },
+  {
+    "id": 7,
+    "slug": "dell-latitude-e7440",
+    "name": "Dell Latitude E7440",
+    "brand": "DELL",
+    "sku": "DEL-LAT-7440",
+    "rating": 4.8,
+    "reviewCount": 203,
+    "originalPrice": 22000,
+    "price": 17000,
+    "discount": 23,
+    "images": [
+      { "url": "/laptop/dellinspiron.avif", "alt": "Dell Latitude front view", "duplicate": false },
+      { "url": "/laptop/dellinspiron.avif", "alt": "Dell Latitude side view", "duplicate": false }
+    ],
+    "description": "Premium Dell Latitude with ultrabook design and powerful i7 processor.",
+    "specifications": {
+      "Processor": "Intel Core i7 4th Gen",
+      "RAM": "8GB DDR3",
+      "Storage": "256GB SSD",
+      "Display": "14 inch Full HD",
+      "Graphics": "Intel HD Graphics 4400",
+      "Operating System": "Windows 10 Pro"
+    },
+    "inStock": true,
+    "topSelling": true
+  },
+  {
+    "id": 8,
+    "slug": "hp-elitebook-840-g1",
+    "name": "HP EliteBook 840 G1",
+    "brand": "HP",
+    "sku": "HP-EB-840",
+    "rating": 4.5,
+    "reviewCount": 178,
+    "originalPrice": 20000,
+    "price": 15500,
+    "discount": 23,
+    "images": [
+      { "url": "/laptop/hp-200.avif", "alt": "HP EliteBook front view", "duplicate": false },
+      { "url": "/laptop/hp-200.avif", "alt": "HP EliteBook side view", "duplicate": false }
+    ],
+    "description": "Business-class EliteBook with premium build and security features.",
+    "specifications": {
+      "Processor": "Intel Core i5 4th Gen",
+      "RAM": "8GB DDR3",
+      "Storage": "256GB SSD",
+      "Display": "14 inch HD",
+      "Graphics": "Intel HD Graphics 4400",
+      "Operating System": "Windows 10 Pro"
+    },
+    "inStock": true,
+    "topSelling": true
+  },
+  {
+    "id": 9,
+    "slug": "lenovo-ideapad-320",
+    "name": "Lenovo IdeaPad 320",
+    "brand": "LENOVO",
+    "sku": "LEN-IP-320",
+    "rating": 4.1,
+    "reviewCount": 112,
+    "originalPrice": 16000,
+    "price": 12000,
+    "discount": 25,
+    "images": [
+      { "url": "/laptop/asus.avif", "alt": "Lenovo IdeaPad front view", "duplicate": false },
+      { "url": "/laptop/asus.avif", "alt": "Lenovo IdeaPad side view", "duplicate": false }
+    ],
+    "description": "Stylish IdeaPad for entertainment and productivity on the go.",
+    "specifications": {
+      "Processor": "Intel Core i3 6th Gen",
+      "RAM": "4GB DDR4",
+      "Storage": "1TB HDD",
+      "Display": "15.6 inch HD",
+      "Graphics": "Intel HD Graphics 520",
+      "Operating System": "Windows 10"
+    },
+    "inStock": true,
+    "topSelling": false
+  },
+  {
+    "id": 10,
+    "slug": "acer-aspire-e15",
+    "name": "Acer Aspire E15",
+    "brand": "ACER",
+    "sku": "ACE-ASP-E15",
+    "rating": 4.3,
+    "reviewCount": 145,
+    "originalPrice": 19000,
+    "price": 14000,
+    "discount": 26,
+    "images": [
+      { "url": "/laptop/dellinspiron.avif", "alt": "Acer Aspire front view", "duplicate": false },
+      { "url": "/laptop/dellinspiron.avif", "alt": "Acer Aspire side view", "duplicate": false }
+    ],
+    "description": "Versatile Acer laptop with good battery life and performance.",
+    "specifications": {
+      "Processor": "Intel Core i5 7th Gen",
+      "RAM": "8GB DDR4",
+      "Storage": "1TB HDD",
+      "Display": "15.6 inch Full HD",
+      "Graphics": "NVIDIA GeForce 940MX",
+      "Operating System": "Windows 10"
+    },
+    "inStock": true,
+    "topSelling": true
+  },
+  {
+    "id": 11,
+    "slug": "asus-vivobook-15",
+    "name": "ASUS VivoBook 15",
+    "brand": "ASUS",
+    "sku": "ASU-VB-15",
+    "rating": 4.4,
+    "reviewCount": 167,
+    "originalPrice": 21000,
+    "price": 16500,
+    "discount": 21,
+    "images": [
+      { "url": "/laptop/asus.avif", "alt": "ASUS VivoBook front view", "duplicate": false },
+      { "url": "/laptop/asus.avif", "alt": "ASUS VivoBook side view", "duplicate": false }
+    ],
+    "description": "Modern VivoBook with slim design and vibrant display.",
+    "specifications": {
+      "Processor": "Intel Core i5 8th Gen",
+      "RAM": "8GB DDR4",
+      "Storage": "256GB SSD",
+      "Display": "15.6 inch Full HD",
+      "Graphics": "Intel UHD Graphics 620",
+      "Operating System": "Windows 10"
+    },
+    "inStock": true,
+    "topSelling": true
+  },
+  {
+    "id": 12,
+    "slug": "hp-probook-450-g3",
+    "name": "HP ProBook 450 G3",
+    "brand": "HP",
+    "sku": "HP-PB-450",
+    "rating": 4.2,
+    "reviewCount": 98,
+    "originalPrice": 18500,
+    "price": 13500,
+    "discount": 27,
+    "images": [
+      { "url": "/laptop/hp-200.avif", "alt": "HP ProBook front view", "duplicate": false },
+      { "url": "/laptop/hp-200.avif", "alt": "HP ProBook side view", "duplicate": false }
+    ],
+    "description": "Reliable ProBook designed for business professionals.",
+    "specifications": {
+      "Processor": "Intel Core i3 6th Gen",
+      "RAM": "4GB DDR4",
+      "Storage": "500GB HDD",
+      "Display": "15.6 inch HD",
+      "Graphics": "Intel HD Graphics 520",
+      "Operating System": "Windows 10 Pro"
+    },
+    "inStock": true,
+    "topSelling": false
+  },
+  {
+    "id": 13,
+    "slug": "dell-vostro-3568",
+    "name": "Dell Vostro 3568",
+    "brand": "DELL",
+    "sku": "DEL-VOS-3568",
+    "rating": 4.1,
+    "reviewCount": 87,
+    "originalPrice": 17500,
+    "price": 12500,
+    "discount": 29,
+    "images": [
+      { "url": "/laptop/dellinspiron.avif", "alt": "Dell Vostro front view", "duplicate": false },
+      { "url": "/laptop/dellinspiron.avif", "alt": "Dell Vostro side view", "duplicate": false }
+    ],
+    "description": "Affordable Dell Vostro for small business needs.",
+    "specifications": {
+      "Processor": "Intel Core i3 7th Gen",
+      "RAM": "4GB DDR4",
+      "Storage": "1TB HDD",
+      "Display": "15.6 inch HD",
+      "Graphics": "Intel HD Graphics 620",
+      "Operating System": "Ubuntu Linux"
+    },
+    "inStock": true,
+    "topSelling": false
+  },
+  {
+    "id": 14,
+    "slug": "lenovo-thinkpad-x250",
+    "name": "Lenovo ThinkPad X250",
+    "brand": "LENOVO",
+    "sku": "LEN-X250-001",
+    "rating": 4.7,
+    "reviewCount": 189,
+    "originalPrice": 24000,
+    "price": 18500,
+    "discount": 23,
+    "images": [
+      { "url": "/laptop/dellinspiron.avif", "alt": "ThinkPad X250 front view", "duplicate": false },
+      { "url": "/laptop/dellinspiron.avif", "alt": "ThinkPad X250 side view", "duplicate": false }
+    ],
+    "description": "Compact ThinkPad X250 with legendary keyboard and portability.",
+    "specifications": {
+      "Processor": "Intel Core i5 5th Gen",
+      "RAM": "8GB DDR3",
+      "Storage": "256GB SSD",
+      "Display": "12.5 inch HD",
+      "Graphics": "Intel HD Graphics 5500",
+      "Operating System": "Windows 10 Pro"
+    },
+    "inStock": true,
+    "topSelling": true
+  },
+  {
+    "id": 15,
+    "slug": "acer-travelmate-p2",
+    "name": "Acer TravelMate P2",
+    "brand": "ACER",
+    "sku": "ACE-TM-P2",
+    "rating": 4.0,
+    "reviewCount": 76,
+    "originalPrice": 20000,
+    "price": 15000,
+    "discount": 25,
+    "images": [
+      { "url": "/laptop/asus.avif", "alt": "Acer TravelMate front view", "duplicate": false },
+      { "url": "/laptop/asus.avif", "alt": "Acer TravelMate side view", "duplicate": false }
+    ],
+    "description": "Business laptop with military-grade durability and security.",
+    "specifications": {
+      "Processor": "Intel Core i5 7th Gen",
+      "RAM": "8GB DDR4",
+      "Storage": "256GB SSD",
+      "Display": "15.6 inch HD",
+      "Graphics": "Intel HD Graphics 620",
+      "Operating System": "Windows 10 Pro"
+    },
+    "inStock": true,
+    "topSelling": false
+  },
+  {
+    "id": 16,
+    "slug": "hp-250-g6",
+    "name": "HP 250 G6",
+    "brand": "HP",
+    "sku": "HP-250-G6",
+    "rating": 3.9,
+    "reviewCount": 54,
+    "originalPrice": 15000,
+    "price": 11000,
+    "discount": 27,
+    "images": [
+      { "url": "/laptop/hp-200.avif", "alt": "HP 250 G6 front view", "duplicate": false },
+      { "url": "/laptop/hp-200.avif", "alt": "HP 250 G6 side view", "duplicate": false }
+    ],
+    "description": "Budget-friendly HP laptop for basic business tasks.",
+    "specifications": {
+      "Processor": "Intel Core i3 6th Gen",
+      "RAM": "4GB DDR4",
+      "Storage": "500GB HDD",
+      "Display": "15.6 inch HD",
+      "Graphics": "Intel HD Graphics 520",
+      "Operating System": "FreeDOS"
+    },
+    "inStock": true,
+    "topSelling": false
+  },
+  {
+    "id": 17,
+    "slug": "lenovo-yoga-520",
+    "name": "Lenovo Yoga 520",
+    "brand": "LENOVO",
+    "sku": "LEN-YG-520",
+    "rating": 4.5,
+    "reviewCount": 134,
+    "originalPrice": 28000,
+    "price": 22000,
+    "discount": 21,
+    "images": [
+      { "url": "/laptop/asus.avif", "alt": "Lenovo Yoga front view", "duplicate": false },
+      { "url": "/laptop/asus.avif", "alt": "Lenovo Yoga side view", "duplicate": false }
+    ],
+    "description": "2-in-1 convertible laptop with touchscreen and pen support.",
+    "specifications": {
+      "Processor": "Intel Core i5 7th Gen",
+      "RAM": "8GB DDR4",
+      "Storage": "256GB SSD",
+      "Display": "14 inch Full HD Touchscreen",
+      "Graphics": "Intel HD Graphics 620",
+      "Operating System": "Windows 10"
+    },
+    "inStock": true,
+    "topSelling": true
+  },
+  {
+    "id": 18,
+    "slug": "asus-zenbook-ux430",
+    "name": "ASUS ZenBook UX430",
+    "brand": "ASUS",
+    "sku": "ASU-ZB-UX430",
+    "rating": 4.6,
+    "reviewCount": 198,
+    "originalPrice": 35000,
+    "price": 27000,
+    "discount": 23,
+    "images": [
+      { "url": "/laptop/asus.avif", "alt": "ASUS ZenBook front view", "duplicate": false },
+      { "url": "/laptop/asus.avif", "alt": "ASUS ZenBook side view", "duplicate": false }
+    ],
+    "description": "Premium ultrabook with stunning design and performance.",
+    "specifications": {
+      "Processor": "Intel Core i7 8th Gen",
+      "RAM": "16GB DDR4",
+      "Storage": "512GB SSD",
+      "Display": "14 inch Full HD",
+      "Graphics": "NVIDIA GeForce MX150",
+      "Operating System": "Windows 10"
+    },
+    "inStock": true,
+    "topSelling": true
+  },
+  {
+    "id": 19,
+    "slug": "dell-xps-13-9350",
+    "name": "Dell XPS 13 9350",
+    "brand": "DELL",
+    "sku": "DEL-XPS-9350",
+    "rating": 4.8,
+    "reviewCount": 245,
+    "originalPrice": 45000,
+    "price": 35000,
+    "discount": 22,
+    "images": [
+      { "url": "/laptop/dellinspiron.avif", "alt": "Dell XPS 13 front view", "duplicate": false },
+      { "url": "/laptop/dellinspiron.avif", "alt": "Dell XPS 13 side view", "duplicate": false }
+    ],
+    "description": "Premium XPS with InfinityEdge display and top-tier performance.",
+    "specifications": {
+      "Processor": "Intel Core i7 6th Gen",
+      "RAM": "16GB DDR3",
+      "Storage": "512GB SSD",
+      "Display": "13.3 inch QHD+ InfinityEdge",
+      "Graphics": "Intel HD Graphics 520",
+      "Operating System": "Windows 10"
+    },
+    "inStock": true,
+    "topSelling": true
+  },
+  {
+    "id": 20,
+    "slug": "hp-pavilion-x360",
+    "name": "HP Pavilion x360",
+    "brand": "HP",
+    "sku": "HP-PAV-X360",
+    "rating": 4.4,
+    "reviewCount": 156,
+    "originalPrice": 32000,
+    "price": 24000,
+    "discount": 25,
+    "images": [
+      { "url": "/laptop/hp-200.avif", "alt": "HP Pavilion x360 front view", "duplicate": false },
+      { "url": "/laptop/hp-200.avif", "alt": "HP Pavilion x360 side view", "duplicate": false }
+    ],
+    "description": "Versatile 2-in-1 convertible with touchscreen and stylus.",
+    "specifications": {
+      "Processor": "Intel Core i5 8th Gen",
+      "RAM": "8GB DDR4",
+      "Storage": "256GB SSD",
+      "Display": "14 inch Full HD Touchscreen",
+      "Graphics": "Intel UHD Graphics 620",
+      "Operating System": "Windows 10"
+    },
+    "inStock": true,
+    "topSelling": true
+  }
+]
