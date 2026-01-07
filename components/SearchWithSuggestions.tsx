@@ -183,7 +183,6 @@ export default function SearchWithSuggestions({
               setShowSuggestions(true);
             }
           }}
-          autoFocus={false}
           className={`w-full ${
             isMobile ? "px-3 py-2 pr-12" : "xl:px-6 px-3 py-3 pr-14"
           } border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-base`}

@@ -144,17 +144,11 @@ export default function NavbarF() {
                 {/* <Menu size={36} /> */}
                 <Menu size={30} />
               </SheetTrigger>
-              <SheetContent side='right' className='w-80'>
+              <SheetContent side='right' className='w-80' onOpenAutoFocus={(e) => e.preventDefault()}>
                 <div className='flex flex-col gap-6 px-4 mt-16'>
                   {/* Mobile Search */}
                   {/* {showMobileSearch && ( */}
                   <div tabIndex={-1}>
-                    {/* <SearchWithSuggestions
-                        isMobile
-                        className='w-full'
-                        onSearch={() => setMobileMenuOpen(false)}
-                        autoFocus={false}
-                      /> */}
                     <SearchWithSuggestions
                       isMobile
                       onSearch={() => setMobileMenuOpen(false)}
