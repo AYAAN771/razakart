@@ -35,7 +35,10 @@ export default function LiveGoogleReviews() {
       try {
         const res = await fetch(
           `https://featurable.com/api/v2/widgets/${FEATURABLE_WIDGET_ID}`,
-          { cache: "no-store" }
+          {
+            cache: "no-store",
+            next: { revalidate: 300 }, // Revalidate every 5 minutes
+          }
         );
 
         const json = await res.json();
@@ -44,7 +47,11 @@ export default function LiveGoogleReviews() {
         const fetchedReviews = json?.widget?.reviews;
 
         if (Array.isArray(fetchedReviews)) {
-          setReviews(fetchedReviews);
+          // Filter for 4+ star reviews only
+          const filteredReviews = fetchedReviews.filter(
+            (review: Review) => review.rating.value >= 4
+          );
+          setReviews(filteredReviews);
         } else {
           console.error("Featurable reviews not found:", json);
           setReviews([]);
@@ -58,6 +65,11 @@ export default function LiveGoogleReviews() {
     };
 
     fetchReviews();
+
+    // Set up interval to fetch reviews every 5 minutes for real-time updates
+    const interval = setInterval(fetchReviews, 300000); // 5 minutes
+
+    return () => clearInterval(interval);
   }, []);
 
   /* ---------------- RESPONSIVE ---------------- */
@@ -139,7 +151,7 @@ export default function LiveGoogleReviews() {
           {currentIndex > 0 && (
             <button
               onClick={() => setCurrentIndex((i) => Math.max(0, i - 1))}
-              className='absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-white p-3 rounded-full shadow'
+              className='absolute left-0 top-1/2 cursor-pointer -translate-y-1/2 z-10 bg-white p-3 rounded-full shadow'
             >
               <ChevronLeft />
             </button>
@@ -165,7 +177,7 @@ export default function LiveGoogleReviews() {
           {currentIndex < maxIndex && (
             <button
               onClick={() => setCurrentIndex((i) => Math.min(maxIndex, i + 1))}
-              className='absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-white p-3 rounded-full shadow'
+              className='absolute right-0 top-1/2 cursor-pointer -translate-y-1/2 z-10 bg-white p-3 rounded-full shadow'
             >
               <ChevronRight />
             </button>

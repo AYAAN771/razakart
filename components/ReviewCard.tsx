@@ -4,7 +4,7 @@ import type { Review } from "./LiveGoogleReviews"; // or move type to a shared f
 
 export default function ReviewCard({ review }: { review: Review }) {
   return (
-    <div className='rounded-xl h-[220px] border bg-white p-6 shadow-sm'>
+    <div className='rounded-xl h-[250px] border bg-white p-6 shadow-sm'>
       <div className='flex items-center gap-4'>
         <img
           src={review.author.avatarUrl || "/avatar-fallback.png"}
