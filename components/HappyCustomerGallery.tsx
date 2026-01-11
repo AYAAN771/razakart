@@ -348,7 +348,7 @@ const HappyCustomersGallery: React.FC = () => {
   ];
 
   return (
-    <section className='w-full py-8 sm:py-12 bg-white'>
+    <section className='w-full py-8 sm:py-12 bg-[#E5E7EB]'>
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
         {/* Header */}
         <div className='text-center mb-10 sm:mb-12 lg:mb-14'>

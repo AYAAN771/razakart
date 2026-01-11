@@ -105,7 +105,7 @@ export default function LiveGoogleReviews() {
 
   /* ---------------- UI (UNCHANGED) ---------------- */
   return (
-    <section className='w-full bg-gradient-to-br from-slate-50 to-slate-100 py-12'>
+    <section className='w-full bg-white py-12'>
       <div className='max-w-7xl mx-auto px-4'>
         <div className='text-center mb-12'>
           <h2 className='text-3xl md:text-4xl font-bold text-slate-800'>
@@ -151,53 +151,6 @@ export default function LiveGoogleReviews() {
               transform: `translateX(-${(100 / itemsPerView) * currentIndex}%)`,
             }}
           >
-            {/* {reviews.map((r, i) => (
-              <div
-                key={i}
-                className="px-3 flex-shrink-0"
-                style={{ width: `${100 / itemsPerView}%` }}
-              >
-                <div className="h-full bg-white rounded-2xl p-6 border shadow-sm">
-                  <div className="flex items-center gap-3 mb-4">
-                    <div
-                      className={`${avatarColor(r.author.name)} w-12 h-12 rounded-full flex items-center justify-center text-white font-bold`}
-                    >
-                      {r.author.avatarUrl ? (
-                        <img
-                          src={r.author.avatarUrl}
-                          alt={r.author.name}
-                          className="w-full h-full rounded-full object-cover"
-                        />
-                      ) : (
-                        initials(r.author.name)
-                      )}
-                    </div>
-
-                    <div>
-                      <p className="font-semibold text-slate-800">
-                        {r.author.name}
-                      </p>
-                      <p className="text-sm text-slate-500">
-                        {new Date(r.publishedAt).toLocaleDateString()}
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="flex mb-3">
-                    {[...Array(r.rating.value)].map((_, i) => (
-                      <Star
-                        key={i}
-                        className="w-4 h-4 fill-yellow-400 text-yellow-400"
-                      />
-                    ))}
-                  </div>
-
-                  <p className="text-slate-600 text-sm leading-relaxed">
-                    {r.text}
-                  </p>
-                </div>
-              </div>
-            ))} */}
             {reviews.map((review) => (
               <div
                 key={review.id}
