@@ -37,8 +37,8 @@
   {
     "id": 2,
     "slug": "asus-asus-model-153-2",
-    "name": "ASUS Model 153",
-    "brand": "ASUS",
+    "name": "Asus Model 153",
+    "brand": "Asus",
     "sku": "ASU-6583-2",
     "rating": 3.8,
     "reviewCount": 134,
@@ -48,12 +48,12 @@
     "images": [
       {
         "url": "/laptop/hp-200.avif",
-        "alt": "ASUS Model 153 front view",
+        "alt": "Asus Model 153 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/asus.avif",
-        "alt": "ASUS Model 153 side view",
+        "alt": "Asus Model 153 side view",
         "duplicate": false
       }
     ],
@@ -72,8 +72,8 @@
   {
     "id": 3,
     "slug": "lenovo-lenovo-model-1908-3",
-    "name": "LENOVO Model 1908",
-    "brand": "LENOVO",
+    "name": "Lenovo Model 1908",
+    "brand": "Lenovo",
     "sku": "LEN-4407-3",
     "rating": 4.4,
     "reviewCount": 173,
@@ -83,12 +83,12 @@
     "images": [
       {
         "url": "/laptop/hp-200.avif",
-        "alt": "LENOVO Model 1908 front view",
+        "alt": "Lenovo Model 1908 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "LENOVO Model 1908 side view",
+        "alt": "Lenovo Model 1908 side view",
         "duplicate": false
       }
     ],
@@ -107,8 +107,8 @@
   {
     "id": 4,
     "slug": "asus-asus-model-3920-4",
-    "name": "ASUS Model 3920",
-    "brand": "ASUS",
+    "name": "Asus Model 3920",
+    "brand": "Asus",
     "sku": "ASU-8543-4",
     "rating": 3.9,
     "reviewCount": 189,
@@ -118,12 +118,12 @@
     "images": [
       {
         "url": "/laptop/hp-200.avif",
-        "alt": "ASUS Model 3920 front view",
+        "alt": "Asus Model 3920 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/asus.avif",
-        "alt": "ASUS Model 3920 side view",
+        "alt": "Asus Model 3920 side view",
         "duplicate": false
       }
     ],
@@ -142,8 +142,8 @@
   {
     "id": 5,
     "slug": "dell-dell-model-5658-5",
-    "name": "DELL Model 5658",
-    "brand": "DELL",
+    "name": "Dell Model 5658",
+    "brand": "Dell",
     "sku": "DEL-5545-5",
     "rating": 4.7,
     "reviewCount": 115,
@@ -153,12 +153,12 @@
     "images": [
       {
         "url": "/laptop/asus.avif",
-        "alt": "DELL Model 5658 front view",
+        "alt": "Dell Model 5658 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "DELL Model 5658 side view",
+        "alt": "Dell Model 5658 side view",
         "duplicate": false
       }
     ],
@@ -177,8 +177,8 @@
   {
     "id": 6,
     "slug": "dell-dell-model-1320-6",
-    "name": "DELL Model 1320",
-    "brand": "DELL",
+    "name": "Dell Model 1320",
+    "brand": "Dell",
     "sku": "DEL-6168-6",
     "rating": 4.6,
     "reviewCount": 248,
@@ -188,12 +188,12 @@
     "images": [
       {
         "url": "/laptop/hp-200.avif",
-        "alt": "DELL Model 1320 front view",
+        "alt": "Dell Model 1320 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "DELL Model 1320 side view",
+        "alt": "Dell Model 1320 side view",
         "duplicate": false
       }
     ],
@@ -212,8 +212,8 @@
   {
     "id": 7,
     "slug": "lenovo-lenovo-model-1140-7",
-    "name": "LENOVO Model 1140",
-    "brand": "LENOVO",
+    "name": "Lenovo Model 1140",
+    "brand": "Lenovo",
     "sku": "LEN-1609-7",
     "rating": 4.3,
     "reviewCount": 233,
@@ -223,12 +223,12 @@
     "images": [
       {
         "url": "/laptop/asus.avif",
-        "alt": "LENOVO Model 1140 front view",
+        "alt": "Lenovo Model 1140 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/hp-200.avif",
-        "alt": "LENOVO Model 1140 side view",
+        "alt": "Lenovo Model 1140 side view",
         "duplicate": false
       }
     ],
@@ -247,8 +247,8 @@
   {
     "id": 8,
     "slug": "asus-asus-model-4010-8",
-    "name": "ASUS Model 4010",
-    "brand": "ASUS",
+    "name": "Asus Model 4010",
+    "brand": "Asus",
     "sku": "ASU-4769-8",
     "rating": 4,
     "reviewCount": 32,
@@ -258,12 +258,12 @@
     "images": [
       {
         "url": "/laptop/hp-200.avif",
-        "alt": "ASUS Model 4010 front view",
+        "alt": "Asus Model 4010 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "ASUS Model 4010 side view",
+        "alt": "Asus Model 4010 side view",
         "duplicate": false
       }
     ],
@@ -282,8 +282,8 @@
   {
     "id": 9,
     "slug": "lenovo-lenovo-model-2762-9",
-    "name": "LENOVO Model 2762",
-    "brand": "LENOVO",
+    "name": "Lenovo Model 2762",
+    "brand": "Lenovo",
     "sku": "LEN-3354-9",
     "rating": 4,
     "reviewCount": 201,
@@ -293,12 +293,12 @@
     "images": [
       {
         "url": "/laptop/hp-200.avif",
-        "alt": "LENOVO Model 2762 front view",
+        "alt": "Lenovo Model 2762 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "LENOVO Model 2762 side view",
+        "alt": "Lenovo Model 2762 side view",
         "duplicate": false
       }
     ],
@@ -387,8 +387,8 @@
   {
     "id": 12,
     "slug": "asus-asus-model-5879-12",
-    "name": "ASUS Model 5879",
-    "brand": "ASUS",
+    "name": "Asus Model 5879",
+    "brand": "Asus",
     "sku": "ASU-7005-12",
     "rating": 4.6,
     "reviewCount": 198,
@@ -398,12 +398,12 @@
     "images": [
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "ASUS Model 5879 front view",
+        "alt": "Asus Model 5879 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/asus.avif",
-        "alt": "ASUS Model 5879 side view",
+        "alt": "Asus Model 5879 side view",
         "duplicate": false
       }
     ],
@@ -492,8 +492,8 @@
   {
     "id": 15,
     "slug": "lenovo-lenovo-model-3706-15",
-    "name": "LENOVO Model 3706",
-    "brand": "LENOVO",
+    "name": "Lenovo Model 3706",
+    "brand": "Lenovo",
     "sku": "LEN-1174-15",
     "rating": 4.4,
     "reviewCount": 31,
@@ -503,12 +503,12 @@
     "images": [
       {
         "url": "/laptop/asus.avif",
-        "alt": "LENOVO Model 3706 front view",
+        "alt": "Lenovo Model 3706 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "LENOVO Model 3706 side view",
+        "alt": "Lenovo Model 3706 side view",
         "duplicate": false
       }
     ],
@@ -527,8 +527,8 @@
   {
     "id": 16,
     "slug": "dell-dell-model-2675-16",
-    "name": "DELL Model 2675",
-    "brand": "DELL",
+    "name": "Dell Model 2675",
+    "brand": "Dell",
     "sku": "DEL-3877-16",
     "rating": 3.6,
     "reviewCount": 198,
@@ -538,12 +538,12 @@
     "images": [
       {
         "url": "/laptop/asus.avif",
-        "alt": "DELL Model 2675 front view",
+        "alt": "Dell Model 2675 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "DELL Model 2675 side view",
+        "alt": "Dell Model 2675 side view",
         "duplicate": false
       }
     ],
@@ -562,8 +562,8 @@
   {
     "id": 17,
     "slug": "lenovo-lenovo-model-8504-17",
-    "name": "LENOVO Model 8504",
-    "brand": "LENOVO",
+    "name": "Lenovo Model 8504",
+    "brand": "Lenovo",
     "sku": "LEN-9274-17",
     "rating": 3.8,
     "reviewCount": 22,
@@ -573,12 +573,12 @@
     "images": [
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "LENOVO Model 8504 front view",
+        "alt": "Lenovo Model 8504 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/asus.avif",
-        "alt": "LENOVO Model 8504 side view",
+        "alt": "Lenovo Model 8504 side view",
         "duplicate": false
       }
     ],
@@ -597,8 +597,8 @@
   {
     "id": 18,
     "slug": "lenovo-lenovo-model-341-18",
-    "name": "LENOVO Model 341",
-    "brand": "LENOVO",
+    "name": "Lenovo Model 341",
+    "brand": "Lenovo",
     "sku": "LEN-5298-18",
     "rating": 4.1,
     "reviewCount": 240,
@@ -608,12 +608,12 @@
     "images": [
       {
         "url": "/laptop/hp-200.avif",
-        "alt": "LENOVO Model 341 front view",
+        "alt": "Lenovo Model 341 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "LENOVO Model 341 side view",
+        "alt": "Lenovo Model 341 side view",
         "duplicate": false
       }
     ],
@@ -667,8 +667,8 @@
   {
     "id": 20,
     "slug": "dell-dell-model-7856-20",
-    "name": "DELL Model 7856",
-    "brand": "DELL",
+    "name": "Dell Model 7856",
+    "brand": "Dell",
     "sku": "DEL-3347-20",
     "rating": 3.8,
     "reviewCount": 119,
@@ -678,12 +678,12 @@
     "images": [
       {
         "url": "/laptop/asus.avif",
-        "alt": "DELL Model 7856 front view",
+        "alt": "Dell Model 7856 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "DELL Model 7856 side view",
+        "alt": "Dell Model 7856 side view",
         "duplicate": false
       }
     ],
@@ -702,8 +702,8 @@
   {
     "id": 21,
     "slug": "dell-dell-model-8607-21",
-    "name": "DELL Model 8607",
-    "brand": "DELL",
+    "name": "Dell Model 8607",
+    "brand": "Dell",
     "sku": "DEL-6560-21",
     "rating": 4.8,
     "reviewCount": 59,
@@ -713,12 +713,12 @@
     "images": [
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "DELL Model 8607 front view",
+        "alt": "Dell Model 8607 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/hp-200.avif",
-        "alt": "DELL Model 8607 side view",
+        "alt": "Dell Model 8607 side view",
         "duplicate": false
       }
     ],
@@ -772,8 +772,8 @@
   {
     "id": 23,
     "slug": "asus-asus-model-1541-23",
-    "name": "ASUS Model 1541",
-    "brand": "ASUS",
+    "name": "Asus Model 1541",
+    "brand": "Asus",
     "sku": "ASU-9705-23",
     "rating": 4.5,
     "reviewCount": 151,
@@ -783,12 +783,12 @@
     "images": [
       {
         "url": "/laptop/asus.avif",
-        "alt": "ASUS Model 1541 front view",
+        "alt": "Asus Model 1541 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "ASUS Model 1541 side view",
+        "alt": "Asus Model 1541 side view",
         "duplicate": false
       }
     ],
@@ -807,8 +807,8 @@
   {
     "id": 24,
     "slug": "dell-dell-model-1978-24",
-    "name": "DELL Model 1978",
-    "brand": "DELL",
+    "name": "Dell Model 1978",
+    "brand": "Dell",
     "sku": "DEL-5105-24",
     "rating": 4.3,
     "reviewCount": 112,
@@ -818,12 +818,12 @@
     "images": [
       {
         "url": "/laptop/asus.avif",
-        "alt": "DELL Model 1978 front view",
+        "alt": "Dell Model 1978 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "DELL Model 1978 side view",
+        "alt": "Dell Model 1978 side view",
         "duplicate": false
       }
     ],
@@ -842,8 +842,8 @@
   {
     "id": 25,
     "slug": "asus-asus-model-5549-25",
-    "name": "ASUS Model 5549",
-    "brand": "ASUS",
+    "name": "Asus Model 5549",
+    "brand": "Asus",
     "sku": "ASU-4883-25",
     "rating": 3.6,
     "reviewCount": 56,
@@ -853,12 +853,12 @@
     "images": [
       {
         "url": "/laptop/asus.avif",
-        "alt": "ASUS Model 5549 front view",
+        "alt": "Asus Model 5549 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "ASUS Model 5549 side view",
+        "alt": "Asus Model 5549 side view",
         "duplicate": false
       }
     ],
@@ -877,8 +877,8 @@
   {
     "id": 26,
     "slug": "lenovo-lenovo-model-9399-26",
-    "name": "LENOVO Model 9399",
-    "brand": "LENOVO",
+    "name": "Lenovo Model 9399",
+    "brand": "Lenovo",
     "sku": "LEN-4034-26",
     "rating": 3.6,
     "reviewCount": 73,
@@ -888,12 +888,12 @@
     "images": [
       {
         "url": "/laptop/hp-200.avif",
-        "alt": "LENOVO Model 9399 front view",
+        "alt": "Lenovo Model 9399 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "LENOVO Model 9399 side view",
+        "alt": "Lenovo Model 9399 side view",
         "duplicate": false
       }
     ],
@@ -947,8 +947,8 @@
   {
     "id": 28,
     "slug": "dell-dell-model-9757-28",
-    "name": "DELL Model 9757",
-    "brand": "DELL",
+    "name": "Dell Model 9757",
+    "brand": "Dell",
     "sku": "DEL-3971-28",
     "rating": 3.9,
     "reviewCount": 233,
@@ -958,12 +958,12 @@
     "images": [
       {
         "url": "/laptop/hp-200.avif",
-        "alt": "DELL Model 9757 front view",
+        "alt": "Dell Model 9757 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "DELL Model 9757 side view",
+        "alt": "Dell Model 9757 side view",
         "duplicate": false
       }
     ],
@@ -982,8 +982,8 @@
   {
     "id": 29,
     "slug": "asus-asus-model-9948-29",
-    "name": "ASUS Model 9948",
-    "brand": "ASUS",
+    "name": "Asus Model 9948",
+    "brand": "Asus",
     "sku": "ASU-3015-29",
     "rating": 4,
     "reviewCount": 119,
@@ -993,12 +993,12 @@
     "images": [
       {
         "url": "/laptop/asus.avif",
-        "alt": "ASUS Model 9948 front view",
+        "alt": "Asus Model 9948 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "ASUS Model 9948 side view",
+        "alt": "Asus Model 9948 side view",
         "duplicate": false
       }
     ],
@@ -1017,8 +1017,8 @@
   {
     "id": 30,
     "slug": "lenovo-lenovo-model-8821-30",
-    "name": "LENOVO Model 8821",
-    "brand": "LENOVO",
+    "name": "Lenovo Model 8821",
+    "brand": "Lenovo",
     "sku": "LEN-9809-30",
     "rating": 4.1,
     "reviewCount": 221,
@@ -1028,12 +1028,12 @@
     "images": [
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "LENOVO Model 8821 front view",
+        "alt": "Lenovo Model 8821 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/asus.avif",
-        "alt": "LENOVO Model 8821 side view",
+        "alt": "Lenovo Model 8821 side view",
         "duplicate": false
       }
     ],
@@ -1087,8 +1087,8 @@
   {
     "id": 32,
     "slug": "lenovo-lenovo-model-3619-32",
-    "name": "LENOVO Model 3619",
-    "brand": "LENOVO",
+    "name": "Lenovo Model 3619",
+    "brand": "Lenovo",
     "sku": "LEN-5276-32",
     "rating": 4.6,
     "reviewCount": 88,
@@ -1098,12 +1098,12 @@
     "images": [
       {
         "url": "/laptop/asus.avif",
-        "alt": "LENOVO Model 3619 front view",
+        "alt": "Lenovo Model 3619 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "LENOVO Model 3619 side view",
+        "alt": "Lenovo Model 3619 side view",
         "duplicate": false
       }
     ],
@@ -1122,8 +1122,8 @@
   {
     "id": 33,
     "slug": "asus-asus-model-2000-33",
-    "name": "ASUS Model 2000",
-    "brand": "ASUS",
+    "name": "Asus Model 2000",
+    "brand": "Asus",
     "sku": "ASU-4894-33",
     "rating": 4.7,
     "reviewCount": 203,
@@ -1133,12 +1133,12 @@
     "images": [
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "ASUS Model 2000 front view",
+        "alt": "Asus Model 2000 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/asus.avif",
-        "alt": "ASUS Model 2000 side view",
+        "alt": "Asus Model 2000 side view",
         "duplicate": false
       }
     ],
@@ -1157,8 +1157,8 @@
   {
     "id": 34,
     "slug": "lenovo-lenovo-model-2494-34",
-    "name": "LENOVO Model 2494",
-    "brand": "LENOVO",
+    "name": "Lenovo Model 2494",
+    "brand": "Lenovo",
     "sku": "LEN-2532-34",
     "rating": 4.1,
     "reviewCount": 112,
@@ -1168,12 +1168,12 @@
     "images": [
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "LENOVO Model 2494 front view",
+        "alt": "Lenovo Model 2494 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/hp-200.avif",
-        "alt": "LENOVO Model 2494 side view",
+        "alt": "Lenovo Model 2494 side view",
         "duplicate": false
       }
     ],
@@ -1192,8 +1192,8 @@
   {
     "id": 35,
     "slug": "lenovo-lenovo-model-4079-35",
-    "name": "LENOVO Model 4079",
-    "brand": "LENOVO",
+    "name": "Lenovo Model 4079",
+    "brand": "Lenovo",
     "sku": "LEN-5132-35",
     "rating": 4.5,
     "reviewCount": 56,
@@ -1203,12 +1203,12 @@
     "images": [
       {
         "url": "/laptop/asus.avif",
-        "alt": "LENOVO Model 4079 front view",
+        "alt": "Lenovo Model 4079 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "LENOVO Model 4079 side view",
+        "alt": "Lenovo Model 4079 side view",
         "duplicate": false
       }
     ],
@@ -1227,8 +1227,8 @@
   {
     "id": 36,
     "slug": "dell-dell-model-8946-36",
-    "name": "DELL Model 8946",
-    "brand": "DELL",
+    "name": "Dell Model 8946",
+    "brand": "Dell",
     "sku": "DEL-2421-36",
     "rating": 4,
     "reviewCount": 227,
@@ -1238,12 +1238,12 @@
     "images": [
       {
         "url": "/laptop/asus.avif",
-        "alt": "DELL Model 8946 front view",
+        "alt": "Dell Model 8946 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "DELL Model 8946 side view",
+        "alt": "Dell Model 8946 side view",
         "duplicate": false
       }
     ],
@@ -1262,8 +1262,8 @@
   {
     "id": 37,
     "slug": "dell-dell-model-4715-37",
-    "name": "DELL Model 4715",
-    "brand": "DELL",
+    "name": "Dell Model 4715",
+    "brand": "Dell",
     "sku": "DEL-1782-37",
     "rating": 3.7,
     "reviewCount": 25,
@@ -1273,12 +1273,12 @@
     "images": [
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "DELL Model 4715 front view",
+        "alt": "Dell Model 4715 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/asus.avif",
-        "alt": "DELL Model 4715 side view",
+        "alt": "Dell Model 4715 side view",
         "duplicate": false
       }
     ],
@@ -1332,8 +1332,8 @@
   {
     "id": 39,
     "slug": "asus-asus-model-1422-39",
-    "name": "ASUS Model 1422",
-    "brand": "ASUS",
+    "name": "Asus Model 1422",
+    "brand": "Asus",
     "sku": "ASU-7741-39",
     "rating": 3.8,
     "reviewCount": 233,
@@ -1343,12 +1343,12 @@
     "images": [
       {
         "url": "/laptop/hp-200.avif",
-        "alt": "ASUS Model 1422 front view",
+        "alt": "Asus Model 1422 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "ASUS Model 1422 side view",
+        "alt": "Asus Model 1422 side view",
         "duplicate": false
       }
     ],
@@ -1437,8 +1437,8 @@
   {
     "id": 42,
     "slug": "dell-dell-model-782-42",
-    "name": "DELL Model 782",
-    "brand": "DELL",
+    "name": "Dell Model 782",
+    "brand": "Dell",
     "sku": "DEL-4125-42",
     "rating": 4,
     "reviewCount": 71,
@@ -1448,12 +1448,12 @@
     "images": [
       {
         "url": "/laptop/hp-200.avif",
-        "alt": "DELL Model 782 front view",
+        "alt": "Dell Model 782 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "DELL Model 782 side view",
+        "alt": "Dell Model 782 side view",
         "duplicate": false
       }
     ],
@@ -1472,8 +1472,8 @@
   {
     "id": 43,
     "slug": "dell-dell-model-2795-43",
-    "name": "DELL Model 2795",
-    "brand": "DELL",
+    "name": "Dell Model 2795",
+    "brand": "Dell",
     "sku": "DEL-3986-43",
     "rating": 3.6,
     "reviewCount": 125,
@@ -1483,12 +1483,12 @@
     "images": [
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "DELL Model 2795 front view",
+        "alt": "Dell Model 2795 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/asus.avif",
-        "alt": "DELL Model 2795 side view",
+        "alt": "Dell Model 2795 side view",
         "duplicate": false
       }
     ],
@@ -1577,8 +1577,8 @@
   {
     "id": 46,
     "slug": "asus-asus-model-8733-46",
-    "name": "ASUS Model 8733",
-    "brand": "ASUS",
+    "name": "Asus Model 8733",
+    "brand": "Asus",
     "sku": "ASU-1682-46",
     "rating": 4.5,
     "reviewCount": 158,
@@ -1588,12 +1588,12 @@
     "images": [
       {
         "url": "/laptop/asus.avif",
-        "alt": "ASUS Model 8733 front view",
+        "alt": "Asus Model 8733 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "ASUS Model 8733 side view",
+        "alt": "Asus Model 8733 side view",
         "duplicate": false
       }
     ],
@@ -1612,8 +1612,8 @@
   {
     "id": 47,
     "slug": "asus-asus-model-5688-47",
-    "name": "ASUS Model 5688",
-    "brand": "ASUS",
+    "name": "Asus Model 5688",
+    "brand": "Asus",
     "sku": "ASU-7341-47",
     "rating": 4.3,
     "reviewCount": 64,
@@ -1623,12 +1623,12 @@
     "images": [
       {
         "url": "/laptop/asus.avif",
-        "alt": "ASUS Model 5688 front view",
+        "alt": "Asus Model 5688 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "ASUS Model 5688 side view",
+        "alt": "Asus Model 5688 side view",
         "duplicate": false
       }
     ],
@@ -1682,8 +1682,8 @@
   {
     "id": 49,
     "slug": "dell-dell-model-714-49",
-    "name": "DELL Model 714",
-    "brand": "DELL",
+    "name": "Dell Model 714",
+    "brand": "Dell",
     "sku": "DEL-9724-49",
     "rating": 3.8,
     "reviewCount": 157,
@@ -1693,12 +1693,12 @@
     "images": [
       {
         "url": "/laptop/hp-200.avif",
-        "alt": "DELL Model 714 front view",
+        "alt": "Dell Model 714 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "DELL Model 714 side view",
+        "alt": "Dell Model 714 side view",
         "duplicate": false
       }
     ],
@@ -1717,8 +1717,8 @@
   {
     "id": 50,
     "slug": "lenovo-lenovo-model-9347-50",
-    "name": "LENOVO Model 9347",
-    "brand": "LENOVO",
+    "name": "Lenovo Model 9347",
+    "brand": "Lenovo",
     "sku": "LEN-5072-50",
     "rating": 3.7,
     "reviewCount": 241,
@@ -1728,12 +1728,12 @@
     "images": [
       {
         "url": "/laptop/asus.avif",
-        "alt": "LENOVO Model 9347 front view",
+        "alt": "Lenovo Model 9347 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "LENOVO Model 9347 side view",
+        "alt": "Lenovo Model 9347 side view",
         "duplicate": false
       }
     ],
@@ -1752,8 +1752,8 @@
   {
     "id": 51,
     "slug": "lenovo-lenovo-model-6690-51",
-    "name": "LENOVO Model 6690",
-    "brand": "LENOVO",
+    "name": "Lenovo Model 6690",
+    "brand": "Lenovo",
     "sku": "LEN-4375-51",
     "rating": 4.4,
     "reviewCount": 63,
@@ -1763,12 +1763,12 @@
     "images": [
       {
         "url": "/laptop/hp-200.avif",
-        "alt": "LENOVO Model 6690 front view",
+        "alt": "Lenovo Model 6690 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "LENOVO Model 6690 side view",
+        "alt": "Lenovo Model 6690 side view",
         "duplicate": false
       }
     ],
@@ -1787,8 +1787,8 @@
   {
     "id": 52,
     "slug": "dell-dell-model-4572-52",
-    "name": "DELL Model 4572",
-    "brand": "DELL",
+    "name": "Dell Model 4572",
+    "brand": "Dell",
     "sku": "DEL-5438-52",
     "rating": 3.7,
     "reviewCount": 94,
@@ -1798,12 +1798,12 @@
     "images": [
       {
         "url": "/laptop/hp-200.avif",
-        "alt": "DELL Model 4572 front view",
+        "alt": "Dell Model 4572 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "DELL Model 4572 side view",
+        "alt": "Dell Model 4572 side view",
         "duplicate": false
       }
     ],
@@ -1822,8 +1822,8 @@
   {
     "id": 53,
     "slug": "asus-asus-model-2921-53",
-    "name": "ASUS Model 2921",
-    "brand": "ASUS",
+    "name": "Asus Model 2921",
+    "brand": "Asus",
     "sku": "ASU-6606-53",
     "rating": 4.7,
     "reviewCount": 185,
@@ -1833,12 +1833,12 @@
     "images": [
       {
         "url": "/laptop/asus.avif",
-        "alt": "ASUS Model 2921 front view",
+        "alt": "Asus Model 2921 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/hp-200.avif",
-        "alt": "ASUS Model 2921 side view",
+        "alt": "Asus Model 2921 side view",
         "duplicate": false
       }
     ],
@@ -1927,8 +1927,8 @@
   {
     "id": 56,
     "slug": "lenovo-lenovo-model-5651-56",
-    "name": "LENOVO Model 5651",
-    "brand": "LENOVO",
+    "name": "Lenovo Model 5651",
+    "brand": "Lenovo",
     "sku": "LEN-3698-56",
     "rating": 4.8,
     "reviewCount": 66,
@@ -1938,12 +1938,12 @@
     "images": [
       {
         "url": "/laptop/hp-200.avif",
-        "alt": "LENOVO Model 5651 front view",
+        "alt": "Lenovo Model 5651 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "LENOVO Model 5651 side view",
+        "alt": "Lenovo Model 5651 side view",
         "duplicate": false
       }
     ],
@@ -1962,8 +1962,8 @@
   {
     "id": 57,
     "slug": "asus-asus-model-2113-57",
-    "name": "ASUS Model 2113",
-    "brand": "ASUS",
+    "name": "Asus Model 2113",
+    "brand": "Asus",
     "sku": "ASU-5684-57",
     "rating": 4,
     "reviewCount": 245,
@@ -1973,12 +1973,12 @@
     "images": [
       {
         "url": "/laptop/asus.avif",
-        "alt": "ASUS Model 2113 front view",
+        "alt": "Asus Model 2113 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "ASUS Model 2113 side view",
+        "alt": "Asus Model 2113 side view",
         "duplicate": false
       }
     ],
@@ -1997,8 +1997,8 @@
   {
     "id": 58,
     "slug": "asus-asus-model-3959-58",
-    "name": "ASUS Model 3959",
-    "brand": "ASUS",
+    "name": "Asus Model 3959",
+    "brand": "Asus",
     "sku": "ASU-4237-58",
     "rating": 4.7,
     "reviewCount": 33,
@@ -2008,12 +2008,12 @@
     "images": [
       {
         "url": "/laptop/asus.avif",
-        "alt": "ASUS Model 3959 front view",
+        "alt": "Asus Model 3959 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "ASUS Model 3959 side view",
+        "alt": "Asus Model 3959 side view",
         "duplicate": false
       }
     ],
@@ -2032,8 +2032,8 @@
   {
     "id": 59,
     "slug": "dell-dell-model-6867-59",
-    "name": "DELL Model 6867",
-    "brand": "DELL",
+    "name": "Dell Model 6867",
+    "brand": "Dell",
     "sku": "DEL-7909-59",
     "rating": 4.5,
     "reviewCount": 241,
@@ -2043,12 +2043,12 @@
     "images": [
       {
         "url": "/laptop/hp-200.avif",
-        "alt": "DELL Model 6867 front view",
+        "alt": "Dell Model 6867 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "DELL Model 6867 side view",
+        "alt": "Dell Model 6867 side view",
         "duplicate": false
       }
     ],
@@ -2067,8 +2067,8 @@
   {
     "id": 60,
     "slug": "asus-asus-model-2586-60",
-    "name": "ASUS Model 2586",
-    "brand": "ASUS",
+    "name": "Asus Model 2586",
+    "brand": "Asus",
     "sku": "ASU-7517-60",
     "rating": 4.4,
     "reviewCount": 45,
@@ -2078,12 +2078,12 @@
     "images": [
       {
         "url": "/laptop/asus.avif",
-        "alt": "ASUS Model 2586 front view",
+        "alt": "Asus Model 2586 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "ASUS Model 2586 side view",
+        "alt": "Asus Model 2586 side view",
         "duplicate": false
       }
     ],
@@ -2102,8 +2102,8 @@
   {
     "id": 61,
     "slug": "lenovo-lenovo-model-2706-61",
-    "name": "LENOVO Model 2706",
-    "brand": "LENOVO",
+    "name": "Lenovo Model 2706",
+    "brand": "Lenovo",
     "sku": "LEN-3105-61",
     "rating": 4.3,
     "reviewCount": 178,
@@ -2113,12 +2113,12 @@
     "images": [
       {
         "url": "/laptop/hp-200.avif",
-        "alt": "LENOVO Model 2706 front view",
+        "alt": "Lenovo Model 2706 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/asus.avif",
-        "alt": "LENOVO Model 2706 side view",
+        "alt": "Lenovo Model 2706 side view",
         "duplicate": false
       }
     ],
@@ -2137,8 +2137,8 @@
   {
     "id": 62,
     "slug": "asus-asus-model-2954-62",
-    "name": "ASUS Model 2954",
-    "brand": "ASUS",
+    "name": "Asus Model 2954",
+    "brand": "Asus",
     "sku": "ASU-7650-62",
     "rating": 3.9,
     "reviewCount": 69,
@@ -2148,12 +2148,12 @@
     "images": [
       {
         "url": "/laptop/asus.avif",
-        "alt": "ASUS Model 2954 front view",
+        "alt": "Asus Model 2954 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "ASUS Model 2954 side view",
+        "alt": "Asus Model 2954 side view",
         "duplicate": false
       }
     ],
@@ -2172,8 +2172,8 @@
   {
     "id": 63,
     "slug": "dell-dell-model-2958-63",
-    "name": "DELL Model 2958",
-    "brand": "DELL",
+    "name": "Dell Model 2958",
+    "brand": "Dell",
     "sku": "DEL-3878-63",
     "rating": 4.7,
     "reviewCount": 148,
@@ -2183,12 +2183,12 @@
     "images": [
       {
         "url": "/laptop/asus.avif",
-        "alt": "DELL Model 2958 front view",
+        "alt": "Dell Model 2958 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "DELL Model 2958 side view",
+        "alt": "Dell Model 2958 side view",
         "duplicate": false
       }
     ],
@@ -2207,8 +2207,8 @@
   {
     "id": 64,
     "slug": "dell-dell-model-836-64",
-    "name": "DELL Model 836",
-    "brand": "DELL",
+    "name": "Dell Model 836",
+    "brand": "Dell",
     "sku": "DEL-9892-64",
     "rating": 4.8,
     "reviewCount": 205,
@@ -2218,12 +2218,12 @@
     "images": [
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "DELL Model 836 front view",
+        "alt": "Dell Model 836 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/asus.avif",
-        "alt": "DELL Model 836 side view",
+        "alt": "Dell Model 836 side view",
         "duplicate": false
       }
     ],
@@ -2242,8 +2242,8 @@
   {
     "id": 65,
     "slug": "dell-dell-model-2444-65",
-    "name": "DELL Model 2444",
-    "brand": "DELL",
+    "name": "Dell Model 2444",
+    "brand": "Dell",
     "sku": "DEL-8047-65",
     "rating": 4,
     "reviewCount": 236,
@@ -2253,12 +2253,12 @@
     "images": [
       {
         "url": "/laptop/asus.avif",
-        "alt": "DELL Model 2444 front view",
+        "alt": "Dell Model 2444 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "DELL Model 2444 side view",
+        "alt": "Dell Model 2444 side view",
         "duplicate": false
       }
     ],
@@ -2277,8 +2277,8 @@
   {
     "id": 66,
     "slug": "asus-asus-model-6762-66",
-    "name": "ASUS Model 6762",
-    "brand": "ASUS",
+    "name": "Asus Model 6762",
+    "brand": "Asus",
     "sku": "ASU-6583-66",
     "rating": 4.7,
     "reviewCount": 48,
@@ -2288,12 +2288,12 @@
     "images": [
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "ASUS Model 6762 front view",
+        "alt": "Asus Model 6762 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/hp-200.avif",
-        "alt": "ASUS Model 6762 side view",
+        "alt": "Asus Model 6762 side view",
         "duplicate": false
       }
     ],
@@ -2312,8 +2312,8 @@
   {
     "id": 67,
     "slug": "lenovo-lenovo-model-676-67",
-    "name": "LENOVO Model 676",
-    "brand": "LENOVO",
+    "name": "Lenovo Model 676",
+    "brand": "Lenovo",
     "sku": "LEN-3903-67",
     "rating": 3.7,
     "reviewCount": 244,
@@ -2323,12 +2323,12 @@
     "images": [
       {
         "url": "/laptop/asus.avif",
-        "alt": "LENOVO Model 676 front view",
+        "alt": "Lenovo Model 676 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "LENOVO Model 676 side view",
+        "alt": "Lenovo Model 676 side view",
         "duplicate": false
       }
     ],
@@ -2347,8 +2347,8 @@
   {
     "id": 68,
     "slug": "dell-dell-model-6796-68",
-    "name": "DELL Model 6796",
-    "brand": "DELL",
+    "name": "Dell Model 6796",
+    "brand": "Dell",
     "sku": "DEL-6511-68",
     "rating": 3.7,
     "reviewCount": 230,
@@ -2358,12 +2358,12 @@
     "images": [
       {
         "url": "/laptop/hp-200.avif",
-        "alt": "DELL Model 6796 front view",
+        "alt": "Dell Model 6796 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "DELL Model 6796 side view",
+        "alt": "Dell Model 6796 side view",
         "duplicate": false
       }
     ],
@@ -2382,8 +2382,8 @@
   {
     "id": 69,
     "slug": "asus-asus-model-5894-69",
-    "name": "ASUS Model 5894",
-    "brand": "ASUS",
+    "name": "Asus Model 5894",
+    "brand": "Asus",
     "sku": "ASU-1020-69",
     "rating": 3.7,
     "reviewCount": 161,
@@ -2393,12 +2393,12 @@
     "images": [
       {
         "url": "/laptop/hp-200.avif",
-        "alt": "ASUS Model 5894 front view",
+        "alt": "Asus Model 5894 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/asus.avif",
-        "alt": "ASUS Model 5894 side view",
+        "alt": "Asus Model 5894 side view",
         "duplicate": false
       }
     ],
@@ -2417,8 +2417,8 @@
   {
     "id": 70,
     "slug": "dell-dell-model-2411-70",
-    "name": "DELL Model 2411",
-    "brand": "DELL",
+    "name": "Dell Model 2411",
+    "brand": "Dell",
     "sku": "DEL-6265-70",
     "rating": 4.4,
     "reviewCount": 161,
@@ -2428,12 +2428,12 @@
     "images": [
       {
         "url": "/laptop/hp-200.avif",
-        "alt": "DELL Model 2411 front view",
+        "alt": "Dell Model 2411 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "DELL Model 2411 side view",
+        "alt": "Dell Model 2411 side view",
         "duplicate": false
       }
     ],
@@ -2452,8 +2452,8 @@
   {
     "id": 71,
     "slug": "dell-dell-model-7550-71",
-    "name": "DELL Model 7550",
-    "brand": "DELL",
+    "name": "Dell Model 7550",
+    "brand": "Dell",
     "sku": "DEL-5894-71",
     "rating": 3.8,
     "reviewCount": 61,
@@ -2463,12 +2463,12 @@
     "images": [
       {
         "url": "/laptop/hp-200.avif",
-        "alt": "DELL Model 7550 front view",
+        "alt": "Dell Model 7550 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "DELL Model 7550 side view",
+        "alt": "Dell Model 7550 side view",
         "duplicate": false
       }
     ],
@@ -2487,8 +2487,8 @@
   {
     "id": 72,
     "slug": "dell-dell-model-7985-72",
-    "name": "DELL Model 7985",
-    "brand": "DELL",
+    "name": "Dell Model 7985",
+    "brand": "Dell",
     "sku": "DEL-8522-72",
     "rating": 4.5,
     "reviewCount": 95,
@@ -2498,12 +2498,12 @@
     "images": [
       {
         "url": "/laptop/asus.avif",
-        "alt": "DELL Model 7985 front view",
+        "alt": "Dell Model 7985 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "DELL Model 7985 side view",
+        "alt": "Dell Model 7985 side view",
         "duplicate": false
       }
     ],
@@ -2592,8 +2592,8 @@
   {
     "id": 75,
     "slug": "asus-asus-model-3980-75",
-    "name": "ASUS Model 3980",
-    "brand": "ASUS",
+    "name": "Asus Model 3980",
+    "brand": "Asus",
     "sku": "ASU-3958-75",
     "rating": 4.6,
     "reviewCount": 48,
@@ -2603,12 +2603,12 @@
     "images": [
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "ASUS Model 3980 front view",
+        "alt": "Asus Model 3980 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/asus.avif",
-        "alt": "ASUS Model 3980 side view",
+        "alt": "Asus Model 3980 side view",
         "duplicate": false
       }
     ],
@@ -2627,8 +2627,8 @@
   {
     "id": 76,
     "slug": "asus-asus-model-6551-76",
-    "name": "ASUS Model 6551",
-    "brand": "ASUS",
+    "name": "Asus Model 6551",
+    "brand": "Asus",
     "sku": "ASU-6331-76",
     "rating": 4.5,
     "reviewCount": 149,
@@ -2638,12 +2638,12 @@
     "images": [
       {
         "url": "/laptop/asus.avif",
-        "alt": "ASUS Model 6551 front view",
+        "alt": "Asus Model 6551 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "ASUS Model 6551 side view",
+        "alt": "Asus Model 6551 side view",
         "duplicate": false
       }
     ],
@@ -2662,8 +2662,8 @@
   {
     "id": 77,
     "slug": "dell-dell-model-263-77",
-    "name": "DELL Model 263",
-    "brand": "DELL",
+    "name": "Dell Model 263",
+    "brand": "Dell",
     "sku": "DEL-6141-77",
     "rating": 4,
     "reviewCount": 45,
@@ -2673,12 +2673,12 @@
     "images": [
       {
         "url": "/laptop/asus.avif",
-        "alt": "DELL Model 263 front view",
+        "alt": "Dell Model 263 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "DELL Model 263 side view",
+        "alt": "Dell Model 263 side view",
         "duplicate": false
       }
     ],
@@ -2767,8 +2767,8 @@
   {
     "id": 80,
     "slug": "lenovo-lenovo-model-6596-80",
-    "name": "LENOVO Model 6596",
-    "brand": "LENOVO",
+    "name": "Lenovo Model 6596",
+    "brand": "Lenovo",
     "sku": "LEN-3269-80",
     "rating": 4.3,
     "reviewCount": 207,
@@ -2778,12 +2778,12 @@
     "images": [
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "LENOVO Model 6596 front view",
+        "alt": "Lenovo Model 6596 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/asus.avif",
-        "alt": "LENOVO Model 6596 side view",
+        "alt": "Lenovo Model 6596 side view",
         "duplicate": false
       }
     ],
@@ -2837,8 +2837,8 @@
   {
     "id": 82,
     "slug": "dell-dell-model-8838-82",
-    "name": "DELL Model 8838",
-    "brand": "DELL",
+    "name": "Dell Model 8838",
+    "brand": "Dell",
     "sku": "DEL-6995-82",
     "rating": 3.6,
     "reviewCount": 119,
@@ -2848,12 +2848,12 @@
     "images": [
       {
         "url": "/laptop/asus.avif",
-        "alt": "DELL Model 8838 front view",
+        "alt": "Dell Model 8838 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "DELL Model 8838 side view",
+        "alt": "Dell Model 8838 side view",
         "duplicate": false
       }
     ],
@@ -2872,8 +2872,8 @@
   {
     "id": 83,
     "slug": "lenovo-lenovo-model-2768-83",
-    "name": "LENOVO Model 2768",
-    "brand": "LENOVO",
+    "name": "Lenovo Model 2768",
+    "brand": "Lenovo",
     "sku": "LEN-5550-83",
     "rating": 3.7,
     "reviewCount": 187,
@@ -2883,12 +2883,12 @@
     "images": [
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "LENOVO Model 2768 front view",
+        "alt": "Lenovo Model 2768 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/asus.avif",
-        "alt": "LENOVO Model 2768 side view",
+        "alt": "Lenovo Model 2768 side view",
         "duplicate": false
       }
     ],
@@ -2907,8 +2907,8 @@
   {
     "id": 84,
     "slug": "dell-dell-model-8140-84",
-    "name": "DELL Model 8140",
-    "brand": "DELL",
+    "name": "Dell Model 8140",
+    "brand": "Dell",
     "sku": "DEL-2997-84",
     "rating": 4,
     "reviewCount": 72,
@@ -2918,12 +2918,12 @@
     "images": [
       {
         "url": "/laptop/asus.avif",
-        "alt": "DELL Model 8140 front view",
+        "alt": "Dell Model 8140 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "DELL Model 8140 side view",
+        "alt": "Dell Model 8140 side view",
         "duplicate": false
       }
     ],
@@ -2942,8 +2942,8 @@
   {
     "id": 85,
     "slug": "lenovo-lenovo-model-3159-85",
-    "name": "LENOVO Model 3159",
-    "brand": "LENOVO",
+    "name": "Lenovo Model 3159",
+    "brand": "Lenovo",
     "sku": "LEN-1460-85",
     "rating": 3.8,
     "reviewCount": 38,
@@ -2953,12 +2953,12 @@
     "images": [
       {
         "url": "/laptop/hp-200.avif",
-        "alt": "LENOVO Model 3159 front view",
+        "alt": "Lenovo Model 3159 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "LENOVO Model 3159 side view",
+        "alt": "Lenovo Model 3159 side view",
         "duplicate": false
       }
     ],
@@ -2977,8 +2977,8 @@
   {
     "id": 86,
     "slug": "dell-dell-model-6585-86",
-    "name": "DELL Model 6585",
-    "brand": "DELL",
+    "name": "Dell Model 6585",
+    "brand": "Dell",
     "sku": "DEL-7371-86",
     "rating": 3.9,
     "reviewCount": 129,
@@ -2988,12 +2988,12 @@
     "images": [
       {
         "url": "/laptop/asus.avif",
-        "alt": "DELL Model 6585 front view",
+        "alt": "Dell Model 6585 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "DELL Model 6585 side view",
+        "alt": "Dell Model 6585 side view",
         "duplicate": false
       }
     ],
@@ -3012,8 +3012,8 @@
   {
     "id": 87,
     "slug": "lenovo-lenovo-model-5462-87",
-    "name": "LENOVO Model 5462",
-    "brand": "LENOVO",
+    "name": "Lenovo Model 5462",
+    "brand": "Lenovo",
     "sku": "LEN-3376-87",
     "rating": 4.7,
     "reviewCount": 103,
@@ -3023,12 +3023,12 @@
     "images": [
       {
         "url": "/laptop/asus.avif",
-        "alt": "LENOVO Model 5462 front view",
+        "alt": "Lenovo Model 5462 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "LENOVO Model 5462 side view",
+        "alt": "Lenovo Model 5462 side view",
         "duplicate": false
       }
     ],
@@ -3152,8 +3152,8 @@
   {
     "id": 91,
     "slug": "asus-asus-model-3862-91",
-    "name": "ASUS Model 3862",
-    "brand": "ASUS",
+    "name": "Asus Model 3862",
+    "brand": "Asus",
     "sku": "ASU-6395-91",
     "rating": 4,
     "reviewCount": 66,
@@ -3163,12 +3163,12 @@
     "images": [
       {
         "url": "/laptop/asus.avif",
-        "alt": "ASUS Model 3862 front view",
+        "alt": "Asus Model 3862 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "ASUS Model 3862 side view",
+        "alt": "Asus Model 3862 side view",
         "duplicate": false
       }
     ],
@@ -3257,8 +3257,8 @@
   {
     "id": 94,
     "slug": "asus-asus-model-4365-94",
-    "name": "ASUS Model 4365",
-    "brand": "ASUS",
+    "name": "Asus Model 4365",
+    "brand": "Asus",
     "sku": "ASU-2453-94",
     "rating": 4.7,
     "reviewCount": 151,
@@ -3268,12 +3268,12 @@
     "images": [
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "ASUS Model 4365 front view",
+        "alt": "Asus Model 4365 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/asus.avif",
-        "alt": "ASUS Model 4365 side view",
+        "alt": "Asus Model 4365 side view",
         "duplicate": false
       }
     ],
@@ -3292,8 +3292,8 @@
   {
     "id": 95,
     "slug": "dell-dell-model-4857-95",
-    "name": "DELL Model 4857",
-    "brand": "DELL",
+    "name": "Dell Model 4857",
+    "brand": "Dell",
     "sku": "DEL-9902-95",
     "rating": 4,
     "reviewCount": 230,
@@ -3303,12 +3303,12 @@
     "images": [
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "DELL Model 4857 front view",
+        "alt": "Dell Model 4857 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/hp-200.avif",
-        "alt": "DELL Model 4857 side view",
+        "alt": "Dell Model 4857 side view",
         "duplicate": false
       }
     ],
@@ -3327,8 +3327,8 @@
   {
     "id": 96,
     "slug": "asus-asus-model-9319-96",
-    "name": "ASUS Model 9319",
-    "brand": "ASUS",
+    "name": "Asus Model 9319",
+    "brand": "Asus",
     "sku": "ASU-5485-96",
     "rating": 4.5,
     "reviewCount": 117,
@@ -3338,12 +3338,12 @@
     "images": [
       {
         "url": "/laptop/asus.avif",
-        "alt": "ASUS Model 9319 front view",
+        "alt": "Asus Model 9319 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/hp-200.avif",
-        "alt": "ASUS Model 9319 side view",
+        "alt": "Asus Model 9319 side view",
         "duplicate": false
       }
     ],
@@ -3362,8 +3362,8 @@
   {
     "id": 97,
     "slug": "asus-asus-model-9893-97",
-    "name": "ASUS Model 9893",
-    "brand": "ASUS",
+    "name": "Asus Model 9893",
+    "brand": "Asus",
     "sku": "ASU-9915-97",
     "rating": 3.9,
     "reviewCount": 54,
@@ -3373,12 +3373,12 @@
     "images": [
       {
         "url": "/laptop/asus.avif",
-        "alt": "ASUS Model 9893 front view",
+        "alt": "Asus Model 9893 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "ASUS Model 9893 side view",
+        "alt": "Asus Model 9893 side view",
         "duplicate": false
       }
     ],
@@ -3397,8 +3397,8 @@
   {
     "id": 98,
     "slug": "lenovo-lenovo-model-4230-98",
-    "name": "LENOVO Model 4230",
-    "brand": "LENOVO",
+    "name": "Lenovo Model 4230",
+    "brand": "Lenovo",
     "sku": "LEN-5992-98",
     "rating": 4.4,
     "reviewCount": 148,
@@ -3408,12 +3408,12 @@
     "images": [
       {
         "url": "/laptop/hp-200.avif",
-        "alt": "LENOVO Model 4230 front view",
+        "alt": "Lenovo Model 4230 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "LENOVO Model 4230 side view",
+        "alt": "Lenovo Model 4230 side view",
         "duplicate": false
       }
     ],
@@ -3432,8 +3432,8 @@
   {
     "id": 99,
     "slug": "lenovo-lenovo-model-4191-99",
-    "name": "LENOVO Model 4191",
-    "brand": "LENOVO",
+    "name": "Lenovo Model 4191",
+    "brand": "Lenovo",
     "sku": "LEN-1656-99",
     "rating": 4.2,
     "reviewCount": 148,
@@ -3443,12 +3443,12 @@
     "images": [
       {
         "url": "/laptop/asus.avif",
-        "alt": "LENOVO Model 4191 front view",
+        "alt": "Lenovo Model 4191 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "LENOVO Model 4191 side view",
+        "alt": "Lenovo Model 4191 side view",
         "duplicate": false
       }
     ],
@@ -3467,8 +3467,8 @@
   {
     "id": 100,
     "slug": "asus-asus-model-4944-100",
-    "name": "ASUS Model 4944",
-    "brand": "ASUS",
+    "name": "Asus Model 4944",
+    "brand": "Asus",
     "sku": "ASU-8033-100",
     "rating": 3.6,
     "reviewCount": 136,
@@ -3478,12 +3478,12 @@
     "images": [
       {
         "url": "/laptop/hp-200.avif",
-        "alt": "ASUS Model 4944 front view",
+        "alt": "Asus Model 4944 front view",
         "duplicate": false
       },
       {
         "url": "/laptop/dellinspiron.avif",
-        "alt": "ASUS Model 4944 side view",
+        "alt": "Asus Model 4944 side view",
         "duplicate": false
       }
     ],

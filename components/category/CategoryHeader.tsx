@@ -28,7 +28,7 @@ export default function CategoryHeader({
 }: CategoryHeaderProps) {
   return (
     <section
-      className='relative mb-12 rounded-xl w-full h-auto  xl:h-[50vh] xl:aspect-auto aspect-[16/10] flex items-center'
+      className='relative xl:mb-12 mb-0 rounded-xl w-full h-auto  xl:h-[50vh] xl:aspect-auto aspect-[16/10] flex items-center'
       style={{
         backgroundImage:
           "url('https://images.unsplash.com/photo-1603302576837-37561b2e2302?q=80&w=2068&auto=format&fit=crop')",
