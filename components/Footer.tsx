@@ -170,9 +170,9 @@ export default function Footer() {
                   >
                     +91 9987857886
                   </a>
-                  <span className='text-xs text-green-400 mt-1 inline-block'>
+                  {/* <span className='text-xs text-green-400 mt-1 inline-block'>
                     Available 24/7
-                  </span>
+                  </span> */}
                 </div>
               </li>
             </ul>
@@ -184,14 +184,14 @@ export default function Footer() {
       <div className='border-t border-gray-800 bg-gray-950'>
         <div className='xl:max-w-7xl max-w-[90vw] mx-auto px-4 sm:px-6 lg:px-8 py-6'>
           {/* Disclaimer */}
-          <div className='mb-4 pb-4 border-b border-gray-800'>
+          {/* <div className='mb-4 pb-4 border-b border-gray-800'>
             <p className='text-gray-400 text-xs sm:text-sm leading-relaxed text-center sm:text-left'>
               All product names, logos, and brands are the property of their
               respective owners. All company, product, and service names used in
               this website are for identification purposes only. Use of these
               names, logos, and brands does not imply endorsement.
             </p>
-          </div>
+          </div> */}
 
           {/* Bottom Row */}
           <div className='flex flex-col sm:flex-row items-center justify-between gap-4'>

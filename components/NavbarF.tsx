@@ -13,13 +13,30 @@ export default function NavbarF() {
   const [showNavbar, setShowNavbar] = useState(true);
   const [showMobileSearch, setShowMobileSearch] = useState(false);
 
+  // useEffect(() => {
+  //   if (mobileMenuOpen) {
+  //     // Delay showing search to prevent auto-focus
+  //     const timer = setTimeout(() => setShowMobileSearch(true), 100);
+  //     return () => clearTimeout(timer);
+  //   } else {
+  //     setShowMobileSearch(false);
+  //   }
+  // }, [mobileMenuOpen]);
   useEffect(() => {
     if (mobileMenuOpen) {
+      // Lock background scroll
+      document.body.style.overflow = "hidden";
+
       // Delay showing search to prevent auto-focus
       const timer = setTimeout(() => setShowMobileSearch(true), 100);
-      return () => clearTimeout(timer);
+
+      return () => {
+        clearTimeout(timer);
+        document.body.style.overflow = "";
+      };
     } else {
       setShowMobileSearch(false);
+      document.body.style.overflow = "";
     }
   }, [mobileMenuOpen]);
 
@@ -144,7 +161,11 @@ export default function NavbarF() {
                 {/* <Menu size={36} /> */}
                 <Menu size={30} />
               </SheetTrigger>
-              <SheetContent side='right' className='w-80' onOpenAutoFocus={(e) => e.preventDefault()}>
+              <SheetContent
+                side='right'
+                className='w-80'
+                onOpenAutoFocus={(e) => e.preventDefault()}
+              >
                 <div className='flex flex-col gap-6 px-4 mt-16'>
                   {/* Mobile Search */}
                   {/* {showMobileSearch && ( */}
@@ -186,6 +207,13 @@ export default function NavbarF() {
               </SheetContent>
             </Sheet>
           </div>
+        </div>
+        <div className='md:hidden flex-1 px-0'>
+          <SearchWithSuggestions
+            className='w-full'
+            placeholder='Search...'
+            autoFocus={false}
+          />
         </div>
       </div>
     </nav>

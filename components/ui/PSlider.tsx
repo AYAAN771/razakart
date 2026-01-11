@@ -276,10 +276,10 @@ const LOAD_MORE_STEP = 8;
 
 export default function PSlider({
   children,
-  slidesPerView = 2,
+  slidesPerView = 1.5,
   spaceBetween = 16,
   breakpoints = {
-    640: { slidesPerView: 2 },
+    640: { slidesPerView: 1.5 },
     768: { slidesPerView: 3 },
     1024: { slidesPerView: 4 },
   },

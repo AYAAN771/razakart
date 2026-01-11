@@ -148,9 +148,6 @@
 //   );
 // }
 
-
-
-
 // "use client";
 
 // import { useState } from "react";
@@ -258,7 +255,6 @@
 //     </div>
 //   );
 // }
-
 
 // "use client";
 
@@ -686,10 +682,6 @@
 //   );
 // }
 
-
-
-
-
 "use client";
 
 import { useState } from "react";
@@ -706,20 +698,20 @@ interface ProductTabsProps {
 
 export default function ProductTabs({ product }: ProductTabsProps) {
   const [activeTab, setActiveTab] = useState<"description" | "specification">(
-    "description"
+    "specification"
   );
 
   const tabs = [
-    { id: "description" as const, label: "Description", icon: FileText },
     { id: "specification" as const, label: "Specifications", icon: Settings2 },
+    { id: "description" as const, label: "Description", icon: FileText },
   ];
 
   const specEntries = Object.entries(product.specifications);
 
   return (
-    <div className="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden">
+    <div className='bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden'>
       {/* Tab Navigation */}
-      <div role="tablist" className="flex border-b border-gray-200">
+      <div role='tablist' className='flex border-b border-gray-200'>
         {tabs.map((tab) => {
           const Icon = tab.icon;
           const isActive = activeTab === tab.id;
@@ -727,21 +719,22 @@ export default function ProductTabs({ product }: ProductTabsProps) {
           return (
             <button
               key={tab.id}
-              role="tab"
+              role='tab'
               aria-selected={isActive}
               onClick={() => setActiveTab(tab.id)}
-              className={`relative flex-1 sm:flex-none sm:min-w-[160px] py-4 px-6 font-medium text-sm tracking-wide transition-colors duration-200 cursor-pointer flex items-center justify-center gap-2.5 ${isActive
+              className={`relative flex-1 sm:flex-none sm:min-w-[160px] py-4 px-6 font-medium text-sm tracking-wide transition-colors duration-200 cursor-pointer flex items-center justify-center gap-2.5 ${
+                isActive
                   ? "text-[#155DFC]"
                   : "text-gray-500 hover:text-gray-900"
-                }`}
+              }`}
             >
-              <Icon className="w-4 h-4" strokeWidth={2} />
+              <Icon className='w-4 h-4' strokeWidth={2} />
               <span>{tab.label}</span>
 
               {isActive && (
                 <motion.div
-                  layoutId="activeTabIndicator"
-                  className="absolute bottom-0 left-0 right-0 h-0.5 bg-[#155DFC]"
+                  layoutId='activeTabIndicator'
+                  className='absolute bottom-0 left-0 right-0 h-0.5 bg-[#155DFC]'
                   transition={{ type: "spring", stiffness: 400, damping: 30 }}
                 />
               )}
@@ -751,22 +744,22 @@ export default function ProductTabs({ product }: ProductTabsProps) {
       </div>
 
       {/* Tab Content */}
-      <AnimatePresence mode="wait">
+      <AnimatePresence mode='wait'>
         <motion.div
           key={activeTab}
           initial={{ opacity: 0, y: 8 }}
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -8 }}
           transition={{ duration: 0.2, ease: "easeOut" }}
-          className="p-5 sm:p-8"
+          className='p-5 sm:p-8'
         >
           {/* Description Tab */}
           {activeTab === "description" && (
-            <div className="max-w-3xl">
-              <h2 className="text-lg sm:text-xl font-semibold text-gray-900 tracking-tight mb-4">
+            <div className=''>
+              {/* <h2 className='text-lg sm:text-xl font-semibold text-gray-900 tracking-tight mb-4'>
                 Product Description
-              </h2>
-              <p className="text-gray-600 text-sm sm:text-base leading-relaxed">
+              </h2> */}
+              <p className='text-gray-600 text-sm sm:text-base leading-relaxed'>
                 {product.description}
               </p>
             </div>
@@ -775,25 +768,26 @@ export default function ProductTabs({ product }: ProductTabsProps) {
           {/* Specifications Tab */}
           {activeTab === "specification" && (
             <div>
-              <h2 className="text-lg sm:text-xl font-semibold text-gray-900 tracking-tight mb-6">
+              {/* <h2 className='text-lg sm:text-xl font-semibold text-gray-900 tracking-tight mb-6'>
                 Technical Specifications
-              </h2>
+              </h2> */}
 
               {/* Desktop & Tablet Table */}
-              <div className="hidden sm:block">
-                <div className="rounded-lg border border-gray-200 overflow-hidden">
-                  <table className="w-full">
-                    <tbody className="divide-y divide-gray-200">
+              <div className='hidden sm:block'>
+                <div className='rounded-lg border border-gray-200 overflow-hidden'>
+                  <table className='w-full'>
+                    <tbody className='divide-y divide-gray-200'>
                       {specEntries.map(([key, value], idx) => (
                         <tr
                           key={key}
-                          className={`${idx % 2 === 0 ? "bg-gray-50/50" : "bg-white"
-                            }`}
+                          className={`${
+                            idx % 2 === 0 ? "bg-gray-50/50" : "bg-white"
+                          }`}
                         >
-                          <td className="py-4 px-5 text-sm font-medium text-gray-900 w-1/3 sm:w-2/5">
+                          <td className='py-4 px-5 text-sm font-medium text-gray-900 w-1/3 sm:w-2/5'>
                             {key}
                           </td>
-                          <td className="py-4 px-5 text-sm text-gray-600">
+                          <td className='py-4 px-5 text-sm text-gray-600'>
                             {value}
                           </td>
                         </tr>
@@ -804,19 +798,20 @@ export default function ProductTabs({ product }: ProductTabsProps) {
               </div>
 
               {/* Mobile Cards */}
-              <div className="sm:hidden space-y-3">
+              <div className='sm:hidden space-y-3'>
                 {specEntries.map(([key, value], idx) => (
                   <div
                     key={key}
-                    className={`rounded-lg p-4 ${idx % 2 === 0
+                    className={`rounded-lg p-4 ${
+                      idx % 2 === 0
                         ? "bg-gray-50 border border-gray-100"
                         : "bg-white border border-gray-200"
-                      }`}
+                    }`}
                   >
-                    <dt className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1.5">
+                    <dt className='text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1.5'>
                       {key}
                     </dt>
-                    <dd className="text-sm font-medium text-gray-900">
+                    <dd className='text-sm font-medium text-gray-900'>
                       {value}
                     </dd>
                   </div>
@@ -824,14 +819,14 @@ export default function ProductTabs({ product }: ProductTabsProps) {
               </div>
 
               {/* Brand Info */}
-              <div className="mt-6 pt-5 border-t border-gray-200">
-                <p className="text-sm text-gray-500">
+              {/* <div className='mt-6 pt-5 border-t border-gray-200'>
+                <p className='text-sm text-gray-500'>
                   Manufactured by{" "}
-                  <span className="font-semibold text-gray-900">
+                  <span className='font-semibold text-gray-900'>
                     {product.brand}
                   </span>
                 </p>
-              </div>
+              </div> */}
             </div>
           )}
         </motion.div>

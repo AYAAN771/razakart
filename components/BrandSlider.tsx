@@ -46,8 +46,8 @@ const BrandSlider = () => {
       spaceBetween={16}
       containerClassName='w-full py-8 sm:py-12'
       breakpoints={{
-        640: { slidesPerView: 2 },
-        768: { slidesPerView: 3 },
+        640: { slidesPerView: 1.5 },
+        768: { slidesPerView: 1.5 },
         1024: { slidesPerView: 4 },
         1280: { slidesPerView: 5 },
         1536: { slidesPerView: 6 },

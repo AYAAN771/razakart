@@ -120,20 +120,22 @@ const BestSellerHeroSection: React.FC = () => {
             <div className='space-y-3'>
               <button
                 onClick={() => setActiveTab("bestsellers")}
-                className={`block text-lg transition-colors duration-200 ${activeTab === "bestsellers"
+                className={`block text-lg transition-colors duration-200 ${
+                  activeTab === "bestsellers"
                     ? "text-white font-bold"
                     : "text-gray-400 hover:text-white"
-                  }`}
+                }`}
               >
                 ● Best Sellers
               </button>
 
               <button
                 onClick={() => setActiveTab("newarrivals")}
-                className={`block text-lg transition-colors duration-200 ${activeTab === "newarrivals"
+                className={`block text-lg transition-colors duration-200 ${
+                  activeTab === "newarrivals"
                     ? "text-white font-bold"
                     : "text-gray-400 hover:text-white"
-                  }`}
+                }`}
               >
                 ● New Arrivals
               </button>
@@ -145,8 +147,8 @@ const BestSellerHeroSection: React.FC = () => {
               spaceBetween={16}
               containerClassName=''
               breakpoints={{
-                0: { slidesPerView: 1.3, spaceBetween: 12 },
-                768: { slidesPerView: 2, spaceBetween: 16 },
+                0: { slidesPerView: 1.5, spaceBetween: 12 },
+                768: { slidesPerView: 1.5, spaceBetween: 16 },
                 1024: { slidesPerView: 3, spaceBetween: 16 },
               }}
             >

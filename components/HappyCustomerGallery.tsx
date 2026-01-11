@@ -261,10 +261,7 @@
 
 // export default HappyCustomersGallery;
 
-
-
 ///////////////////////////////
-
 
 "use client";
 
@@ -351,34 +348,34 @@ const HappyCustomersGallery: React.FC = () => {
   ];
 
   return (
-    <section className="w-full py-8 sm:py-12 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className='w-full py-8 sm:py-12 bg-white'>
+      <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
         {/* Header */}
-        <div className="text-center mb-10 sm:mb-12 lg:mb-14">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 tracking-tight">
+        <div className='text-center mb-10 sm:mb-12 lg:mb-14'>
+          <h2 className='text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 tracking-tight'>
             #HappyCustomers
           </h2>
-          <div className="h-1 w-32 sm:w-40 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 rounded-full mx-auto mt-4" />
-          <p className="text-gray-600 text-base sm:text-lg mt-4 max-w-xl mx-auto">
+          <div className='h-1 w-32 sm:w-40 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 rounded-full mx-auto mt-4' />
+          <p className='text-gray-600 text-base sm:text-lg mt-4 max-w-xl mx-auto'>
             See what our satisfied customers have to say about their experience
           </p>
         </div>
 
         {/* Slider Container */}
-        <div className="relative group">
+        <div className='relative group'>
           {/* Custom Navigation Buttons */}
           <button
-            className="swiper-button-prev-custom absolute left-0 top-1/2 -translate-y-1/2 -translate-x-2 sm:-translate-x-4 z-10 w-10 h-10 sm:w-12 sm:h-12 bg-white rounded-full shadow-lg border border-gray-200 flex items-center justify-center text-gray-700 hover:text-blue-600 hover:border-blue-300 hover:shadow-xl transition-all duration-200 opacity-0 group-hover:opacity-100 disabled:opacity-30 disabled:cursor-not-allowed cursor-pointer"
-            aria-label="Previous slide"
+            className='swiper-button-prev-custom absolute left-0 top-1/2 -translate-y-1/2 -translate-x-2 sm:-translate-x-4 z-10 w-10 h-10 sm:w-12 sm:h-12 bg-white rounded-full shadow-lg border border-gray-200 flex items-center justify-center text-gray-700 hover:text-blue-600 hover:border-blue-300 hover:shadow-xl transition-all duration-200 opacity-0 group-hover:opacity-100 disabled:opacity-30 disabled:cursor-not-allowed cursor-pointer'
+            aria-label='Previous slide'
           >
-            <ChevronLeft className="w-5 h-5 sm:w-6 sm:h-6" strokeWidth={2} />
+            <ChevronLeft className='w-5 h-5 sm:w-6 sm:h-6' strokeWidth={2} />
           </button>
 
           <button
-            className="swiper-button-next-custom absolute right-0 top-1/2 -translate-y-1/2 translate-x-2 sm:translate-x-4 z-10 w-10 h-10 sm:w-12 sm:h-12 bg-white rounded-full shadow-lg border border-gray-200 flex items-center justify-center text-gray-700 hover:text-blue-600 hover:border-blue-300 hover:shadow-xl transition-all duration-200 opacity-0 group-hover:opacity-100 disabled:opacity-30 disabled:cursor-not-allowed cursor-pointer"
-            aria-label="Next slide"
+            className='swiper-button-next-custom absolute right-0 top-1/2 -translate-y-1/2 translate-x-2 sm:translate-x-4 z-10 w-10 h-10 sm:w-12 sm:h-12 bg-white rounded-full shadow-lg border border-gray-200 flex items-center justify-center text-gray-700 hover:text-blue-600 hover:border-blue-300 hover:shadow-xl transition-all duration-200 opacity-0 group-hover:opacity-100 disabled:opacity-30 disabled:cursor-not-allowed cursor-pointer'
+            aria-label='Next slide'
           >
-            <ChevronRight className="w-5 h-5 sm:w-6 sm:h-6" strokeWidth={2} />
+            <ChevronRight className='w-5 h-5 sm:w-6 sm:h-6' strokeWidth={2} />
           </button>
 
           {/* Swiper */}
@@ -409,11 +406,11 @@ const HappyCustomersGallery: React.FC = () => {
                 spaceBetween: 16,
               },
               640: {
-                slidesPerView: 2,
-                spaceBetween: 20,
+                slidesPerView: 1.5,
+                spaceBetween: 16,
               },
               768: {
-                slidesPerView: 2.5,
+                slidesPerView: 1.5,
                 spaceBetween: 20,
               },
               1024: {
@@ -425,23 +422,23 @@ const HappyCustomersGallery: React.FC = () => {
                 spaceBetween: 24,
               },
             }}
-            className="!px-1 !py-2"
+            className='!px-1 !py-2'
           >
             {customerImages.map((image) => (
               <SwiperSlide key={image.id}>
-                <div className="relative aspect-square rounded-2xl overflow-hidden border border-gray-200 bg-gray-100 group/card">
+                <div className='relative aspect-square rounded-2xl overflow-hidden border border-gray-200 bg-gray-100 group/card'>
                   <Image
                     src={image.src}
                     alt={image.alt}
                     fill
-                    className="object-cover transition-transform duration-500 group-hover/card:scale-105"
-                    loading="lazy"
-                    sizes="(max-width: 480px) 80vw, (max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
+                    className='object-cover transition-transform duration-500 group-hover/card:scale-105'
+                    loading='lazy'
+                    sizes='(max-width: 480px) 80vw, (max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw'
                   />
 
                   {/* Caption Overlay */}
-                  <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent p-4 translate-y-full group-hover/card:translate-y-0 transition-transform duration-300">
-                    <p className="text-white text-sm font-medium">
+                  <div className='absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent p-4 translate-y-full group-hover/card:translate-y-0 transition-transform duration-300'>
+                    <p className='text-white text-sm font-medium'>
                       {image.caption}
                     </p>
                   </div>
