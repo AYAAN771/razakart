@@ -149,7 +149,7 @@ export default function CategoryPage({
       try {
         const allProductsData = ProductsData as Product[];
         setAllProducts(allProductsData);
-        
+
         const filtered = CategoryHandler.filterProductsByCategory(
           allProductsData,
           resolvedParams.type,
@@ -179,15 +179,24 @@ export default function CategoryPage({
   return (
     <div className='bg-gray-50 min-h-screen pb-10'>
       <div className='max-w-7xl mx-auto px-4 md:px-8 py-6'>
-        <CategoryHeader 
-          title={categoryTitle} 
-          productCount={filteredProducts.length} 
+        <CategoryHeader
+          title={categoryTitle}
+          productCount={filteredProducts.length}
         />
 
         <div className='flex flex-col lg:flex-row gap-6'>
           {/* Desktop Sidebar */}
           <aside className='hidden lg:block w-72 flex-shrink-0'>
-            <div className='sticky top-24 max-h-[calc(100vh-6rem)] overflow-y-auto'>
+            {/* <div className='sticky top-24 max-h-[calc(100vh-6rem)] overflow-y-auto'>
+              <CategoryFilter
+                products={allProducts}
+                filters={filters}
+                setFilters={setFilters}
+                minPriceLimit={minPriceLimit}
+                maxPriceLimit={maxPriceLimit}
+              />
+            </div> */}
+            <div className='sticky top-24 max-h-[calc(100vh-6rem)]'>
               <CategoryFilter
                 products={allProducts}
                 filters={filters}
@@ -214,8 +223,8 @@ export default function CategoryPage({
           {/* Product Grid */}
           <div className='flex-1'>
             <DesktopSortBar sortBy={sortBy} setSortBy={setSortBy} />
-            
-            <ProductGrid 
+
+            <ProductGrid
               products={filteredProducts}
               setFilters={setFilters}
               minPriceLimit={minPriceLimit}

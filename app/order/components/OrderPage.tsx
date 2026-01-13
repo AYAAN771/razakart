@@ -1454,13 +1454,19 @@
 //   );
 // }
 
-
-
 "use client";
 
 import { useState, useEffect, useMemo } from "react";
 import { useSearchParams } from "next/navigation";
-import { CheckCircle2, Package, Mail, Phone, MapPin, User, ShieldCheck } from "lucide-react";
+import {
+  CheckCircle2,
+  Package,
+  Mail,
+  Phone,
+  MapPin,
+  User,
+  ShieldCheck,
+} from "lucide-react";
 import Image from "next/image";
 import products from "@/data/products.json";
 
@@ -1602,21 +1608,22 @@ export default function OrderPage() {
   return (
     <div className='min-h-screen bg-gray-50 py-8 sm:py-12'>
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
-
         {/* Success Alert */}
         {showSuccess && (
           <div className='mb-6 bg-green-500 text-white px-6 py-4 rounded-xl shadow-lg flex items-center gap-3 animate-slide-in'>
             <CheckCircle2 className='h-6 w-6 flex-shrink-0' />
             <div>
               <p className='font-semibold'>Order Placed Successfully!</p>
-              <p className='text-sm text-green-100'>We&apos;ll contact you shortly to confirm your order</p>
+              <p className='text-sm text-green-100'>
+                We&apos;ll contact you shortly to confirm your order
+              </p>
             </div>
           </div>
         )}
 
         {/* Page Header */}
         <div className='text-center mb-8 sm:mb-12'>
-          <div className='inline-flex items-center gap-2 bg-blue-100 text-blue-700 px-4 py-2 rounded-full mb-4'>
+          <div className='inline-flex items-center gap-2 bg-blue-100 text-blue-700 px-4 py-2 rounded-full lg:mb-4 mb-2'>
             <Package className='h-5 w-5' />
             <span className='text-sm font-semibold'>Complete Your Order</span>
           </div>
@@ -1624,13 +1631,13 @@ export default function OrderPage() {
             One Step Away!
           </h1>
           <p className='text-gray-600 text-base sm:text-lg max-w-2xl mx-auto'>
-            Fill in your details below and we&apos;ll get your laptop delivered to your doorstep
+            Fill in your details below and we&apos;ll get your laptop delivered
+            to your doorstep
           </p>
         </div>
 
         {/* Main Content */}
-        <div className='flex lg:flex-row flex-col gap-6 lg:gap-8 items-start'>
-
+        <div className='flex lg:flex-row flex-col-reverse gap-6 lg:gap-8 items-start'>
           {/* LEFT — FORM */}
           <div className='w-full lg:w-3/5 bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden'>
             <div className='bg-gradient-to-r from-blue-600 to-blue-700 px-6 sm:px-8 py-6'>
@@ -1638,11 +1645,12 @@ export default function OrderPage() {
                 <User className='h-7 w-7' />
                 Your Details
               </h2>
-              <p className='text-blue-100 mt-2'>Please provide accurate information</p>
+              <p className='text-blue-100 mt-2'>
+                Please provide accurate information
+              </p>
             </div>
 
             <form onSubmit={handleSubmit} className='p-6 sm:p-8 space-y-6'>
-
               {/* Honeypot */}
               <input
                 type='text'
@@ -1672,8 +1680,11 @@ export default function OrderPage() {
                     setFormData({ ...formData, name: e.target.value })
                   }
                   placeholder='Enter your full name'
-                  className={`w-full px-4 py-3 border-2 rounded-xl transition-all focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent ${errors.name ? 'border-red-300 bg-red-50' : 'border-gray-200 hover:border-gray-300'
-                    }`}
+                  className={`w-full px-4 py-3 border-2 rounded-xl transition-all focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent ${
+                    errors.name
+                      ? "border-red-300 bg-red-50"
+                      : "border-gray-200 hover:border-gray-300"
+                  }`}
                 />
                 {errors.name && (
                   <p className='text-red-600 text-sm flex items-center gap-1 mt-1'>
@@ -1697,8 +1708,11 @@ export default function OrderPage() {
                     setFormData({ ...formData, email: e.target.value })
                   }
                   placeholder='your.email@example.com'
-                  className={`w-full px-4 py-3 border-2 rounded-xl transition-all focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent ${errors.email ? 'border-red-300 bg-red-50' : 'border-gray-200 hover:border-gray-300'
-                    }`}
+                  className={`w-full px-4 py-3 border-2 rounded-xl transition-all focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent ${
+                    errors.email
+                      ? "border-red-300 bg-red-50"
+                      : "border-gray-200 hover:border-gray-300"
+                  }`}
                 />
                 {errors.email && (
                   <p className='text-red-600 text-sm flex items-center gap-1 mt-1'>
@@ -1766,8 +1780,11 @@ export default function OrderPage() {
                     setTopPhoneError("");
                   }}
                   placeholder='+91 or 10-digit number'
-                  className={`w-full px-4 py-3 border-2 rounded-xl transition-all focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent ${errors.phone || topPhoneError ? 'border-red-300 bg-red-50' : 'border-gray-200 hover:border-gray-300'
-                    }`}
+                  className={`w-full px-4 py-3 border-2 rounded-xl transition-all focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent ${
+                    errors.phone || topPhoneError
+                      ? "border-red-300 bg-red-50"
+                      : "border-gray-200 hover:border-gray-300"
+                  }`}
                 />
                 {errors.phone && (
                   <p className='text-red-600 text-sm flex items-center gap-1 mt-1'>
@@ -1791,8 +1808,11 @@ export default function OrderPage() {
                     setFormData({ ...formData, address: e.target.value })
                   }
                   placeholder='Enter your complete delivery address with pincode'
-                  className={`w-full resize-none px-4 py-3 border-2 rounded-xl transition-all focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent ${errors.address ? 'border-red-300 bg-red-50' : 'border-gray-200 hover:border-gray-300'
-                    }`}
+                  className={`w-full resize-none px-4 py-3 border-2 rounded-xl transition-all focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent ${
+                    errors.address
+                      ? "border-red-300 bg-red-50"
+                      : "border-gray-200 hover:border-gray-300"
+                  }`}
                 />
                 {errors.address && (
                   <p className='text-red-600 text-sm flex items-center gap-1 mt-1'>
@@ -1834,8 +1854,8 @@ export default function OrderPage() {
               <div className='bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden'>
                 <div className='relative aspect-video sm:aspect-[4/3] overflow-hidden bg-gray-100'>
                   <Image
-                    src={mainImage?.url || '/logo.png'}
-                    alt={mainImage?.alt || 'Product Image'}
+                    src={mainImage?.url || "/logo.png"}
+                    alt={mainImage?.alt || "Product Image"}
                     fill
                     className='object-cover'
                   />
@@ -1846,28 +1866,31 @@ export default function OrderPage() {
                   )}
                 </div>
 
-                <div className='p-6'>
-                  <div className='flex items-start justify-between gap-3 mb-4'>
+                <div className='lg:p-6 p-3'>
+                  <div className='flex items-start justify-between gap-3 lg:mb-4 mb-2'>
                     <div>
-                      <p className='text-sm text-blue-600 font-semibold mb-1'>{product.brand}</p>
+                      <p className='text-sm text-blue-600 font-semibold mb-1'>
+                        {product.brand}
+                      </p>
                       <h2 className='text-xl sm:text-2xl font-bold text-gray-900 leading-tight'>
                         {product.name}
                       </h2>
                     </div>
                   </div>
 
-                  <div className='flex items-center gap-3 mb-4'>
-                    <span className='text-3xl sm:text-4xl font-bold text-gray-900'>
+                  <div className='flex items-center gap-3 lg:mb-4 mb-2'>
+                    <span className='text-xl sm:text-4xl font-bold text-gray-900'>
                       ₹{product.price.toLocaleString()}
                     </span>
-                    {product.originalPrice && product.originalPrice !== product.price && (
-                      <span className='text-lg text-gray-400 line-through'>
-                        ₹{product.originalPrice.toLocaleString()}
-                      </span>
-                    )}
+                    {product.originalPrice &&
+                      product.originalPrice !== product.price && (
+                        <span className='lg:text-lg text-sm text-gray-400 line-through'>
+                          ₹{product.originalPrice.toLocaleString()}
+                        </span>
+                      )}
                   </div>
 
-                  <div className='space-y-2 border-t border-gray-100 pt-4'>
+                  {/* <div className='space-y-2 border-t border-gray-100 lg:pt-4'>
                     <div className='flex items-center gap-2 text-sm text-gray-600'>
                       <CheckCircle2 className='h-4 w-4 text-green-500' />
                       <span>Certified Refurbished</span>
@@ -1880,13 +1903,13 @@ export default function OrderPage() {
                       <CheckCircle2 className='h-4 w-4 text-green-500' />
                       <span>Warranty Included</span>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
 
               {/* Last Order Info */}
-              {lastOrder && (
-                <div className='bg-gradient-to-br from-green-50 to-emerald-50 border-2 border-green-200 rounded-xl p-4 shadow-md'>
+              {/* {lastOrder && (
+                <div className='bg-gradient-to-br from-green-50 to-emerald-50 border-2 lg:block hidden border-green-200 rounded-xl p-4 shadow-md'>
                   <p className='text-sm font-semibold text-green-700 mb-1 flex items-center gap-2'>
                     <CheckCircle2 className='h-4 w-4' />
                     Last Order Placed
@@ -1896,7 +1919,7 @@ export default function OrderPage() {
                   </p>
                   <p className='text-xs text-gray-600'>{lastOrder.date}</p>
                 </div>
-              )}
+              )} */}
             </div>
           )}
         </div>

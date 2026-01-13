@@ -20,8 +20,8 @@ export default function Home() {
       <ProductSwiper3 />
       <LiveGoogleReviews />
       <HappyCustomersGallery />
-      <AboutSection />
       <SimpleFAQComponent />
+      <AboutSection />
     </div>
   );
 }

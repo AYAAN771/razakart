@@ -146,7 +146,7 @@ function SearchPageContent() {
   return (
     <div className='bg-gray-50 min-h-screen py-8 sm:py-12'>
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
-        <SearchHeader 
+        <SearchHeader
           searchQuery={searchQuery}
           filteredCount={filteredProducts.length}
           availableCount={availableProducts.length}
@@ -155,7 +155,16 @@ function SearchPageContent() {
         <div className='flex flex-col lg:flex-row gap-6'>
           {/* Desktop Sidebar */}
           <aside className='hidden lg:block w-72 flex-shrink-0'>
-            <div className='sticky top-24 max-h-[calc(100vh-6rem)] overflow-y-auto'>
+            {/* <div className='sticky top-24 max-h-[calc(100vh-6rem)] overflow-y-auto'>
+              <CategoryFilter
+                products={availableProducts}
+                filters={filters}
+                setFilters={setFilters}
+                minPriceLimit={minPriceLimit}
+                maxPriceLimit={maxPriceLimit}
+              />
+            </div> */}
+            <div className='sticky top-24 max-h-[calc(100vh-6rem)]'>
               <CategoryFilter
                 products={availableProducts}
                 filters={filters}
@@ -182,9 +191,9 @@ function SearchPageContent() {
           {/* Product Grid */}
           <div className='flex-1'>
             <SearchDesktopSortBar sortBy={sortBy} setSortBy={setSortBy} />
-            
+
             {sortedProducts.length > 0 ? (
-              <SearchProductGrid 
+              <SearchProductGrid
                 products={sortedProducts}
                 setFilters={setFilters}
                 minPriceLimit={minPriceLimit}

@@ -26,8 +26,8 @@ export default function Footer() {
       <div className='xl:max-w-7xl max-w-[90vw] mx-auto px-3 sm:px-6 lg:px-8 py-12'>
         <div className='grid grid-cols-1 lg:grid-cols-5 gap-8'>
           {/* Company Info - Takes 1 column */}
-          <div className='space-y-4 xl:block xl:gap-0 gap-2 flex'>
-            <div className='flex items-start xl:items-center gap-2'>
+          <div className='space-y-4 xl:block xl:gap-0 gap-2 flex flex-col'>
+            <div className='flex max-w-32 items-start xl:items-center gap-2'>
               <img src='/logof.png' alt='' />
             </div>
             <div className='flex gap-4 flex-col'>
@@ -184,14 +184,14 @@ export default function Footer() {
       <div className='border-t border-gray-800 bg-gray-950'>
         <div className='xl:max-w-7xl max-w-[90vw] mx-auto px-4 sm:px-6 lg:px-8 py-6'>
           {/* Disclaimer */}
-          {/* <div className='mb-4 pb-4 border-b border-gray-800'>
+          <div className='mb-4 pb-4 border-b border-gray-800'>
             <p className='text-gray-400 text-xs sm:text-sm leading-relaxed text-center sm:text-left'>
               All product names, logos, and brands are the property of their
               respective owners. All company, product, and service names used in
               this website are for identification purposes only. Use of these
               names, logos, and brands does not imply endorsement.
             </p>
-          </div> */}
+          </div>
 
           {/* Bottom Row */}
           <div className='flex flex-col sm:flex-row items-center justify-between gap-4'>
