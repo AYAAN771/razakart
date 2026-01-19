@@ -33,29 +33,21 @@ function getImagePair(productName) {
 const brands = ["ASUS", "DELL", "HP", "LENOVO"];
 
 const processors = [
-  "Intel Celeron N4020",
-  "Intel Pentium Dual Core",
-  "Intel Core i3 3rd Gen",
-  "Intel Core i3 6th Gen",
-  "Intel Core i5 4th Gen",
-  "Intel Core i5 5th Gen",
-  "Intel Core i7 4th Gen",
+  { name: "Intel Celeron N4020", speed: "1.1 GHz" },
+  { name: "Intel Pentium Dual Core", speed: "2.3 GHz" },
+  { name: "Intel Core i3 3rd Gen", speed: "2.4 GHz" },
+  { name: "Intel Core i3 6th Gen", speed: "2.3 GHz" },
+  { name: "Intel Core i5 4th Gen", speed: "2.6 GHz" },
+  { name: "Intel Core i5 5th Gen", speed: "2.7 GHz" },
+  { name: "Intel Core i7 4th Gen", speed: "2.8 GHz" },
 ];
 
-const rams = ["2GB DDR3", "4GB DDR3", "4GB DDR4", "8GB DDR3"];
-const storages = [
-  "128GB SSD",
-  "256GB SSD",
-  "320GB HDD",
-  "500GB HDD",
-  "1TB HDD",
-];
-const displays = [
-  "13.3 inch HD",
-  "14 inch HD",
-  "15.6 inch HD",
-  "14 inch Full HD",
-];
+const ramSizes = ["2GB", "4GB", "8GB", "16GB"];
+const ramTypes = ["DDR3", "DDR4"];
+const ssdSizes = ["128GB", "256GB", "512GB", "1TB"];
+const hddSizes = ["320GB", "500GB", "1TB", "2TB"];
+const displaySizes = ["13.3", "14", "15.6", "17.3"];
+const resolutions = ["HD (1366x768)", "Full HD (1920x1080)", "4K (3840x2160)"];
 const graphics = [
   "Intel HD Graphics",
   "Intel UHD Graphics",
@@ -63,8 +55,11 @@ const graphics = [
   "Intel HD Graphics 520",
   "Intel HD Graphics 5500",
   "AMD Radeon HD 7670M",
+  "NVIDIA GeForce GTX 1650",
 ];
 const operatingSystems = ["Windows 10", "Windows 10 Pro", "Windows 11", "DOS"];
+const conditions = ["Refurbished", "Used", "New"];
+const weights = ["1.2kg", "1.5kg", "1.8kg", "2.1kg", "2.4kg", "2.7kg"];
 
 // --------------------------------------------------
 // HELPERS
@@ -98,12 +93,18 @@ function generateProduct(id) {
     description:
       "Refurbished laptop suitable for students, office work, and daily computing.",
     specifications: {
-      Processor: rand(processors),
-      RAM: rand(rams),
-      Storage: rand(storages),
-      Display: rand(displays),
+      Processor: rand(processors).name,
+      "Processor Speed": rand(processors).speed,
+      "RAM Size": rand(ramSizes),
+      "RAM Type": rand(ramTypes),
+      "SSD Storage": Math.random() > 0.3 ? rand(ssdSizes) : "None",
+      "HDD Storage": Math.random() > 0.4 ? rand(hddSizes) : "None",
+      "Display Size": `${rand(displaySizes)} inch`,
+      "Screen Resolution": rand(resolutions),
       Graphics: rand(graphics),
       "Operating System": rand(operatingSystems),
+      Condition: rand(conditions),
+      "Item Weight": rand(weights),
     },
     inStock: Math.random() > 0.08,
     topSelling: Math.random() > 0.7,
@@ -111,13 +112,13 @@ function generateProduct(id) {
 }
 
 // --------------------------------------------------
-// GENERATE 4000 PRODUCTS
+// GENERATE 100 PRODUCTS
 // --------------------------------------------------
-const products = Array.from({ length: 4000 }, (_, i) => generateProduct(i + 1));
+const products = Array.from({ length: 100 }, (_, i) => generateProduct(i + 1));
 
 // --------------------------------------------------
 // WRITE FILE
 // --------------------------------------------------
-fs.writeFileSync("products.json", JSON.stringify(products, null, 2), "utf-8");
+fs.writeFileSync("data/products.json", JSON.stringify(products, null, 2), "utf-8");
 
-console.log("✅ 4000 products generated successfully");
+console.log("✅ 100 products generated successfully");
