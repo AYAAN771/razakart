@@ -70,7 +70,7 @@ export default function Footer() {
                     priceLinks.slice(0, 4).map((item) => (
                       <li key={item.slug}>
                         <Link
-                          href={`/category/price/${item.slug}`}
+                          href={`/price/${item.slug}`}
                           className='hover:text-blue-400 transition-colors text-xs lg:text-sm block'
                         >
                           {item.label}
@@ -95,7 +95,7 @@ export default function Footer() {
                     brandLinks.slice(0, 4).map((item) => (
                       <li key={item.slug}>
                         <Link
-                          href={`/category/brand/${item.slug}`}
+                          href={`/brand/${item.slug}`}
                           className='hover:text-blue-400 transition-colors text-xs lg:text-sm block'
                         >
                           {item.label}
@@ -118,7 +118,7 @@ export default function Footer() {
                     processorLinks.slice(0, 4).map((item) => (
                       <li key={item.slug}>
                         <Link
-                          href={`/category/processor/${item.slug}`}
+                          href={`/processor/${item.slug}`}
                           className='hover:text-blue-400 transition-colors text-xs lg:text-sm block'
                         >
                           {item.label}

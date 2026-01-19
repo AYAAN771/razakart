@@ -233,14 +233,12 @@ const categories = [
     id: "price",
     label: "Shop By Price",
     children: [
-      { id: "under-10000", label: "Under ₹10,000" },
       { id: "under-15000", label: "Under ₹15,000" },
       { id: "under-20000", label: "Under ₹20,000" },
       { id: "under-25000", label: "Under ₹25,000" },
-      { id: "under-50000", label: "Under ₹50,000" },
-      { id: "under-75000", label: "Under ₹75,000" },
-      { id: "under-100000", label: "Under ₹100,000" },
-      { id: "over-100000", label: "Over ₹100,000" },
+      { id: "under-30000", label: "Under ₹30,000" },
+      { id: "under-35000", label: "Under ₹35,000" },
+      { id: "above-35000", label: "Above ₹35,000" },
     ],
   },
   {
@@ -346,7 +344,7 @@ export default function CategoryMenuF() {
                           {cat.children.map((sub) => (
                             <a
                               key={sub.id}
-                              href={`/category/${cat.id}/${sub.id}`}
+                              href={`/${cat.id}/${sub.id}`}
                               className='flex items-center justify-between gap-2 px-3 py-2 rounded-lg hover:bg-blue-50 hover:text-blue-600 transition-all group'
                             >
                               <span className='text-sm font-medium'>
@@ -398,7 +396,7 @@ export default function CategoryMenuF() {
                       {cat.children.map((sub) => (
                         <a
                           key={sub.id}
-                          href={`/category/${cat.id}/${sub.id}`}
+                          href={`/${cat.id}/${sub.id}`}
                           className='flex items-center justify-between px-3 py-2 rounded-lg hover:bg-blue-50 hover:text-blue-600 transition-all'
                         >
                           <span className='text-sm font-medium'>

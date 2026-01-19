@@ -47,6 +47,9 @@ export interface FilterState {
   ram: string[];
   storage: string[];
   screenSize: string[];
+  screenResolution: string[];
+  ramType: string[];
+  condition: string[];
   inStock: boolean;
 }
 
@@ -54,9 +57,14 @@ interface Product {
   brand: string;
   specifications?: {
     Processor?: string;
-    RAM?: string;
-    Storage?: string;
-    Display?: string;
+    "RAM Size"?: string;
+    "SSD Storage"?: string;
+    "HDD Storage"?: string;
+    "Display Size"?: string;
+    "Screen Resolution"?: string;
+    "RAM Type"?: string;
+    Condition?: string;
+    [key: string]: string | undefined;
   };
 }
 
@@ -82,16 +90,39 @@ export default function CategoryFilter({
   )
     .filter(Boolean)
     .sort();
-  const rams = Array.from(new Set(products.map((p) => p.specifications?.RAM)))
+  const rams = Array.from(new Set(products.map((p) => p.specifications?.["RAM Size"])))
     .filter(Boolean)
     .sort();
-  const storages = Array.from(
-    new Set(products.map((p) => p.specifications?.Storage))
+  const ssdStorages = Array.from(
+    new Set(products.map((p) => p.specifications?.["SSD Storage"]))
+  )
+    .filter(Boolean)
+    .filter(storage => storage !== "None")
+    .sort();
+  const hddStorages = Array.from(
+    new Set(products.map((p) => p.specifications?.["HDD Storage"]))
+  )
+    .filter(Boolean)
+    .filter(storage => storage !== "None")
+    .sort();
+  const storages = Array.from(new Set([...ssdStorages, ...hddStorages])).sort();
+  const displays = Array.from(
+    new Set(products.map((p) => p.specifications?.["Display Size"]))
   )
     .filter(Boolean)
     .sort();
-  const displays = Array.from(
-    new Set(products.map((p) => p.specifications?.Display))
+  const screenResolutions = Array.from(
+    new Set(products.map((p) => p.specifications?.["Screen Resolution"]))
+  )
+    .filter(Boolean)
+    .sort();
+  const ramTypes = Array.from(
+    new Set(products.map((p) => p.specifications?.["RAM Type"]))
+  )
+    .filter(Boolean)
+    .sort();
+  const conditions = Array.from(
+    new Set(products.map((p) => p.specifications?.Condition))
   )
     .filter(Boolean)
     .sort();
@@ -120,6 +151,9 @@ export default function CategoryFilter({
       ram: [],
       storage: [],
       screenSize: [],
+      screenResolution: [],
+      ramType: [],
+      condition: [],
       inStock: false,
     });
   };
@@ -271,7 +305,7 @@ export default function CategoryFilter({
       </FilterSection>
 
       {/* RAM */}
-      <FilterSection title='RAM'>
+      <FilterSection title='RAM Size'>
         <div className='space-y-2'>
           {rams.map((ram) => (
             <div key={ram} className='flex items-center space-x-2'>
@@ -318,7 +352,7 @@ export default function CategoryFilter({
         </div>
       </FilterSection>
 
-      {/* Display */}
+      {/* Display Size */}
       <FilterSection title='Screen Size' isOpen={false}>
         <div className='space-y-2 max-h-48 overflow-y-auto pr-1 scrollbar-thin'>
           {displays.map((display) => (
@@ -336,6 +370,78 @@ export default function CategoryFilter({
                 className='text-sm leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 cursor-pointer text-gray-600 truncate'
               >
                 {display as string}
+              </label>
+            </div>
+          ))}
+        </div>
+      </FilterSection>
+
+      {/* Screen Resolution */}
+      <FilterSection title='Screen Resolution' isOpen={false}>
+        <div className='space-y-2'>
+          {screenResolutions.map((resolution) => (
+            <div key={resolution} className='flex items-center space-x-2'>
+              <Checkbox
+                id={`resolution-${resolution}`}
+                checked={filters.screenResolution.includes(resolution as string)}
+                onCheckedChange={() =>
+                  handleCheckboxChange("screenResolution", resolution as string)
+                }
+                className='data-[state=checked]:bg-blue-600 data-[state=checked]:border-blue-600'
+              />
+              <label
+                htmlFor={`resolution-${resolution}`}
+                className='text-sm leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 cursor-pointer text-gray-600'
+              >
+                {resolution as string}
+              </label>
+            </div>
+          ))}
+        </div>
+      </FilterSection>
+
+      {/* RAM Type */}
+      <FilterSection title='RAM Type' isOpen={false}>
+        <div className='space-y-2'>
+          {ramTypes.map((ramType) => (
+            <div key={ramType} className='flex items-center space-x-2'>
+              <Checkbox
+                id={`ramtype-${ramType}`}
+                checked={filters.ramType.includes(ramType as string)}
+                onCheckedChange={() =>
+                  handleCheckboxChange("ramType", ramType as string)
+                }
+                className='data-[state=checked]:bg-blue-600 data-[state=checked]:border-blue-600'
+              />
+              <label
+                htmlFor={`ramtype-${ramType}`}
+                className='text-sm leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 cursor-pointer text-gray-600'
+              >
+                {ramType as string}
+              </label>
+            </div>
+          ))}
+        </div>
+      </FilterSection>
+
+      {/* Condition */}
+      <FilterSection title='Condition' isOpen={false}>
+        <div className='space-y-2'>
+          {conditions.map((condition) => (
+            <div key={condition} className='flex items-center space-x-2'>
+              <Checkbox
+                id={`condition-${condition}`}
+                checked={filters.condition.includes(condition as string)}
+                onCheckedChange={() =>
+                  handleCheckboxChange("condition", condition as string)
+                }
+                className='data-[state=checked]:bg-blue-600 data-[state=checked]:border-blue-600'
+              />
+              <label
+                htmlFor={`condition-${condition}`}
+                className='text-sm leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 cursor-pointer text-gray-600'
+              >
+                {condition as string}
               </label>
             </div>
           ))}
